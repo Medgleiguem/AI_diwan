@@ -1,8 +1,9 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { Search, User, Feather, ChevronLeft, ChevronRight } from 'lucide-react'
 import { searchPoetry } from '../api'
 import { PageLoader, Empty, ErrorBox } from '../components/UI'
+import allPoetsData from '../api/all_poets.json'
 import clsx from 'clsx'
 
 type SearchType = 'poems' | 'poets'
@@ -52,6 +53,23 @@ export default function SearchPage() {
     if (e.key === 'Enter') doSearch(1)
   }
 
+  const handleSearchTypeChange = (type: SearchType) => {
+    setSearchType(type)
+    setResults([])
+    setSearched(false)
+    setPage(1)
+    setError('')
+    setLoading(false)
+  }
+
+  // Clear results when search type changes
+  useEffect(() => {
+    setResults([])
+    setSearched(false)
+    setPage(1)
+    setError('')
+  }, [searchType])
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-parchment-950 to-ink-950" dir="rtl">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-10">
@@ -90,7 +108,7 @@ export default function SearchPage() {
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
           <div className="flex gap-1 flex-wrap">
             {([['poems', 'أبيات', Feather], ['poets', 'شعراء', User]] as const).map(([t, label, Icon]) => (
-              <button key={t} onClick={() => setSearchType(t)}
+              <button key={t} onClick={() => handleSearchTypeChange(t)}
                       className={clsx(
                         'flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs sm:text-sm transition-all',
                         searchType === t
@@ -139,19 +157,43 @@ export default function SearchPage() {
                 const title   = item.title || item.poem_title
                 const meter   = item.meter || item.poem_meter
 
+                // Get poem count from all_poets.json for poets
+                const poetData = isPoet ? (allPoetsData as any[]).find(p => p.slug === slug || p.name === name) : null
+                const poemsCount = poetData?.poemsCount || 0
+
                 if (isPoet) return (
-                  <Link key={slug || i} to={`/library/poet/${slug}`}
-                        className="card-parchment p-4 hover:border-ink-600 transition-all flex items-center gap-4 group">
-                    <div className="w-10 h-10 rounded-full bg-gold-900/20 border border-gold-800/30
-                                     flex items-center justify-center flex-shrink-0">
-                      <span className="font-arabic text-gold-400 font-bold">{name?.[0]}</span>
+                  <div
+                    key={slug || i}
+                    onClick={() => slug && navigate(`/library/poet/${slug}`)}
+                    className="relative p-5 sm:p-6 border border-ink-800/60 rounded-xl hover:border-gold-400/80 
+                               bg-gradient-to-br from-ink-900/40 to-ink-950/60 hover:from-ink-900/60 hover:to-ink-950/80
+                               transition-all duration-300 cursor-pointer group
+                               hover:shadow-xl hover:shadow-gold-500/15 overflow-hidden"
+                  >
+                    {/* Background accent */}
+                    <div className="absolute inset-0 bg-gradient-to-r from-gold-500/0 via-transparent to-gold-500/0 
+                                  opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
+                    
+                    {/* Content */}
+                    <div className="relative z-10 flex items-center justify-between gap-3 sm:gap-4">
+                      <h3 className="font-arabic text-lg sm:text-xl font-bold text-parchment-100 
+                                   group-hover:text-gold-300 transition-colors flex-1">
+                        {name}
+                      </h3>
+                      
+                      <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
+                        <div className="text-center px-3 sm:px-4 py-1.5 sm:py-2 bg-gold-500/15 border border-gold-400/40 rounded-lg
+                                      group-hover:bg-gold-500/25 group-hover:border-gold-400/60 transition-all">
+                          <p className="text-gold-300 font-arabic font-bold text-sm sm:text-base">
+                            {poemsCount}
+                          </p>
+                          <p className="text-gold-400/70 text-xs mt-0.5">قصيدة</p>
+                        </div>
+                        <ChevronLeft size={20} className="text-ink-600 group-hover:text-gold-400 
+                                                         transition-colors hidden sm:block" />
+                      </div>
                     </div>
-                    <div>
-                      <div className="font-arabic font-bold text-parchment-200 group-hover:text-gold-300
-                                       transition-colors">{name}</div>
-                      {item.era && <div className="text-xs text-ink-600">{item.era}</div>}
-                    </div>
-                  </Link>
+                  </div>
                 )
 
                 return (

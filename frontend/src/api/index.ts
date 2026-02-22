@@ -2,8 +2,11 @@ import axios from 'axios'
 import type { GenerateRequest, GenerationResponse, ChatHistoryItem, LocalMeter } from '../types'
 
 // ── Backend HTTP client (qafiyah proxy + local meters) ───────────────────────
+// When deploying, set VITE_API_URL in the frontend environment (Vercel/Vite):
+//   VITE_API_URL=https://your-backend.example.com
+const API_BASE = (import.meta.env.VITE_API_URL as string | undefined) || '/api'
 const http = axios.create({
-  baseURL: '/api',
+  baseURL: API_BASE,
   timeout: 90_000,
   headers: { 'Content-Type': 'application/json' },
 })

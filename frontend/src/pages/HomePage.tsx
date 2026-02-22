@@ -85,9 +85,9 @@ export default function HomePage() {
             className="font-arabic text-5xl sm:text-7xl font-bold mb-4 leading-tight"
             style={{ animationDelay: "0.1s", animationFillMode: "both" }}
           >
-            <span className="text-gold-400">ديوان</span>
+            <span className="text-gold-400">الديوان</span>
             <br />
-            <span className="text-parchment-100">الذكاء</span>
+            <span className="text-parchment-100">الذكي</span>
           </h1>
 
           <p

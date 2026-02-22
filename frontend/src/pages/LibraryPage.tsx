@@ -1,13 +1,16 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { BookOpen, User, Globe, Feather, ChevronRight, ChevronLeft, RefreshCw } from 'lucide-react'
-import { getPoetsPage, getEras, getRandomPoem } from '../api'
+import { getEras, getRandomPoem } from '../api'
 import { PageLoader, Empty, ErrorBox, PoemCardSkeleton } from '../components/UI'
-import type { QafiyahPoet, QafiyahPoem } from '../types'
+import type { QafiyahPoem } from '../types'
+import allPoets from '../api/all_poets.json'
 import clsx from 'clsx'
 
 type Tab = 'poets' | 'eras' | 'random'
+
+const POETS_PER_PAGE = 16
 
 // Helper: extract array from qafiyah response (API may return different shapes)
 function extractList<T>(data: unknown): T[] {
@@ -40,14 +43,6 @@ export default function LibraryPage() {
   const [randomPoem, setRandom] = useState<QafiyahPoem | null>(null)
   const [randomLoading, setRL]  = useState(false)
 
-  // Poets
-  const { data: poetsData, isLoading: loadingPoets, error: poetsErr } = useQuery({
-    queryKey: ['poets', page],
-    queryFn:  () => getPoetsPage(page),
-    enabled:  tab === 'poets',
-    placeholderData: prev => prev,
-  })
-
   // Eras
   const { data: erasData, isLoading: loadingEras, error: erasErr } = useQuery({
     queryKey: ['eras'],
@@ -55,8 +50,26 @@ export default function LibraryPage() {
     enabled:  tab === 'eras',
   })
 
-  const poets: QafiyahPoet[] = extractList(poetsData)
-  const eras: any[]            = extractList(erasData)
+  const eras: any[] = extractList(erasData)
+
+  // Create mapping from eraId to era name
+  const eraMap = useMemo(() => {
+    const map: Record<number | string, string> = {}
+    eras.forEach((era: any) => {
+      if (era?.id) map[era.id] = era.name || era.slug
+    })
+    return map
+  }, [eras])
+
+  // Client-side pagination for poets
+  const totalPoets = allPoets.length
+  const startIdx = (page - 1) * POETS_PER_PAGE
+  const endIdx = startIdx + POETS_PER_PAGE
+  const poets = allPoets.slice(startIdx, endIdx).map((p: any) => ({
+    ...p,
+    era: eraMap[p.eraId] || undefined,
+    poem_count: p.poemsCount,
+  }))
 
   const loadRandom = async () => {
     setRL(true)
@@ -71,27 +84,28 @@ export default function LibraryPage() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10" dir="rtl">
+    <div className="min-h-screen bg-gradient-to-b from-parchment-950 to-ink-950" dir="rtl">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-10">
       {/* Header */}
       <div className="mb-8">
-        <div className="flex items-center gap-3 mb-1">
-          <div className="w-8 h-8 rounded-lg bg-blue-900/20 border border-blue-800/30
-                           flex items-center justify-center">
-            <BookOpen size={15} className="text-blue-400" />
+        <div className="flex items-center gap-2 sm:gap-3 mb-2">
+          <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-blue-900/20 border border-blue-800/30
+                           flex items-center justify-center flex-shrink-0">
+            <BookOpen size={14} className="text-blue-400" />
           </div>
-          <h1 className="font-arabic text-3xl font-bold text-parchment-100">مكتبة الشعر</h1>
+          <h1 className="font-arabic text-2xl sm:text-3xl font-bold text-parchment-100">مكتبة الشعر</h1>
         </div>
-        <p className="text-ink-500 text-sm mr-11">
-          +944,000 بيت لـ 932 شاعراً · البيانات من{' '}
-          <a href="https://qafiyah.com" target="_blank" rel="noopener noreferrer"
-             className="text-gold-500 hover:text-gold-400 transition-colors">قافية</a>
+        <p className="text-ink-500 text-xs sm:text-sm ml-7 sm:ml-11">
+          +944,000 بيت لـ 932 شاعراً · {' '}
+          {/* <a href="https://qafiyah.com" target="_blank" rel="noopener noreferrer"
+             className="text-gold-500 hover:text-gold-400 transition-colors">قافية</a> */}
         </p>
       </div>
 
       {/* Random button */}
       <div className="mb-6">
         <button onClick={loadRandom} disabled={randomLoading}
-                className="btn-ghost">
+                className="btn-ghost text-sm">
           {randomLoading
             ? <RefreshCw size={15} className="animate-spin" />
             : <Feather size={15} />}
@@ -172,18 +186,18 @@ export default function LibraryPage() {
       )}
 
       {/* Tabs */}
-      <div className="flex gap-1 border-b border-ink-800 mb-6">
+      <div className="flex gap-1 border-b-2 border-ink-800/50 mb-8">
         {([['poets', 'الشعراء', User], ['eras', 'العصور', Globe]] as const).map(([t, label, Icon]) => (
           <button key={t} onClick={() => { setTab(t); setPage(1) }}
                   className={clsx(
-                    'flex items-center gap-2 px-4 py-2.5 text-sm font-medium',
-                    'border-b-2 -mb-px transition-colors',
+                    'flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-medium whitespace-nowrap',
+                    'border-b-2 -mb-px transition-all duration-300',
                     tab === t
                       ? 'border-gold-500 text-gold-400'
                       : 'border-transparent text-ink-500 hover:text-ink-300'
                   )}>
-            <Icon size={14} />
-            {label}
+            <Icon size={15} />
+            <span>{label}</span>
           </button>
         ))}
       </div>
@@ -191,78 +205,85 @@ export default function LibraryPage() {
     {/* Poets grid */}
 {tab === 'poets' && (
   <>
-    {loadingPoets && <PageLoader message="جارٍ تحميل الشعراء..." />}
-    {poetsErr && <ErrorBox message="تعذر تحميل الشعراء — تأكد من تشغيل الخادم الخلفي" />}
-    {!loadingPoets && !poetsErr && (
-      poets.length === 0 ? (
-        <Empty message="لا يوجد شعراء في هذه الصفحة" />
-      ) : (
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+    {poets.length === 0 && page > 1 ? (
+      <Empty message="لا يوجد شعراء في هذه الصفحة" />
+    ) : poets.length === 0 ? (
+      <Empty message="لا يوجد شعراء" />
+    ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-4 lg:gap-6">
           {poets.map(poet => (
             <Link
               key={poet.slug || poet.id}
               to={`/library/poet/${poet.slug || poet.id}`}
-              className="bg-parchment-50 dark:bg-ink-900 border border-transparent 
-                         rounded-xl p-4 shadow-md hover:shadow-xl transition-all duration-300
-                         group hover:-translate-y-1 hover:scale-105">
+              className="card-parchment p-4 sm:p-5 hover:border-gold-400/50 hover:shadow-lg 
+                         transition-all duration-300 group hover:-translate-y-0.5 cursor-pointer">
               
-              <div className="flex items-center gap-4">
-                {/* Initial Avatar */}
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-gold-800/20 to-gold-900/10
-                                border border-gold-700/30 flex items-center justify-center flex-shrink-0
-                                transition-all duration-300 group-hover:ring-2 group-hover:ring-gold-400">
-                  <span className="font-arabic text-gold-500 font-semibold text-lg">
-                    {(poet.name || '؟')[0]}
-                  </span>
-                </div>
-
-                {/* Poet Info */}
-                <div className="flex-1 min-w-0">
-                  <div className="font-arabic font-bold text-parchment-800 dark:text-parchment-200
-                                  group-hover:text-gold-400 transition-colors truncate text-base">
-                    {poet.name}
+              <div className="flex flex-col gap-3 h-full">
+                {/* Top row: Avatar + Name + Poem count */}
+                <div className="flex items-start gap-3">
+                  {/* Initial Avatar */}
+                  <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full flex-shrink-0
+                                  bg-gradient-to-br from-gold-800/30 to-gold-900/20
+                                  border border-gold-700/40 flex items-center justify-center
+                                  transition-all duration-300 group-hover:from-gold-700/40 group-hover:to-gold-800/30
+                                  group-hover:shadow-md group-hover:shadow-gold-900/20">
+                    <span className="font-arabic text-gold-400 font-semibold text-base sm:text-lg">
+                      {(poet.name || '؟')[0]}
+                    </span>
                   </div>
-                  {poet.era && (
-                    <div className="text-xs text-ink-500 dark:text-ink-400 mt-1">
-                      {poet.era}
-                    </div>
-                  )}
-                  {poet.poem_count != null && (
-                    <div className="mt-1">
-                      <span className="inline-block bg-gold-50 text-gold-600 text-xs px-2 py-0.5 rounded-full">
+
+                  {/* Poet Name + Poem count */}
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-arabic font-bold text-parchment-100 
+                                   group-hover:text-gold-300 transition-colors text-sm sm:text-base leading-tight">
+                      {poet.name}
+                    </h3>
+                    {poet.poem_count != null && (
+                      <span className="text-xs sm:text-xs text-gold-500/80 group-hover:text-gold-400 
+                                       transition-colors font-medium">
                         {poet.poem_count} قصيدة
                       </span>
-                    </div>
-                  )}
+                    )}
+                  </div>
                 </div>
 
-                {/* Chevron */}
-                <ChevronRight
-                  size={16}
-                  className="text-ink-500 dark:text-ink-400 group-hover:text-gold-400
-                             transition-transform duration-300 rotate-180"
-                />
+                {/* Era badge */}
+                {poet.era && (
+                  <div className="mt-auto">
+                    <span className="inline-block text-xs text-ink-500 dark:text-ink-400 
+                                     bg-ink-800/30 rounded-lg px-2.5 py-1.5">
+                      {poet.era}
+                    </span>
+                  </div>
+                )}
               </div>
+
+              {/* Hover indicator */}
+              <ChevronRight
+                size={14}
+                className="absolute top-4 left-4 sm:left-5 text-ink-600 dark:text-ink-500 
+                           group-hover:text-gold-400 group-hover:translate-x-0.5
+                           transition-all duration-300 opacity-0 group-hover:opacity-100 rotate-180"
+              />
             </Link>
           ))}
         </div>
-      )
-    )}
+      )}
 
     {/* Pagination */}
-    <div className="flex items-center justify-center gap-4 mt-8">
+    <div className="flex items-center justify-center gap-2 sm:gap-4 mt-8">
       <button
         onClick={() => setPage(p => Math.max(1, p - 1))}
         disabled={page === 1}
-        className="btn-ghost disabled:opacity-30 flex items-center gap-1">
-        <ChevronRight size={15} />السابق
+        className="btn-ghost disabled:opacity-30 flex items-center gap-1 text-xs sm:text-sm">
+        <ChevronRight size={15} /><span className="hidden sm:inline">السابق</span>
       </button>
-      <span className="text-ink-600 dark:text-ink-400 text-sm tabular-nums">صفحة {page}</span>
+      <span className="text-ink-600 dark:text-ink-400 text-xs sm:text-sm tabular-nums">صفحة {page}</span>
       <button
-        onClick={() => setPage(p => p + 1)}
-        disabled={poets.length === 0}
-        className="btn-ghost disabled:opacity-30 flex items-center gap-1">
-        التالي<ChevronLeft size={15} />
+        onClick={() => setPage(p => (endIdx < totalPoets ? p + 1 : p))}
+        disabled={endIdx >= totalPoets}
+        className="btn-ghost disabled:opacity-30 flex items-center gap-1 text-xs sm:text-sm">
+        <span className="hidden sm:inline">التالي</span><ChevronLeft size={15} />
       </button>
     </div>
   </>
@@ -277,7 +298,7 @@ export default function LibraryPage() {
             eras.length === 0
               ? <Empty message="لا يوجد بيانات العصور" />
               : (
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 lg:gap-6">
                   {eras.map((era: any) => {
                     const name  = era?.name || era?.slug
                     const slug  = era?.slug || era?.name
@@ -300,6 +321,7 @@ export default function LibraryPage() {
           )}
         </>
       )}
+      </div>
     </div>
   )
 }

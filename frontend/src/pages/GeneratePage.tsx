@@ -64,23 +64,23 @@ export default function GeneratePage() {
   const selectedMeter = metersData?.meters.find(m => m.name === form.meter)
 
   return (
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10" dir="rtl">
+    <div className="max-w-3xl mx-auto px-4 sm:px-6 py-8 sm:py-10" dir="rtl">
       {/* ── Header ── */}
-      <div className="mb-8">
+      <div className="mb-6 sm:mb-8">
         <div className="flex items-center gap-3 mb-1">
-          <div className="w-8 h-8 rounded-lg bg-gold-900/30 border border-gold-700/30
-                           flex items-center justify-center">
-            <Sparkles size={15} className="text-gold-400" />
+          <div className="w-7 sm:w-8 h-7 sm:h-8 rounded-lg bg-gold-900/30 border border-gold-700/30
+                           flex items-center justify-center flex-shrink-0">
+            <Sparkles size={14} className="text-gold-400 sm:w-4 sm:h-4" />
           </div>
-          <h1 className="font-arabic text-3xl font-bold text-parchment-100">أنشئ قصيدتك</h1>
+          <h1 className="font-arabic text-2xl sm:text-3xl font-bold text-parchment-100">أنشئ قصيدتك</h1>
         </div>
-        <p className="text-ink-500 text-sm mr-11">
+        <p className="text-ink-500 text-xs sm:text-sm mr-10 sm:mr-11">
           حدد الموضوع والبحر وسيُولّد الذكاء الاصطناعي قصيدة محققة الوزن
         </p>
       </div>
 
       {/* ── Form ── */}
-      <div className="card-parchment p-5 mb-6 space-y-5">
+      <div className="card-parchment p-4 sm:p-5 mb-6 space-y-4 sm:space-y-5">
         {/* Topic */}
         <div>
           <label className="block text-ink-400 text-sm mb-1.5">
@@ -140,10 +140,10 @@ export default function GeneratePage() {
 
         {/* Submit */}
         <button onClick={submit} disabled={isLoading || !form.topic.trim()}
-                className="btn-gold w-full py-3.5 text-base">
+                className="btn-gold w-full py-3 sm:py-3.5 text-sm sm:text-base">
           {isLoading
-            ? <><RefreshCw size={17} className="animate-spin" />جارٍ الإبداع...</>
-            : <><Sparkles size={17} />أنشئ القصيدة</>}
+            ? <><RefreshCw size={16} className="animate-spin" />جارٍ الإبداع...</>
+            : <><Sparkles size={16} />أنشئ القصيدة</>}
         </button>
       </div>
 
@@ -167,24 +167,24 @@ export default function GeneratePage() {
             <div className="card-parchment overflow-hidden">
               <button
                 onClick={() => setShowHistory(v => !v)}
-                className="w-full flex items-center justify-between px-5 py-3.5
-                           text-sm text-ink-500 hover:text-ink-300 transition-colors"
+                className="w-full flex items-center justify-between px-4 sm:px-5 py-3 sm:py-3.5
+                           text-xs sm:text-sm text-ink-500 hover:text-ink-300 transition-colors"
               >
                 <span>سجل محاولات التصحيح ({result.attempt_history.length})</span>
-                {showHistory ? <ChevronUp size={14}/> : <ChevronDown size={14}/>}
+                {showHistory ? <ChevronUp size={16}/> : <ChevronDown size={16}/>}
               </button>
 
               {showHistory && (
                 <div className="border-t border-ink-800 divide-y divide-ink-800/50">
                   {result.attempt_history.map(h => (
-                    <div key={h.attempt} className="px-5 py-4 space-y-2 opacity-70">
+                    <div key={h.attempt} className="px-4 sm:px-5 py-3 sm:py-4 space-y-2 opacity-70">
                       <div className="flex items-center justify-between">
                         <span className="text-xs text-ink-600">المحاولة {h.attempt}</span>
                         <ValidationBadge validation={h.validation} />
                       </div>
                       {h.validation.feedback && (
-                        <pre className="text-xs text-ink-500 bg-ink-950 rounded-lg p-3
-                                         whitespace-pre-wrap font-ui leading-relaxed">
+                        <pre className="text-xs sm:text-xs text-ink-500 bg-ink-950 rounded-lg p-2 sm:p-3
+                                         whitespace-pre-wrap font-ui leading-relaxed max-h-32 sm:max-h-48 overflow-auto">
                           {h.validation.feedback}
                         </pre>
                       )}
@@ -196,8 +196,8 @@ export default function GeneratePage() {
           )}
 
           {/* Regenerate */}
-          <button onClick={submit} className="btn-ghost w-full justify-center">
-            <RefreshCw size={15} />
+          <button onClick={submit} className="btn-ghost w-full justify-center text-sm sm:text-base">
+            <RefreshCw size={16} />
             أعد الإنشاء بنفس الإعدادات
           </button>
         </div>

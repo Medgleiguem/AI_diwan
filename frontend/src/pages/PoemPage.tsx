@@ -49,38 +49,42 @@ export default function PoemPage() {
   const related  = data.relatedPoems || []
 
   return (
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10" dir="rtl">
+    <div className="max-w-3xl mx-auto px-3 sm:px-6 py-8 sm:py-10" dir="rtl">
       {/* Breadcrumb */}
-      <div className="flex items-center gap-2 text-sm text-ink-600 mb-8">
+      <div className="flex items-center gap-2 text-xs sm:text-sm text-ink-600 mb-6 sm:mb-8 flex-wrap">
         <Link to="/library" className="hover:text-gold-400 transition-colors flex items-center gap-1">
-          <BookOpen size={13} />
-          مكتبة الشعر
+          <BookOpen size={12} className="flex-shrink-0 sm:w-4 sm:h-4" />
+          <span className="hidden sm:inline">مكتبة الشعر</span>
+          <span className="sm:hidden">المكتبة</span>
         </Link>
-        <ArrowRight size={11} className="rotate-180" />
+        <ArrowRight size={10} className="rotate-180 flex-shrink-0" />
         {poetSlug && (
           <>
-            <Link to={`/library/poet/${poetSlug}`} className="hover:text-gold-400 transition-colors">
+            <Link to={`/library/poet/${poetSlug}`} className="hover:text-gold-400 transition-colors truncate">
               {poetName || 'شاعر'}
             </Link>
-            <ArrowRight size={11} className="rotate-180" />
+            <ArrowRight size={10} className="rotate-180 flex-shrink-0" />
           </>
         )}
-        <span className="text-ink-400">{title || 'قصيدة'}</span>
+        <span className="text-ink-400 truncate">{title || 'قصيدة'}</span>
       </div>
 
       {/* Poem header */}
-      <div className="card-parchment p-6 sm:p-8 mb-8">
+      <div className="card-parchment p-3 sm:p-6 lg:p-8 mb-6 sm:mb-8">
+        {/* Title */}
         {title && (
-          <h1 className="font-arabic text-2xl sm:text-3xl font-bold text-parchment-100 mb-4">
+          <h1 className="font-arabic text-xl sm:text-3xl lg:text-4xl font-bold text-parchment-100 mb-3 sm:mb-5 break-words">
             {title}
           </h1>
         )}
         
-        <div className="flex flex-col gap-4 mb-6">
-          {poetName && (
+        {/* Poet Section */}
+        {poetName && (
+          <div className="mb-4 sm:mb-5 pb-4 sm:pb-5 border-b border-parchment-600 border-opacity-30">
+            <label className="text-xs font-semibold text-ink-500 uppercase tracking-wide block mb-1.5">الشاعر</label>
             <div className="flex items-center gap-2">
-              <Feather size={16} className="text-gold-600" />
-              <span className="font-arabic text-parchment-300">
+              <Feather size={14} className="text-gold-600 flex-shrink-0 sm:w-5 sm:h-5" />
+              <span className="font-arabic text-parchment-200 text-sm sm:text-lg">
                 {poetSlug
                   ? <Link to={`/library/poet/${poetSlug}`} className="hover:text-gold-400 transition-colors">
                       {poetName}
@@ -89,28 +93,42 @@ export default function PoemPage() {
                 }
               </span>
             </div>
-          )}
-          
-          <div className="flex flex-wrap gap-2">
-            {meter && (
-              <span className="badge flex items-center gap-1.5">
-                <Music size={12} />
-                {meter}
-              </span>
-            )}
-            {eraName && <span className="badge-gold">{eraName}</span>}
-            {theme && <span className="badge">{theme}</span>}
           </div>
+        )}
+        
+        {/* Metadata Grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
+          {meter && (
+            <div>
+              <label className="text-xs font-semibold text-ink-500 uppercase tracking-wide block mb-1.5">البحر</label>
+              <div className="flex items-center gap-1.5">
+                <Music size={12} className="text-gold-600 flex-shrink-0 sm:w-4 sm:h-4" />
+                <span className="font-arabic text-parchment-300 text-xs sm:text-base">{meter}</span>
+              </div>
+            </div>
+          )}
+          {eraName && (
+            <div>
+              <label className="text-xs font-semibold text-ink-500 uppercase tracking-wide block mb-1.5">العصر</label>
+              <span className="font-arabic text-parchment-300 text-xs sm:text-base block">{eraName}</span>
+            </div>
+          )}
+          {theme && (
+            <div>
+              <label className="text-xs font-semibold text-ink-500 uppercase tracking-wide block mb-1.5">الموضوع</label>
+              <span className="font-arabic text-parchment-300 text-xs sm:text-base block">{theme}</span>
+            </div>
+          )}
         </div>
       </div>
 
       {/* Poem verses */}
       {verses.length > 0 ? (
-        <div className="poem-container p-6 sm:p-10 space-y-4">
+        <div className="poem-container p-4 sm:p-6 lg:p-10 space-y-2 sm:space-y-4">
           {versePairs.map((pair: any, idx: number) => (
             <div key={idx} className="verse-pair">
               {pair.map((line: string, lineIdx: number) => (
-                <div key={lineIdx} className="font-arabic text-lg sm:text-2xl text-parchment-100 text-center leading-loose py-2">
+                <div key={lineIdx} className="font-arabic text-base sm:text-lg lg:text-2xl text-parchment-100 text-center leading-relaxed sm:leading-loose py-1.5 sm:py-2">
                   {line}
                 </div>
               ))}
@@ -122,7 +140,7 @@ export default function PoemPage() {
       )}
 
       {/* Stats */}
-      <div className="flex items-center justify-center gap-6 mt-8 text-ink-500 text-sm">
+      <div className="flex items-center justify-center gap-3 sm:gap-6 mt-6 sm:mt-8 text-ink-500 text-xs sm:text-sm">
         <div className="text-center">
           <div className="text-ink-400 font-bold">{versePairs.length}</div>
           <div>بيت شعري</div>
@@ -131,19 +149,33 @@ export default function PoemPage() {
 
       {/* Related poems */}
       {related.length > 0 && (
-        <div className="mt-12">
-          <h2 className="font-arabic text-xl font-bold text-parchment-200 mb-6">قصائد مرتبطة</h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="mt-8 sm:mt-10">
+          <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-5">
+            <BookOpen size={16} className="text-gold-600 flex-shrink-0 sm:w-5 sm:h-5" />
+            <h2 className="font-arabic text-lg sm:text-xl font-bold text-parchment-100">قصائد مرتبطة</h2>
+            <span className="text-xs text-ink-500 ml-auto">{related.length}</span>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3">
             {related.map((relatedPoem: any) => (
               <div 
                 key={relatedPoem.poem_slug}
                 onClick={() => navigate(`/library/poem/${relatedPoem.poem_slug}`)}
-                className="card-parchment p-4 hover:border-ink-600 transition-all cursor-pointer group">
-                <div className="font-arabic font-bold text-parchment-200 group-hover:text-gold-300 transition-colors mb-2 line-clamp-2">
+                className="card-parchment p-3 hover:shadow-sm hover:border-gold-500 hover:border-opacity-60 transition-all duration-200 cursor-pointer group">
+                <div className="font-arabic font-bold text-parchment-100 group-hover:text-gold-300 transition-colors mb-1.5 line-clamp-2 text-sm sm:text-base leading-tight">
                   {relatedPoem.poem_title}
                 </div>
-                <div className="text-xs text-ink-600 mb-2">{relatedPoem.poet_name}</div>
-                <div className="badge text-xs">{relatedPoem.meter_name}</div>
+                <div className="border-t border-parchment-600 border-opacity-30 pt-2 space-y-1">
+                  <div className="flex items-start gap-1.5">
+                    <Feather size={11} className="text-gold-600 flex-shrink-0 mt-0.5 sm:w-3 sm:h-3" />
+                    <span className="text-xs text-parchment-300 leading-tight">{relatedPoem.poet_name}</span>
+                  </div>
+                  {relatedPoem.meter_name && (
+                    <div className="flex items-start gap-1.5">
+                      <Music size={11} className="text-gold-600 flex-shrink-0 mt-0.5 sm:w-3 sm:h-3" />
+                      <span className="text-xs text-parchment-300 leading-tight">{relatedPoem.meter_name}</span>
+                    </div>
+                  )}
+                </div>
               </div>
             ))}
           </div>

@@ -53,45 +53,46 @@ export default function SearchPage() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10" dir="rtl">
+    <div className="min-h-screen bg-gradient-to-b from-parchment-950 to-ink-950" dir="rtl">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-10">
       {/* Header */}
       <div className="mb-8">
-        <div className="flex items-center gap-3 mb-1">
-          <div className="w-8 h-8 rounded-lg bg-purple-900/20 border border-purple-800/30
-                           flex items-center justify-center">
-            <Search size={15} className="text-purple-400" />
+        <div className="flex items-center gap-2 sm:gap-3 mb-2">
+          <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-purple-900/20 border border-purple-800/30
+                           flex items-center justify-center flex-shrink-0">
+            <Search size={14} className="text-purple-400" />
           </div>
-          <h1 className="font-arabic text-3xl font-bold text-parchment-100">بحث في الشعر</h1>
+          <h1 className="font-arabic text-2xl sm:text-3xl font-bold text-parchment-100">بحث في الشعر</h1>
         </div>
-        <p className="text-ink-500 text-sm mr-11">ابحث في أكثر من 944,000 بيت شعري</p>
+        <p className="text-ink-500 text-xs sm:text-sm ml-7 sm:ml-11">ابحث في أكثر من 944,000 بيت شعري</p>
       </div>
 
       {/* Search bar */}
-      <div className="card-parchment p-4 mb-6 space-y-4">
-        <div className="flex gap-2">
+      <div className="card-parchment p-4 sm:p-6 mb-6 space-y-4">
+        <div className="flex flex-col sm:flex-row gap-2">
           <div className="relative flex-1">
             <Search size={15} className="absolute right-3 top-1/2 -translate-y-1/2
                                           text-ink-600 pointer-events-none" />
             <input ref={inputRef}
-                   className="input-arabic pr-9"
+                   className="input-arabic pr-9 text-sm"
                    placeholder="أدخل كلمة أو مقطع شعري..."
                    value={q}
                    onChange={e => setQ(e.target.value)}
                    onKeyDown={onKey} />
           </div>
           <button onClick={() => doSearch(1)} disabled={loading || !q.trim()}
-                  className="btn-gold px-6">
+                  className="btn-gold px-4 sm:px-6 text-sm whitespace-nowrap">
             بحث
           </button>
         </div>
 
         {/* Options */}
-        <div className="flex flex-wrap gap-3">
-          <div className="flex gap-1">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+          <div className="flex gap-1 flex-wrap">
             {([['poems', 'أبيات', Feather], ['poets', 'شعراء', User]] as const).map(([t, label, Icon]) => (
               <button key={t} onClick={() => setSearchType(t)}
                       className={clsx(
-                        'flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm transition-all',
+                        'flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs sm:text-sm transition-all',
                         searchType === t
                           ? 'bg-gold-800/30 text-gold-300 border border-gold-700/30'
                           : 'text-ink-500 hover:text-ink-300 border border-ink-800'
@@ -202,6 +203,7 @@ export default function SearchPage() {
           <p>اكتب كلمة أو مقطعاً شعرياً للبحث</p>
         </div>
       )}
+      </div>
     </div>
   )
 }

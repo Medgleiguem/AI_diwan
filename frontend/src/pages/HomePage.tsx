@@ -73,7 +73,7 @@ export default function HomePage() {
           </svg>
         </div>
 
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-20 text-center">
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-20 text-center">
           {/* Tag */}
           <div className="inline-flex items-center gap-2 bg-gold-600/10 border border-gold-600/20 rounded-full px-4 py-1.5 text-gold-400 text-sm mb-6">
             <Sparkles size={14} />
@@ -82,7 +82,7 @@ export default function HomePage() {
 
           {/* Title */}
           <h1
-            className="font-arabic text-5xl sm:text-7xl font-bold mb-4 leading-tight"
+            className="font-arabic text-4xl sm:text-5xl lg:text-7xl font-bold mb-4 leading-tight"
             style={{ animationDelay: "0.1s", animationFillMode: "both" }}
           >
             <span className="text-gold-400">الديوان</span>
@@ -99,33 +99,33 @@ export default function HomePage() {
           </p>
 
           {/* ── Rotating verse showcase ────────────────────────────────────────── */}
-          <section className="max-w-4xl mx-auto px-4 sm:px-6 -mt-4 mb-20">
-            <div className="poem-container px-6 sm:px-12 py-10 text-center">
-              <p className="text-xs text-gray-200 uppercase tracking-widest mb-6">
+          <section className="max-w-4xl mx-auto px-4 sm:px-6 -mt-2 sm:-mt-4 mb-16 sm:mb-20">
+            <div className="poem-container px-5 sm:px-10 lg:px-12 py-8 sm:py-10 text-center">
+              <p className="text-xs text-gray-200 uppercase tracking-widest mb-4 sm:mb-6">
                 من عيون الشعر العربي
               </p>
               <div
                 key={vi}
-                className="font-arabic text-2xl sm:text-3xl text-parchment-100 leading-loose animate-fade-in"
+                className="font-arabic text-xl sm:text-2xl lg:text-3xl text-parchment-100 leading-loose animate-fade-in"
               >
                 {verse.text}
               </div>
-              <p className="mt-6 text-gold-500 text-sm">— {verse.poet}</p>
+              <p className="mt-4 sm:mt-6 text-gold-500 text-xs sm:text-sm">— {verse.poet}</p>
             </div>
           </section>
 
           {/* CTAs */}
           <div
             className="flex flex-col sm:flex-row items-center justify-center gap-3
-                           animate-fade-up"
+                           animate-fade-up w-full"
             style={{ animationDelay: "0.3s", animationFillMode: "both" }}
           >
-            <Link to="/generate" className="btn-gold text-base px-8 py-3">
-              <Sparkles size={18} />
+            <Link to="/generate" className="btn-gold text-sm sm:text-base px-6 sm:px-8 py-3 w-full sm:w-auto">
+              <Sparkles size={16} />
               أنشئ قصيدتك الآن
             </Link>
-            <Link to="/library" className="btn-ghost text-base px-6 py-3">
-              <BookOpen size={18} />
+            <Link to="/library" className="btn-ghost text-sm sm:text-base px-6 py-3 w-full sm:w-auto">
+              <BookOpen size={16} />
               استكشف المكتبة
             </Link>
           </div>
@@ -137,7 +137,7 @@ export default function HomePage() {
         <h2 className="font-arabic text-3xl font-bold text-center text-parchment-200 mb-10">
           ما يمكنك فعله
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
           {[
             {
               icon: Sparkles,
@@ -170,19 +170,19 @@ export default function HomePage() {
           ].map((f) => (
             <div
               key={f.title}
-              className="card-parchment p-5 hover:border-ink-600 transition-all group"
+              className="card-parchment p-4 sm:p-5 hover:border-ink-600 transition-all group h-full flex flex-col"
             >
               <f.icon size={22} className="text-gold-500 mb-3" />
-              <h3 className="font-arabic font-bold text-parchment-200 mb-2">
+              <h3 className="font-arabic font-bold text-parchment-200 mb-2 text-base sm:text-lg">
                 {f.title}
               </h3>
-              <p className="text-ink-500 text-sm leading-relaxed mb-4">
+              <p className="text-ink-500 text-sm leading-relaxed mb-4 flex-1">
                 {f.desc}
               </p>
               <Link
                 to={f.to}
                 className="inline-flex items-center gap-1.5 text-gold-400 text-sm
-                               hover:text-gold-300 transition-colors group-hover:gap-2.5"
+                               hover:text-gold-300 transition-colors group-hover:gap-2.5 w-max"
               >
                 {f.cta}
                 <ArrowLeft size={13} className="rotate-180" />

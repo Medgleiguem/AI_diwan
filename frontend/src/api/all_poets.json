@@ -1,0 +1,6526 @@
+[
+  {
+    "id": 3301,
+    "name": "آمنة بنت عتيبة",
+    "slug": "amna-bnt-otaiba",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3300,
+    "name": "آمنة بنت وهب",
+    "slug": "amna-bnt-wahab",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2705,
+    "name": "أبان الالحقي",
+    "slug": "aban-al-haqi",
+    "eraId": 2,
+    "poemsCount": 6
+  },
+  {
+    "id": 2706,
+    "name": "أبزون العماني",
+    "slug": "omani-abzon",
+    "eraId": 2,
+    "poemsCount": 37
+  },
+  {
+    "id": 3153,
+    "name": "أبو أجأ التغلبي",
+    "slug": "abu-aga-alnglbe",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3154,
+    "name": "أبو أذينة",
+    "slug": "abo-uthaina",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2999,
+    "name": "أبو إسحاق الإلبيري",
+    "slug": "abu-ishaq-al-llbiri",
+    "eraId": 8,
+    "poemsCount": 38
+  },
+  {
+    "id": 3361,
+    "name": "أبو الأخيل العجلي",
+    "slug": "cat-abo-alokhil-ajla",
+    "eraId": 4,
+    "poemsCount": 2
+  },
+  {
+    "id": 2700,
+    "name": "أبو الأسد الحماني",
+    "slug": "abu-al-assad-al-hamani",
+    "eraId": 2,
+    "poemsCount": 15
+  },
+  {
+    "id": 3394,
+    "name": "أبو الأسود الدؤلي",
+    "slug": "abu-al-aswad-al-duali",
+    "eraId": 4,
+    "poemsCount": 149
+  },
+  {
+    "id": 2972,
+    "name": "أبو البقاء الرندي",
+    "slug": "abu-albaqa-alrundi ",
+    "eraId": 8,
+    "poemsCount": 30
+  },
+  {
+    "id": 2699,
+    "name": "أبو الحسن الجرجاني",
+    "slug": "abul-hasan-al-jurjani",
+    "eraId": 2,
+    "poemsCount": 107
+  },
+  {
+    "id": 2778,
+    "name": "أبو الحسن السلامي",
+    "slug": "abu-al-hassan-al-salami",
+    "eraId": 2,
+    "poemsCount": 117
+  },
+  {
+    "id": 2784,
+    "name": "أبو الحسن السلامي",
+    "slug": "abul-hassan-al-salami",
+    "eraId": 2,
+    "poemsCount": 118
+  },
+  {
+    "id": 2842,
+    "name": "أبو الحسن الششتري",
+    "slug": "abu-al-hasan-al-shushtari",
+    "eraId": 7,
+    "poemsCount": 238
+  },
+  {
+    "id": 2927,
+    "name": "أبو الحسن بن حريق",
+    "slug": "abo-alhassan-bn-hariq",
+    "eraId": 10,
+    "poemsCount": 47
+  },
+  {
+    "id": 2929,
+    "name": "أبو الحسن بن خروف",
+    "slug": "abo-alhassan-bn-krof",
+    "eraId": 10,
+    "poemsCount": 18
+  },
+  {
+    "id": 2958,
+    "name": "أبو الحسين الجزار",
+    "slug": "abu-alhusan-aljzar",
+    "eraId": 8,
+    "poemsCount": 158
+  },
+  {
+    "id": 2763,
+    "name": "أبو الحسين الصوفي",
+    "slug": "abu-al-hussein-al-sufi",
+    "eraId": 2,
+    "poemsCount": 1
+  },
+  {
+    "id": 2698,
+    "name": "أبو الحسين النوري",
+    "slug": "abu-al-hussein-al-nouri",
+    "eraId": 2,
+    "poemsCount": 31
+  },
+  {
+    "id": 3155,
+    "name": "أبو الحكيم المري",
+    "slug": "abu-al-hakim-al-marri",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3156,
+    "name": "أبو الذيال اليهودي",
+    "slug": "abu-alveal-alehuda",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2770,
+    "name": "أبو الرقعمق",
+    "slug": "abu-al-raqamq",
+    "eraId": 2,
+    "poemsCount": 29
+  },
+  {
+    "id": 2720,
+    "name": "أبو الشمقمق",
+    "slug": "abu-al-shamaqmaq",
+    "eraId": 2,
+    "poemsCount": 66
+  },
+  {
+    "id": 2790,
+    "name": "أبو الشيص الخزاعي",
+    "slug": "abu-al-shees-al-khuzaie",
+    "eraId": 2,
+    "poemsCount": 77
+  },
+  {
+    "id": 3455,
+    "name": "أبو الطفيل القرشي",
+    "slug": "abu-at-tufail-al-qurashi",
+    "eraId": 4,
+    "poemsCount": 17
+  },
+  {
+    "id": 3524,
+    "name": "أبو الطمحان القيني",
+    "slug": "abu-al-tahban-al-quini",
+    "eraId": 6,
+    "poemsCount": 28
+  },
+  {
+    "id": 2928,
+    "name": "أبو العباس الجراوي",
+    "slug": "abu-alabas-jerawi",
+    "eraId": 10,
+    "poemsCount": 55
+  },
+  {
+    "id": 2651,
+    "name": "أبو العتاهية",
+    "slug": "abu-alatahyah",
+    "eraId": 2,
+    "poemsCount": 759
+  },
+  {
+    "id": 2654,
+    "name": "أبو العلاء المعري",
+    "slug": "almaarri",
+    "eraId": 2,
+    "poemsCount": 1612
+  },
+  {
+    "id": 2803,
+    "name": "أبو العنبس الصيمري",
+    "slug": "abu-al-anbas-al-simary",
+    "eraId": 2,
+    "poemsCount": 9
+  },
+  {
+    "id": 2717,
+    "name": "أبو العيناء",
+    "slug": "abu-alayna",
+    "eraId": 2,
+    "poemsCount": 14
+  },
+  {
+    "id": 2724,
+    "name": "أبو الفتح البستي",
+    "slug": "abu-alfath-albusti",
+    "eraId": 2,
+    "poemsCount": 733
+  },
+  {
+    "id": 2749,
+    "name": "أبو الفرج الأصبهاني",
+    "slug": "abu-al-faraj-al-isbahani",
+    "eraId": 2,
+    "poemsCount": 31
+  },
+  {
+    "id": 3157,
+    "name": "أبو الفضل الكناني",
+    "slug": "abolfazl-kanani",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3158,
+    "name": "أبو القرين الفزاري",
+    "slug": "abu-algarin-fazari",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3161,
+    "name": "أبو اللحام التغلبي",
+    "slug": "abu-allham-altglbe",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3160,
+    "name": "أبو المثلم الهذلي",
+    "slug": "abo-alemthelm-hudhali",
+    "eraId": 5,
+    "poemsCount": 4
+  },
+  {
+    "id": 2931,
+    "name": "أبو المحاسن الشواء",
+    "slug": "abu-almhasan-alsawae",
+    "eraId": 10,
+    "poemsCount": 13
+  },
+  {
+    "id": 2807,
+    "name": "أبو المخفف",
+    "slug": "abu-al-mukhtafa",
+    "eraId": 2,
+    "poemsCount": 7
+  },
+  {
+    "id": 2806,
+    "name": "أبو المعافى المزني",
+    "slug": "abu-al-maafi-al-muzni",
+    "eraId": 2,
+    "poemsCount": 6
+  },
+  {
+    "id": 3076,
+    "name": "أبو المعالي الطالوي",
+    "slug": "abu-al-maali-al-talawi",
+    "eraId": 9,
+    "poemsCount": 94
+  },
+  {
+    "id": 3415,
+    "name": "أبو النجم العجلي",
+    "slug": "abu-al-najm-al-ajli2",
+    "eraId": 4,
+    "poemsCount": 80
+  },
+  {
+    "id": 3447,
+    "name": "أبو النجم العجلي",
+    "slug": "abu-al-najm-al-ajli",
+    "eraId": 4,
+    "poemsCount": 81
+  },
+  {
+    "id": 2791,
+    "name": "أبو الهندي",
+    "slug": "abu-alhindi",
+    "eraId": 2,
+    "poemsCount": 43
+  },
+  {
+    "id": 2860,
+    "name": "أبو الوليد الحميري",
+    "slug": "abu-al-waleed-al-humairi",
+    "eraId": 7,
+    "poemsCount": 25
+  },
+  {
+    "id": 2930,
+    "name": "أبو اليمن الكندي",
+    "slug": "abu-alyemen-alknde",
+    "eraId": 10,
+    "poemsCount": 59
+  },
+  {
+    "id": 3159,
+    "name": "أبو بثينه الهذلي",
+    "slug": "abu-buthaina-hudhali",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3022,
+    "name": "أبو بحر الخطي",
+    "slug": "abu-abahr-alkhti",
+    "eraId": 9,
+    "poemsCount": 161
+  },
+  {
+    "id": 2808,
+    "name": "أبو بكر الخالدي",
+    "slug": "abu-bakr-al-khalidi",
+    "eraId": 2,
+    "poemsCount": 95
+  },
+  {
+    "id": 2722,
+    "name": "أبو بكر الخوارزمي",
+    "slug": "abu-bakr-al-khwarizmi",
+    "eraId": 2,
+    "poemsCount": 71
+  },
+  {
+    "id": 2769,
+    "name": "أبو بكر الشبلي",
+    "slug": "abu-bakr-al-shibli",
+    "eraId": 2,
+    "poemsCount": 109
+  },
+  {
+    "id": 3486,
+    "name": "أبو بكر الصديق",
+    "slug": "abu-bakr",
+    "eraId": 6,
+    "poemsCount": 34
+  },
+  {
+    "id": 2815,
+    "name": "أبو بكر الصولي",
+    "slug": "abu-bakr-al-suli",
+    "eraId": 2,
+    "poemsCount": 26
+  },
+  {
+    "id": 3021,
+    "name": "أبو بكر العنبري",
+    "slug": "abu-bakr-al-anbari",
+    "eraId": 8,
+    "poemsCount": 7
+  },
+  {
+    "id": 3020,
+    "name": "أبو بكر العيدروس",
+    "slug": "abu-bakr-al-aidarous",
+    "eraId": 8,
+    "poemsCount": 221
+  },
+  {
+    "id": 2861,
+    "name": "أبو بكر بن القوطية",
+    "slug": "abu-bakr-bn-al-qoutiyyeh",
+    "eraId": 7,
+    "poemsCount": 39
+  },
+  {
+    "id": 2932,
+    "name": "أبو بكر بن مجبر",
+    "slug": "abu-bakr-ibn-mogbar",
+    "eraId": 10,
+    "poemsCount": 42
+  },
+  {
+    "id": 2933,
+    "name": "أبو بكر بن مغاور",
+    "slug": "abu-bakr-ibn-mgaur",
+    "eraId": 10,
+    "poemsCount": 47
+  },
+  {
+    "id": 2713,
+    "name": "أبو تمام",
+    "slug": "abu-tammam",
+    "eraId": 2,
+    "poemsCount": 489
+  },
+  {
+    "id": 2935,
+    "name": "أبو جعفر الملاحي",
+    "slug": "abu-jafr-alamlahi",
+    "eraId": 10,
+    "poemsCount": 2
+  },
+  {
+    "id": 3454,
+    "name": "أبو جلدة اليشكري",
+    "slug": "abu-jaldah-al-yashkari",
+    "eraId": 4,
+    "poemsCount": 35
+  },
+  {
+    "id": 3416,
+    "name": "أبو جلدة اليشكري",
+    "slug": "abu-jelda-alyashri",
+    "eraId": 4,
+    "poemsCount": 29
+  },
+  {
+    "id": 2934,
+    "name": "أبو حريز الشريف",
+    "slug": "abu-hariz-alsharif",
+    "eraId": 10,
+    "poemsCount": 9
+  },
+  {
+    "id": 3166,
+    "name": "أبو حسان الفزاري",
+    "slug": "abu-hassan-fazari",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3163,
+    "name": "أبو حمضة اليهودي",
+    "slug": "abo-hamadh-alehuda",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3165,
+    "name": "أبو حنش التغلبي",
+    "slug": "abo-hnc-altglbe",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2853,
+    "name": "أبو حيان الأندلسي",
+    "slug": "abu-hayyan-al-andalusi",
+    "eraId": 7,
+    "poemsCount": 316
+  },
+  {
+    "id": 3167,
+    "name": "أبو حية الفزاري",
+    "slug": "abu-hah-alfsara",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2798,
+    "name": "أبو حية النميري",
+    "slug": "abu-hayya-al-numeiri",
+    "eraId": 2,
+    "poemsCount": 78
+  },
+  {
+    "id": 3162,
+    "name": "أبو دُاود الإيادي",
+    "slug": "abu-daoud-alaaada",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2742,
+    "name": "أبو دُلامة",
+    "slug": "abu-dolamah",
+    "eraId": 2,
+    "poemsCount": 53
+  },
+  {
+    "id": 2816,
+    "name": "أبو دلف العجلي",
+    "slug": "abu-dalaf-al-ajli",
+    "eraId": 2,
+    "poemsCount": 21
+  },
+  {
+    "id": 3428,
+    "name": "أبو دهبل الجمحي",
+    "slug": "abu-dahabl-al-jamahi",
+    "eraId": 4,
+    "poemsCount": 47
+  },
+  {
+    "id": 3489,
+    "name": "أبو ذؤيب الهذلي",
+    "slug": "abu-dhuayb-hudhali",
+    "eraId": 6,
+    "poemsCount": 30
+  },
+  {
+    "id": 3458,
+    "name": "أبو زبيد الطائي",
+    "slug": "abu-zubaid-al-taie",
+    "eraId": 4,
+    "poemsCount": 54
+  },
+  {
+    "id": 3164,
+    "name": "أبو زيد الأرحبي",
+    "slug": "abu-zeid-arhabi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2940,
+    "name": "أبو زيد الفازازي",
+    "slug": "abu-zaid-al-fazazi",
+    "eraId": 10,
+    "poemsCount": 175
+  },
+  {
+    "id": 2814,
+    "name": "أبو سعد المخزومي",
+    "slug": "abu-saad-makhzoumi",
+    "eraId": 2,
+    "poemsCount": 41
+  },
+  {
+    "id": 3168,
+    "name": "أبو سلمى ربيعة المزني",
+    "slug": "abu-salma-rabia-muzani",
+    "eraId": 5,
+    "poemsCount": 5
+  },
+  {
+    "id": 2817,
+    "name": "أبو شراعة",
+    "slug": "abu-sharaa",
+    "eraId": 2,
+    "poemsCount": 15
+  },
+  {
+    "id": 3449,
+    "name": "أبو صخر الهذلي",
+    "slug": "abu-sakhr-al-hudhali",
+    "eraId": 4,
+    "poemsCount": 2
+  },
+  {
+    "id": 3478,
+    "name": "أبو طالب",
+    "slug": "abutaleb",
+    "eraId": 6,
+    "poemsCount": 65
+  },
+  {
+    "id": 2750,
+    "name": "أبو طالب المأموني",
+    "slug": "abu-talib-al-maamouni",
+    "eraId": 2,
+    "poemsCount": 128
+  },
+  {
+    "id": 2862,
+    "name": "أبو عامر بن مسلمة",
+    "slug": "abu-amer-bin-maslama",
+    "eraId": 7,
+    "poemsCount": 36
+  },
+  {
+    "id": 2809,
+    "name": "أبو عثمان الخالدي",
+    "slug": "abu-othman-al-khalidi",
+    "eraId": 2,
+    "poemsCount": 57
+  },
+  {
+    "id": 3169,
+    "name": "أبو عدي النمري",
+    "slug": "abu-uday-nimri",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2657,
+    "name": "أبو عطاء السندي",
+    "slug": "abu-ataa-al-sindi",
+    "eraId": 2,
+    "poemsCount": 34
+  },
+  {
+    "id": 3175,
+    "name": "أبو عفك",
+    "slug": "abu-afak",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2811,
+    "name": "أبو علكم المراني",
+    "slug": "abu-alakm-al-marani",
+    "eraId": 2,
+    "poemsCount": 1
+  },
+  {
+    "id": 2656,
+    "name": "أبو علي البصير",
+    "slug": "abu-ali-al-baseer",
+    "eraId": 2,
+    "poemsCount": 74
+  },
+  {
+    "id": 2653,
+    "name": "أبو فراس الحمداني",
+    "slug": "abu-firas-al-hamdani",
+    "eraId": 2,
+    "poemsCount": 271
+  },
+  {
+    "id": 2658,
+    "name": "أبو فرعون الساسي",
+    "slug": "abu-fireawn-alsaasi",
+    "eraId": 2,
+    "poemsCount": 24
+  },
+  {
+    "id": 3171,
+    "name": "أبو قردودة الطائي",
+    "slug": "abu-qirdodh-tai",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3173,
+    "name": "أبو قلابة الهذلي",
+    "slug": "abu-qlabh-alhzli",
+    "eraId": 5,
+    "poemsCount": 5
+  },
+  {
+    "id": 3178,
+    "name": "أبو قيس بن رفاعة",
+    "slug": "abu-qais-bin-refaah",
+    "eraId": 5,
+    "poemsCount": 5
+  },
+  {
+    "id": 3501,
+    "name": "أبو محجن الثقفي",
+    "slug": "abu-mihjan-al-thakafi",
+    "eraId": 6,
+    "poemsCount": 24
+  },
+  {
+    "id": 2630,
+    "name": "أبو محمد الفقعسي",
+    "slug": "abu-mohammed-faqasi",
+    "eraId": 1,
+    "poemsCount": 69
+  },
+  {
+    "id": 2938,
+    "name": "أبو مدين التلمساني",
+    "slug": "abu-madyan",
+    "eraId": 10,
+    "poemsCount": 50
+  },
+  {
+    "id": 2805,
+    "name": "أبو نخيلة",
+    "slug": "abu-nakhila",
+    "eraId": 2,
+    "poemsCount": 54
+  },
+  {
+    "id": 2652,
+    "name": "أبو نواس",
+    "slug": "abu-nawas",
+    "eraId": 2,
+    "poemsCount": 1175
+  },
+  {
+    "id": 3170,
+    "name": "أبو نويرة التغلبي",
+    "slug": "abu-noweira-altglbe",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2775,
+    "name": "أبو هفان المهزمي",
+    "slug": "abu-hiffan-al-mihzami",
+    "eraId": 2,
+    "poemsCount": 62
+  },
+  {
+    "id": 2751,
+    "name": "أبو هلال العسكري",
+    "slug": "abu-hilal-al-askari",
+    "eraId": 2,
+    "poemsCount": 447
+  },
+  {
+    "id": 3460,
+    "name": "أبو وجزة السعدي",
+    "slug": "abu-wajza-alsaadi",
+    "eraId": 4,
+    "poemsCount": 75
+  },
+  {
+    "id": 3082,
+    "name": "أحمد البهلول",
+    "slug": "ahmed-albahloul",
+    "eraId": 9,
+    "poemsCount": 30
+  },
+  {
+    "id": 3053,
+    "name": "أحمد الشرنوبي",
+    "slug": "ahmed-el-sharnouby",
+    "eraId": 9,
+    "poemsCount": 1
+  },
+  {
+    "id": 3089,
+    "name": "أحمد العطار",
+    "slug": "ahmed-alattar",
+    "eraId": 9,
+    "poemsCount": 34
+  },
+  {
+    "id": 3084,
+    "name": "أحمد الغزال",
+    "slug": "ahmed-alghazal",
+    "eraId": 9,
+    "poemsCount": 62
+  },
+  {
+    "id": 3067,
+    "name": "أحمد الكيواني",
+    "slug": "ahmad-alkiwani",
+    "eraId": 9,
+    "poemsCount": 163
+  },
+  {
+    "id": 2697,
+    "name": "أحمد بن أبي فنن",
+    "slug": "ahmed-bin-abi-fanan",
+    "eraId": 2,
+    "poemsCount": 71
+  },
+  {
+    "id": 2669,
+    "name": "أحمد بن الجزار",
+    "slug": "ahmed-bin-al-jazzar",
+    "eraId": 2,
+    "poemsCount": 3
+  },
+  {
+    "id": 2667,
+    "name": "أحمد بن سيف الأنباري",
+    "slug": "ahmed-bin-saif-al-anbari",
+    "eraId": 2,
+    "poemsCount": 6
+  },
+  {
+    "id": 3085,
+    "name": "أحمد بن شاهين القبرسي",
+    "slug": "ahmed-bin-shaheen-al-qirsi",
+    "eraId": 9,
+    "poemsCount": 30
+  },
+  {
+    "id": 2665,
+    "name": "أحمد بن طيفور",
+    "slug": "ahmed-bin-tayfur",
+    "eraId": 2,
+    "poemsCount": 122
+  },
+  {
+    "id": 3531,
+    "name": "أحمد شوقي",
+    "slug": "ahmed-shawqi",
+    "eraId": 3,
+    "poemsCount": 735
+  },
+  {
+    "id": 3172,
+    "name": "أحيحة بن الجلاح",
+    "slug": "ahihh-bin-algelah",
+    "eraId": 5,
+    "poemsCount": 35
+  },
+  {
+    "id": 3174,
+    "name": "أخت الأسود بن غفار",
+    "slug": "okht-alosud-bin-ghaffar",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3176,
+    "name": "أربد الذبياني",
+    "slug": "arbd-alzpiani",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3177,
+    "name": "أربد بن ضابئ",
+    "slug": "irbid-bin-dhabi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3179,
+    "name": "أرطأة الفزاري",
+    "slug": "ertoh-fazari",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3522,
+    "name": "أرطأة بن سهية",
+    "slug": "arta-bin-suhiya",
+    "eraId": 6,
+    "poemsCount": 33
+  },
+  {
+    "id": 3180,
+    "name": "أروى بنت الحباب",
+    "slug": "arwa-bnt-alhbab",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3181,
+    "name": "أزبر بن غزي",
+    "slug": "osber-ben-gazi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2936,
+    "name": "أسامة بن منقذ",
+    "slug": "usama-ibn-munqidh",
+    "eraId": 10,
+    "poemsCount": 601
+  },
+  {
+    "id": 3182,
+    "name": "أسماء التغلبية",
+    "slug": "osme-altglbeh",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3465,
+    "name": "أسماء الفزاري",
+    "slug": "asmaa-al-fazari",
+    "eraId": 6,
+    "poemsCount": 1
+  },
+  {
+    "id": 3183,
+    "name": "أسماء المرية",
+    "slug": "asma-almria",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2628,
+    "name": "أسماء صاحبة جعد",
+    "slug": "asmaa-sahibat-jad",
+    "eraId": 1,
+    "poemsCount": 1
+  },
+  {
+    "id": 3184,
+    "name": "أعشى باهلة",
+    "slug": "oashy-pahlh",
+    "eraId": 5,
+    "poemsCount": 7
+  },
+  {
+    "id": 3446,
+    "name": "أعشى همدان",
+    "slug": "asha-hamadan",
+    "eraId": 4,
+    "poemsCount": 60
+  },
+  {
+    "id": 3186,
+    "name": "أعصر بن سعد",
+    "slug": "oasr-ben-saad",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3185,
+    "name": "أفنون",
+    "slug": "afenon",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3520,
+    "name": "أكثم بن صيفي",
+    "slug": "aktham-bin-saifi",
+    "eraId": 6,
+    "poemsCount": 4
+  },
+  {
+    "id": 3292,
+    "name": "أم أبي جدابة",
+    "slug": "om-iba-jaddabh",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3294,
+    "name": "أم الأغر بنت ربيعة التغلبية",
+    "slug": "om-alogr-bent-rabia",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3293,
+    "name": "أم الضحاك المحاربية",
+    "slug": "om-aldhak-maharbah",
+    "eraId": 5,
+    "poemsCount": 10
+  },
+  {
+    "id": 3295,
+    "name": "أم النحيف",
+    "slug": "om-alnhef",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3296,
+    "name": "أم موسى الكلابية",
+    "slug": "om-mosa-alklabah",
+    "eraId": 5,
+    "poemsCount": 4
+  },
+  {
+    "id": 3496,
+    "name": "أمية بن أبي الصلت",
+    "slug": "umaiya-ibn-abi-salt",
+    "eraId": 6,
+    "poemsCount": 102
+  },
+  {
+    "id": 3302,
+    "name": "أميمة بنت أمية",
+    "slug": "omayma-bnt-amah",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3304,
+    "name": "أميمة بنت عبد المطلب",
+    "slug": "omayma-bnt-abdulmutallib ",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3303,
+    "name": "أميمة بنت عبد شمس",
+    "slug": "omayma-bnt-abdshams ",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3307,
+    "name": "أوس العبدي",
+    "slug": "aws-albdi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3305,
+    "name": "أوس الهجيمي",
+    "slug": "aos-alhjimi ",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3306,
+    "name": "أوس بن حارثة",
+    "slug": "aws-bin-haritha",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3134,
+    "name": "أوس بن حجر",
+    "slug": "aws-ibn-hajar",
+    "eraId": 5,
+    "poemsCount": 53
+  },
+  {
+    "id": 3036,
+    "name": "إبراهيم أطيمش",
+    "slug": "ibrahim-atimish",
+    "eraId": 9,
+    "poemsCount": 9
+  },
+  {
+    "id": 3091,
+    "name": "إبراهيم الأكرمي",
+    "slug": "ibrahim-al-akrami",
+    "eraId": 9,
+    "poemsCount": 37
+  },
+  {
+    "id": 3044,
+    "name": "إبراهيم الأنطاكي",
+    "slug": "ibrahim-al-antaki",
+    "eraId": 9,
+    "poemsCount": 1
+  },
+  {
+    "id": 3045,
+    "name": "إبراهيم البلاغي",
+    "slug": "ibrahim-al-balaghi",
+    "eraId": 9,
+    "poemsCount": 1
+  },
+  {
+    "id": 2963,
+    "name": "إبراهيم الجعبري",
+    "slug": "ibrahim-jabari",
+    "eraId": 8,
+    "poemsCount": 1
+  },
+  {
+    "id": 3040,
+    "name": "إبراهيم الحكيم",
+    "slug": "ibrahim-al-hakim",
+    "eraId": 9,
+    "poemsCount": 21
+  },
+  {
+    "id": 2708,
+    "name": "إبراهيم الصولي",
+    "slug": "ibrahim-alsoli",
+    "eraId": 2,
+    "poemsCount": 235
+  },
+  {
+    "id": 2966,
+    "name": "إبراهيم الطبري",
+    "slug": "ibrahim-tabari",
+    "eraId": 8,
+    "poemsCount": 4
+  },
+  {
+    "id": 2968,
+    "name": "إبراهيم الطويجن",
+    "slug": "ibrahim-al-tuwaijn",
+    "eraId": 8,
+    "poemsCount": 2
+  },
+  {
+    "id": 2668,
+    "name": "إبراهيم اليزيدي",
+    "slug": "ibrahim-yazidi",
+    "eraId": 2,
+    "poemsCount": 14
+  },
+  {
+    "id": 2786,
+    "name": "إبراهيم بن المهدي",
+    "slug": "ibrahim-ibn-al-mahdi",
+    "eraId": 2,
+    "poemsCount": 97
+  },
+  {
+    "id": 2670,
+    "name": "إبراهيم بن شبابة",
+    "slug": "ibrahim-bin-shababah",
+    "eraId": 2,
+    "poemsCount": 1
+  },
+  {
+    "id": 2618,
+    "name": "إبراهيم بن كنيف النبهاني",
+    "slug": "ibrahim-bin-knaif-al-nabhani",
+    "eraId": 1,
+    "poemsCount": 1
+  },
+  {
+    "id": 2732,
+    "name": "إبراهيم بن هرمة",
+    "slug": "ibrahim-bin-herma",
+    "eraId": 2,
+    "poemsCount": 278
+  },
+  {
+    "id": 3054,
+    "name": "إبراهيم بن يحيى العاملي",
+    "slug": "ibrahim-bin-yahya-al-amili",
+    "eraId": 9,
+    "poemsCount": 21
+  },
+  {
+    "id": 3043,
+    "name": "إبراهيم خيكي",
+    "slug": "ibrahim-khiki",
+    "eraId": 9,
+    "poemsCount": 1
+  },
+  {
+    "id": 3538,
+    "name": "إبراهيم عبد القادر المازني",
+    "slug": "ibrahim-al-mazini",
+    "eraId": 3,
+    "poemsCount": 114
+  },
+  {
+    "id": 3435,
+    "name": "إسماعيل النسائي",
+    "slug": "ismail-al-nisai",
+    "eraId": 4,
+    "poemsCount": 22
+  },
+  {
+    "id": 3047,
+    "name": "إلياس إدة",
+    "slug": "elias-edh",
+    "eraId": 9,
+    "poemsCount": 18
+  },
+  {
+    "id": 3528,
+    "name": "إياس الطائي",
+    "slug": "ayas-al-taie",
+    "eraId": 6,
+    "poemsCount": 1
+  },
+  {
+    "id": 3537,
+    "name": "إيليا أبو ماضي",
+    "slug": "elia-abu-madi",
+    "eraId": 3,
+    "poemsCount": 285
+  },
+  {
+    "id": 2832,
+    "name": "ابن أبي البشر",
+    "slug": "ibn-abi-al-bishr",
+    "eraId": 7,
+    "poemsCount": 66
+  },
+  {
+    "id": 3371,
+    "name": "ابن أبي الحوساء",
+    "slug": "ibn-abi-al-hosa",
+    "eraId": 4,
+    "poemsCount": 1
+  },
+  {
+    "id": 2851,
+    "name": "ابن أبي الخصال",
+    "slug": "ibn-abi-al-khisal",
+    "eraId": 7,
+    "poemsCount": 108
+  },
+  {
+    "id": 2672,
+    "name": "ابن أبي السعلات",
+    "slug": "ibn-abi-al-salat",
+    "eraId": 2,
+    "poemsCount": 1
+  },
+  {
+    "id": 3372,
+    "name": "ابن أبي العقب",
+    "slug": "ibn-abi-al-aqab",
+    "eraId": 4,
+    "poemsCount": 2
+  },
+  {
+    "id": 2969,
+    "name": "ابن أبي العيش",
+    "slug": "ibn-abi-al-aish",
+    "eraId": 8,
+    "poemsCount": 1
+  },
+  {
+    "id": 2873,
+    "name": "ابن أبي اليسر",
+    "slug": "ibn-abi-alesr",
+    "eraId": 10,
+    "poemsCount": 1
+  },
+  {
+    "id": 3015,
+    "name": "ابن أبي حصينة",
+    "slug": "ibn-abi-hussaynah",
+    "eraId": 8,
+    "poemsCount": 132
+  },
+  {
+    "id": 2877,
+    "name": "ابن أبي حفص",
+    "slug": "ibn-abi-hafs",
+    "eraId": 10,
+    "poemsCount": 4
+  },
+  {
+    "id": 2875,
+    "name": "ابن أبي عيسى",
+    "slug": "abn-aba-isa",
+    "eraId": 10,
+    "poemsCount": 3
+  },
+  {
+    "id": 2876,
+    "name": "ابن أرفع رأس",
+    "slug": "ibn-erf-ras",
+    "eraId": 10,
+    "poemsCount": 5
+  },
+  {
+    "id": 2797,
+    "name": "ابن أفلح العبسي",
+    "slug": "ibn-aflah-al-absi ",
+    "eraId": 2,
+    "poemsCount": 15
+  },
+  {
+    "id": 3143,
+    "name": "ابن أم حزنة",
+    "slug": "ibn-umm-hznh",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2883,
+    "name": "ابن إدريس التجيبي",
+    "slug": "bn-adris-altchibey",
+    "eraId": 10,
+    "poemsCount": 2
+  },
+  {
+    "id": 2675,
+    "name": "ابن إسرائيل",
+    "slug": "ibn-israel",
+    "eraId": 2,
+    "poemsCount": 1
+  },
+  {
+    "id": 2970,
+    "name": "ابن الأبار البلنسي",
+    "slug": "ibn-alabar",
+    "eraId": 8,
+    "poemsCount": 253
+  },
+  {
+    "id": 2874,
+    "name": "ابن الأثير المحدث",
+    "slug": "ibn-alothir-amahdt",
+    "eraId": 10,
+    "poemsCount": 8
+  },
+  {
+    "id": 2878,
+    "name": "ابن الأردخل",
+    "slug": "abn-alerdkhal",
+    "eraId": 10,
+    "poemsCount": 18
+  },
+  {
+    "id": 2674,
+    "name": "ابن الأشد البهدلي",
+    "slug": "ibn-al-ashd-al-bahdali",
+    "eraId": 2,
+    "poemsCount": 5
+  },
+  {
+    "id": 3141,
+    "name": "ابن الأطنابة",
+    "slug": "bin-alotunabh",
+    "eraId": 5,
+    "poemsCount": 8
+  },
+  {
+    "id": 2841,
+    "name": "ابن الابار الخولاني",
+    "slug": "ibn-al-abar-khawlani",
+    "eraId": 7,
+    "poemsCount": 36
+  },
+  {
+    "id": 2879,
+    "name": "ابن البراق",
+    "slug": "abn-albrac",
+    "eraId": 10,
+    "poemsCount": 4
+  },
+  {
+    "id": 2880,
+    "name": "ابن البرون الصقلي",
+    "slug": "abn-alprun-alskulai",
+    "eraId": 10,
+    "poemsCount": 4
+  },
+  {
+    "id": 2676,
+    "name": "ابن البواب",
+    "slug": "ibn-al-bawaab",
+    "eraId": 2,
+    "poemsCount": 2
+  },
+  {
+    "id": 2964,
+    "name": "ابن الجباس الدمياطي",
+    "slug": "ibn-al-gabbas-al-damiati",
+    "eraId": 8,
+    "poemsCount": 6
+  },
+  {
+    "id": 3060,
+    "name": "ابن الجزري",
+    "slug": "ibn-al-jazari",
+    "eraId": 9,
+    "poemsCount": 231
+  },
+  {
+    "id": 2882,
+    "name": "ابن الجنان",
+    "slug": "bn-ganan",
+    "eraId": 10,
+    "poemsCount": 48
+  },
+  {
+    "id": 2962,
+    "name": "ابن الجياب الغرناطي",
+    "slug": "ibn-al-gyab-al-ghannati",
+    "eraId": 8,
+    "poemsCount": 476
+  },
+  {
+    "id": 2881,
+    "name": "ابن الحاجب النحوي",
+    "slug": "abn-alhajeb-alnhoi",
+    "eraId": 10,
+    "poemsCount": 10
+  },
+  {
+    "id": 2844,
+    "name": "ابن الحداد الأندلسي",
+    "slug": "ibn-al-haddad-al-andalusi",
+    "eraId": 7,
+    "poemsCount": 81
+  },
+  {
+    "id": 2613,
+    "name": "ابن الحمامة",
+    "slug": "ibn-al-hamaama",
+    "eraId": 1,
+    "poemsCount": 1
+  },
+  {
+    "id": 2830,
+    "name": "ابن الحناط",
+    "slug": "ibn-al-hanat",
+    "eraId": 7,
+    "poemsCount": 43
+  },
+  {
+    "id": 3048,
+    "name": "ابن الخراط",
+    "slug": "ibn-al-kharat",
+    "eraId": 9,
+    "poemsCount": 1
+  },
+  {
+    "id": 2991,
+    "name": "ابن الخياط",
+    "slug": "ibn-al-khayyat",
+    "eraId": 8,
+    "poemsCount": 152
+  },
+  {
+    "id": 2987,
+    "name": "ابن الخيمي",
+    "slug": "ibn-al-khiyami",
+    "eraId": 8,
+    "poemsCount": 58
+  },
+  {
+    "id": 3413,
+    "name": "ابن الدمينة",
+    "slug": "ibn-aldamaina",
+    "eraId": 4,
+    "poemsCount": 130
+  },
+  {
+    "id": 2885,
+    "name": "ابن الدهان",
+    "slug": "abn-aldhan",
+    "eraId": 10,
+    "poemsCount": 68
+  },
+  {
+    "id": 3139,
+    "name": "ابن الرعلاء",
+    "slug": "ibn-alrala",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2647,
+    "name": "ابن الرومي",
+    "slug": "abn-rumi",
+    "eraId": 2,
+    "poemsCount": 2020
+  },
+  {
+    "id": 2979,
+    "name": "ابن الزقاق",
+    "slug": "ibn-al-zaqqaq",
+    "eraId": 8,
+    "poemsCount": 151
+  },
+  {
+    "id": 2756,
+    "name": "ابن الزيات",
+    "slug": "ibn-alzayyat",
+    "eraId": 2,
+    "poemsCount": 174
+  },
+  {
+    "id": 2886,
+    "name": "ابن الساعاتي",
+    "slug": "abn-alsaati",
+    "eraId": 10,
+    "poemsCount": 519
+  },
+  {
+    "id": 2828,
+    "name": "ابن السراج المالقي",
+    "slug": "ibn-al-sarraj-al-malqi",
+    "eraId": 7,
+    "poemsCount": 2
+  },
+  {
+    "id": 2855,
+    "name": "ابن السيد البطليوسي",
+    "slug": "bin-al-sayed-al-bateousi",
+    "eraId": 7,
+    "poemsCount": 50
+  },
+  {
+    "id": 2692,
+    "name": "ابن الشبل البغدادي",
+    "slug": "ibn-al-shibl-al-baghdadi",
+    "eraId": 2,
+    "poemsCount": 20
+  },
+  {
+    "id": 3008,
+    "name": "ابن الصباغ الجذامي",
+    "slug": "ibn-al-sabbagh-al-jazami",
+    "eraId": 8,
+    "poemsCount": 147
+  },
+  {
+    "id": 2688,
+    "name": "ابن الصيقل",
+    "slug": "ibn-al-sayqal",
+    "eraId": 2,
+    "poemsCount": 15
+  },
+  {
+    "id": 3079,
+    "name": "ابن الطيب الشرقي",
+    "slug": "ibn-al-tayyib-al-sharqi",
+    "eraId": 9,
+    "poemsCount": 106
+  },
+  {
+    "id": 3142,
+    "name": "ابن العجلان النهدي",
+    "slug": "ibn-ajlan-nahdi",
+    "eraId": 5,
+    "poemsCount": 18
+  },
+  {
+    "id": 3019,
+    "name": "ابن العديم",
+    "slug": "ibn-al-adim",
+    "eraId": 8,
+    "poemsCount": 12
+  },
+  {
+    "id": 2757,
+    "name": "ابن العلاف",
+    "slug": "ibn-al-allaf",
+    "eraId": 2,
+    "poemsCount": 16
+  },
+  {
+    "id": 2884,
+    "name": "ابن الفارض",
+    "slug": "bin-alfard",
+    "eraId": 10,
+    "poemsCount": 80
+  },
+  {
+    "id": 2888,
+    "name": "ابن الفراش",
+    "slug": "abn-alfras",
+    "eraId": 10,
+    "poemsCount": 12
+  },
+  {
+    "id": 2833,
+    "name": "ابن الفرضي",
+    "slug": "ibn-al-faradi",
+    "eraId": 7,
+    "poemsCount": 1
+  },
+  {
+    "id": 3001,
+    "name": "ابن القيسراني",
+    "slug": "ibn-al-qaysrani",
+    "eraId": 8,
+    "poemsCount": 82
+  },
+  {
+    "id": 2890,
+    "name": "ابن المتفننة",
+    "slug": "abn-almtfnna",
+    "eraId": 10,
+    "poemsCount": 1
+  },
+  {
+    "id": 2892,
+    "name": "ابن المستوفي الإربلي",
+    "slug": "abn-almstofi-alarpley",
+    "eraId": 10,
+    "poemsCount": 20
+  },
+  {
+    "id": 3140,
+    "name": "ابن المضلَّل",
+    "slug": "bin-almozll",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 2709,
+    "name": "ابن المعتز",
+    "slug": "ibn-al-mutaz",
+    "eraId": 2,
+    "poemsCount": 748
+  },
+  {
+    "id": 2889,
+    "name": "ابن المقرب العيوني",
+    "slug": "abn-almqrb-alaaona",
+    "eraId": 10,
+    "poemsCount": 98
+  },
+  {
+    "id": 2983,
+    "name": "ابن المُقري",
+    "slug": "ibn-al-maqri",
+    "eraId": 8,
+    "poemsCount": 349
+  },
+  {
+    "id": 3073,
+    "name": "ابن النحاس الحلبي",
+    "slug": "ibn-al-nahhas-al-halabi",
+    "eraId": 9,
+    "poemsCount": 87
+  },
+  {
+    "id": 2893,
+    "name": "ابن النطروني",
+    "slug": "ibn-alntrona",
+    "eraId": 10,
+    "poemsCount": 3
+  },
+  {
+    "id": 3027,
+    "name": "ابن النقيب",
+    "slug": "abn-alnguib",
+    "eraId": 9,
+    "poemsCount": 343
+  },
+  {
+    "id": 2736,
+    "name": "ابن الهبارية",
+    "slug": "ibn-al-habariya",
+    "eraId": 2,
+    "poemsCount": 215
+  },
+  {
+    "id": 2971,
+    "name": "ابن الوردي",
+    "slug": "ibn-alwardi",
+    "eraId": 8,
+    "poemsCount": 1232
+  },
+  {
+    "id": 2891,
+    "name": "ابن الياسمين",
+    "slug": "ibn-alyasmen",
+    "eraId": 10,
+    "poemsCount": 8
+  },
+  {
+    "id": 2796,
+    "name": "ابن بابك",
+    "slug": "ibn-babak ",
+    "eraId": 2,
+    "poemsCount": 33
+  },
+  {
+    "id": 2887,
+    "name": "ابن بشري الصقلي",
+    "slug": "ibn-boshre-alskulai",
+    "eraId": 10,
+    "poemsCount": 3
+  },
+  {
+    "id": 2858,
+    "name": "ابن بقي القرطبي",
+    "slug": "ibn-baqy-al-qurtubi",
+    "eraId": 7,
+    "poemsCount": 48
+  },
+  {
+    "id": 3151,
+    "name": "ابنة أبي الجدعاء",
+    "slug": "abnh-aiba-aljdaa",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3365,
+    "name": "ابنة أسلم بنت عبد البكري",
+    "slug": "abnat -aslam-bint-abdalbakrii",
+    "eraId": 4,
+    "poemsCount": 1
+  },
+  {
+    "id": 3057,
+    "name": "ابنة الشحنة",
+    "slug": "bnt-alshna",
+    "eraId": 9,
+    "poemsCount": 2
+  },
+  {
+    "id": 3147,
+    "name": "ابنة حكيم بن عمرو العبدية",
+    "slug": "abnh-hakim-ben-amr-alabdih",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2643,
+    "name": "ابنة لبيد بن ربيعة العامري",
+    "slug": "bint-labid",
+    "eraId": 1,
+    "poemsCount": 1
+  },
+  {
+    "id": 2982,
+    "name": "ابن تيمية",
+    "slug": "ibn-taymiyyah",
+    "eraId": 8,
+    "poemsCount": 1
+  },
+  {
+    "id": 3144,
+    "name": "ابن ثور العامري",
+    "slug": "ibn-thor-ameri",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 2894,
+    "name": "ابن جبير الشاطبي",
+    "slug": "ibn-jubair-shaatibi",
+    "eraId": 10,
+    "poemsCount": 98
+  },
+  {
+    "id": 2895,
+    "name": "ابن جرج الذهبي",
+    "slug": "ibn-grj-alzhba",
+    "eraId": 10,
+    "poemsCount": 4
+  },
+  {
+    "id": 3145,
+    "name": "ابن جوين الطائي",
+    "slug": "ibn-gwen-tai",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2896,
+    "name": "ابن جيا",
+    "slug": "ibn-jia",
+    "eraId": 10,
+    "poemsCount": 7
+  },
+  {
+    "id": 2829,
+    "name": "ابن حبيش",
+    "slug": "ibn-hobeish",
+    "eraId": 7,
+    "poemsCount": 17
+  },
+  {
+    "id": 2728,
+    "name": "ابن حجاج",
+    "slug": "ibn-hajjaj",
+    "eraId": 2,
+    "poemsCount": 271
+  },
+  {
+    "id": 2957,
+    "name": "ابن حجر العسقلاني",
+    "slug": "ibn-hajar-al-asqalani",
+    "eraId": 8,
+    "poemsCount": 117
+  },
+  {
+    "id": 2898,
+    "name": "ابن حربون",
+    "slug": "ibn-hrbun",
+    "eraId": 10,
+    "poemsCount": 1
+  },
+  {
+    "id": 2824,
+    "name": "ابن حريق البلنسي",
+    "slug": "bin-hariq-albalancy",
+    "eraId": 7,
+    "poemsCount": 47
+  },
+  {
+    "id": 2846,
+    "name": "ابن حزم الأندلسي",
+    "slug": "ibn-hazm",
+    "eraId": 7,
+    "poemsCount": 167
+  },
+  {
+    "id": 2899,
+    "name": "ابن حزمون",
+    "slug": "ibn-hzmon",
+    "eraId": 10,
+    "poemsCount": 4
+  },
+  {
+    "id": 2837,
+    "name": "ابن حمديس",
+    "slug": "ibn-hamdis",
+    "eraId": 7,
+    "poemsCount": 365
+  },
+  {
+    "id": 2900,
+    "name": "ابن حموية",
+    "slug": "ibn-hmouah",
+    "eraId": 10,
+    "poemsCount": 5
+  },
+  {
+    "id": 2818,
+    "name": "ابن حيوس",
+    "slug": "abn-hius",
+    "eraId": 7,
+    "poemsCount": 121
+  },
+  {
+    "id": 2738,
+    "name": "ابن حيون",
+    "slug": "al-qadi-al-numan",
+    "eraId": 2,
+    "poemsCount": 1
+  },
+  {
+    "id": 2849,
+    "name": "ابن خاتمة الأندلسي",
+    "slug": "ibn-khatma",
+    "eraId": 7,
+    "poemsCount": 226
+  },
+  {
+    "id": 2820,
+    "name": "ابن خفاجة",
+    "slug": "abn-khafajah",
+    "eraId": 7,
+    "poemsCount": 260
+  },
+  {
+    "id": 2988,
+    "name": "ابن خلدون",
+    "slug": "ibn-khaldun",
+    "eraId": 8,
+    "poemsCount": 14
+  },
+  {
+    "id": 2965,
+    "name": "ابن خلكان",
+    "slug": "ibn-khalkan",
+    "eraId": 8,
+    "poemsCount": 52
+  },
+  {
+    "id": 3003,
+    "name": "ابن دانيال الموصلي",
+    "slug": "ibn-daniyal",
+    "eraId": 8,
+    "poemsCount": 293
+  },
+  {
+    "id": 2744,
+    "name": "ابن داود الظاهري",
+    "slug": "ibn-dawud-al-zahiri",
+    "eraId": 2,
+    "poemsCount": 126
+  },
+  {
+    "id": 2716,
+    "name": "ابن دراج القسطلي",
+    "slug": "ibn-darray-alqastalli",
+    "eraId": 2,
+    "poemsCount": 171
+  },
+  {
+    "id": 2745,
+    "name": "ابن دريد الأزدي",
+    "slug": "ibn-duraid-al-azde",
+    "eraId": 2,
+    "poemsCount": 100
+  },
+  {
+    "id": 3000,
+    "name": "ابن دقيق العيد",
+    "slug": "bin-daqiq-al-eid",
+    "eraId": 8,
+    "poemsCount": 52
+  },
+  {
+    "id": 2897,
+    "name": "ابن دنينير",
+    "slug": "ibn-dananir",
+    "eraId": 10,
+    "poemsCount": 130
+  },
+  {
+    "id": 2902,
+    "name": "ابن دهن الحصي",
+    "slug": "cat-ibn-dhn-alhsa",
+    "eraId": 10,
+    "poemsCount": 4
+  },
+  {
+    "id": 3025,
+    "name": "ابن رازكة",
+    "slug": "abn-razakh",
+    "eraId": 9,
+    "poemsCount": 25
+  },
+  {
+    "id": 2903,
+    "name": "ابن راشد الحمامي",
+    "slug": "cat-ibn-rashid-alhamami",
+    "eraId": 10,
+    "poemsCount": 1
+  },
+  {
+    "id": 2901,
+    "name": "ابن رواحة الحموي",
+    "slug": "ibn-rawahah-alhamwi",
+    "eraId": 10,
+    "poemsCount": 25
+  },
+  {
+    "id": 3026,
+    "name": "ابن زاكور",
+    "slug": "abn-zakur",
+    "eraId": 9,
+    "poemsCount": 415
+  },
+  {
+    "id": 3150,
+    "name": "ابن زرعة الباهلي",
+    "slug": "ibn-zareah-baahili",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2648,
+    "name": "ابن زريق البغدادي",
+    "slug": "ibn-al-baghdadi-zurayk",
+    "eraId": 2,
+    "poemsCount": 4
+  },
+  {
+    "id": 2986,
+    "name": "ابن زمرك",
+    "slug": "ibn-zamrak",
+    "eraId": 8,
+    "poemsCount": 153
+  },
+  {
+    "id": 2904,
+    "name": "ابن زهر الحفيد",
+    "slug": "cat-ibn-zahr-alhfid",
+    "eraId": 10,
+    "poemsCount": 35
+  },
+  {
+    "id": 2822,
+    "name": "ابن زيدون",
+    "slug": "abn-zaydun",
+    "eraId": 7,
+    "poemsCount": 159
+  },
+  {
+    "id": 2906,
+    "name": "ابن سالم الهمداني",
+    "slug": "cat-ibn-salem-al-hamdani",
+    "eraId": 10,
+    "poemsCount": 2
+  },
+  {
+    "id": 2909,
+    "name": "ابن سعد البلنسي",
+    "slug": "ibn-saad-alblenci",
+    "eraId": 10,
+    "poemsCount": 4
+  },
+  {
+    "id": 2782,
+    "name": "ابن سكرة",
+    "slug": "ibn-soukra",
+    "eraId": 2,
+    "poemsCount": 117
+  },
+  {
+    "id": 2905,
+    "name": "ابن سناء الملك",
+    "slug": "ibn-sanaa-almalk",
+    "eraId": 10,
+    "poemsCount": 414
+  },
+  {
+    "id": 3011,
+    "name": "ابن سنان الخفاجي",
+    "slug": "ibn-sinan-al-khafaji",
+    "eraId": 8,
+    "poemsCount": 148
+  },
+  {
+    "id": 2992,
+    "name": "ابن سهل الأندلسي",
+    "slug": "ibn-sahl-al-andalusi",
+    "eraId": 8,
+    "poemsCount": 227
+  },
+  {
+    "id": 3010,
+    "name": "ابن سودون",
+    "slug": "ibn-sodun",
+    "eraId": 8,
+    "poemsCount": 286
+  },
+  {
+    "id": 2747,
+    "name": "ابن سينا",
+    "slug": "ibn-sina",
+    "eraId": 2,
+    "poemsCount": 49
+  },
+  {
+    "id": 3129,
+    "name": "ابن شعواء الفزاري",
+    "slug": "ibn-shwai-fazari",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2907,
+    "name": "ابن شكيل",
+    "slug": "ibn-shakeel",
+    "eraId": 10,
+    "poemsCount": 26
+  },
+  {
+    "id": 2847,
+    "name": "ابن شهيد",
+    "slug": "ibn-al-shahid",
+    "eraId": 7,
+    "poemsCount": 84
+  },
+  {
+    "id": 2908,
+    "name": "ابن صابر المنجنيقي",
+    "slug": "ibn-saber-almngeniqi",
+    "eraId": 10,
+    "poemsCount": 21
+  },
+  {
+    "id": 2660,
+    "name": "ابن طباطبا العلوي",
+    "slug": "ibn-tabataba-al alawi",
+    "eraId": 2,
+    "poemsCount": 182
+  },
+  {
+    "id": 2912,
+    "name": "ابن طفيل",
+    "slug": "ibn-tufail",
+    "eraId": 10,
+    "poemsCount": 3
+  },
+  {
+    "id": 2836,
+    "name": "ابن عبد البر",
+    "slug": "ibn-abd-al-barr",
+    "eraId": 7,
+    "poemsCount": 4
+  },
+  {
+    "id": 2718,
+    "name": "ابن عبد ربه",
+    "slug": "ibn-abd-rabbih",
+    "eraId": 2,
+    "poemsCount": 283
+  },
+  {
+    "id": 2910,
+    "name": "ابن عطاء الله المصري",
+    "slug": "ibn-ata-allah-almasry",
+    "eraId": 10,
+    "poemsCount": 4
+  },
+  {
+    "id": 3028,
+    "name": "ابن علوي الحداد",
+    "slug": "ibn-alawi-al-haddad",
+    "eraId": 9,
+    "poemsCount": 162
+  },
+  {
+    "id": 3133,
+    "name": "ابن عليق الطائي",
+    "slug": "ibn-aliq-tai",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2913,
+    "name": "ابن عمرو الأغماتي",
+    "slug": "ibn-amr-alogmati",
+    "eraId": 10,
+    "poemsCount": 19
+  },
+  {
+    "id": 3152,
+    "name": "ابن عمرو الكندي",
+    "slug": "ibn-amr-alknda",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3475,
+    "name": "ابن عنقاء الفزاري",
+    "slug": "anqa-al-fazari",
+    "eraId": 6,
+    "poemsCount": 6
+  },
+  {
+    "id": 2915,
+    "name": "ابن عنين",
+    "slug": "ibn-anin",
+    "eraId": 10,
+    "poemsCount": 319
+  },
+  {
+    "id": 2914,
+    "name": "ابن عياش التجيبي",
+    "slug": "ibn-ayyash-altchibey",
+    "eraId": 10,
+    "poemsCount": 3
+  },
+  {
+    "id": 2848,
+    "name": "ابن فركون",
+    "slug": "ibn-farkoun",
+    "eraId": 7,
+    "poemsCount": 190
+  },
+  {
+    "id": 3149,
+    "name": "ابن فكهة",
+    "slug": "ibn-vkhh",
+    "eraId": 5,
+    "poemsCount": 5
+  },
+  {
+    "id": 3002,
+    "name": "ابن قسيم الحموي",
+    "slug": "ibn-qasim-al-hamawi",
+    "eraId": 8,
+    "poemsCount": 78
+  },
+  {
+    "id": 2821,
+    "name": "ابن قلاقس",
+    "slug": "abn-qlaks",
+    "eraId": 7,
+    "poemsCount": 504
+  },
+  {
+    "id": 2995,
+    "name": "ابن قيم الجوزية",
+    "slug": "ibn-qayyim-al-jawziyya",
+    "eraId": 8,
+    "poemsCount": 2
+  },
+  {
+    "id": 2918,
+    "name": "ابن كسرى",
+    "slug": "ibn-ksry",
+    "eraId": 10,
+    "poemsCount": 26
+  },
+  {
+    "id": 3146,
+    "name": "ابن كلاب العقيلي",
+    "slug": "ibn-klab-alaqila",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2916,
+    "name": "ابن لبال الشريشي",
+    "slug": "ibn-lbal-alshresa",
+    "eraId": 10,
+    "poemsCount": 41
+  },
+  {
+    "id": 2779,
+    "name": "ابن لنكك",
+    "slug": "ibn-linkk",
+    "eraId": 2,
+    "poemsCount": 74
+  },
+  {
+    "id": 3148,
+    "name": "ابن مالك الحميري",
+    "slug": "ibn-malc-alhmira",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2917,
+    "name": "ابن مجاور",
+    "slug": "ibn-mgeor",
+    "eraId": 10,
+    "poemsCount": 5
+  },
+  {
+    "id": 2920,
+    "name": "ابن مسعود الخشني",
+    "slug": "ibn-massoud-khushani",
+    "eraId": 10,
+    "poemsCount": 1
+  },
+  {
+    "id": 2919,
+    "name": "ابن مسعود القرطبي",
+    "slug": "ibn-masood-qurtubi",
+    "eraId": 10,
+    "poemsCount": 9
+  },
+  {
+    "id": 2921,
+    "name": "ابن مطروح البلنسي",
+    "slug": "ibn-matrouh-alblenci",
+    "eraId": 10,
+    "poemsCount": 2
+  },
+  {
+    "id": 3024,
+    "name": "ابن معتوق",
+    "slug": "abn-matouk",
+    "eraId": 9,
+    "poemsCount": 154
+  },
+  {
+    "id": 3062,
+    "name": "ابن معصوم",
+    "slug": "ibn-masum",
+    "eraId": 9,
+    "poemsCount": 307
+  },
+  {
+    "id": 2690,
+    "name": "ابن مكنسة",
+    "slug": "ibn-maknasa",
+    "eraId": 2,
+    "poemsCount": 45
+  },
+  {
+    "id": 2959,
+    "name": "ابن مليك الحموي",
+    "slug": "ibn-malik-al-hamwi",
+    "eraId": 8,
+    "poemsCount": 273
+  },
+  {
+    "id": 2922,
+    "name": "ابن منجا الدمشقي",
+    "slug": "ibn-mnja-aldmishqi",
+    "eraId": 10,
+    "poemsCount": 2
+  },
+  {
+    "id": 3004,
+    "name": "ابن منير الطرابلسي",
+    "slug": "ibn-munir-trabelsi",
+    "eraId": 8,
+    "poemsCount": 125
+  },
+  {
+    "id": 2923,
+    "name": "ابن مواهب",
+    "slug": "ibn-moahb",
+    "eraId": 10,
+    "poemsCount": 3
+  },
+  {
+    "id": 2754,
+    "name": "ابن ميادة",
+    "slug": "ibn-mayada",
+    "eraId": 2,
+    "poemsCount": 122
+  },
+  {
+    "id": 2785,
+    "name": "ابن نباتة السعدي",
+    "slug": "ibn-nabata-al-saadi",
+    "eraId": 2,
+    "poemsCount": 291
+  },
+  {
+    "id": 2956,
+    "name": "ابن نباته المصري",
+    "slug": "abn-nbath",
+    "eraId": 8,
+    "poemsCount": 1727
+  },
+  {
+    "id": 2925,
+    "name": "ابن نجيب الهاشمي",
+    "slug": "ibn-najib-al-hashemi",
+    "eraId": 10,
+    "poemsCount": 2
+  },
+  {
+    "id": 2924,
+    "name": "ابن نفادة",
+    "slug": "ibn-nfadh",
+    "eraId": 10,
+    "poemsCount": 4
+  },
+  {
+    "id": 2926,
+    "name": "ابن نوفل الحلبي",
+    "slug": "ibn-nawfal-al-halabi",
+    "eraId": 10,
+    "poemsCount": 5
+  },
+  {
+    "id": 2856,
+    "name": "ابن هانئ الأصغر",
+    "slug": "ibn-hani-al-asghar",
+    "eraId": 7,
+    "poemsCount": 70
+  },
+  {
+    "id": 2715,
+    "name": "ابن هانئ الأندلسي",
+    "slug": "ibn-hani-andalusia",
+    "eraId": 2,
+    "poemsCount": 119
+  },
+  {
+    "id": 2845,
+    "name": "ابن هذيل القرطبي",
+    "slug": "ibn-hudhayl-al-qurtubi",
+    "eraId": 7,
+    "poemsCount": 135
+  },
+  {
+    "id": 2781,
+    "name": "ابن هندو",
+    "slug": "ibn-hindu",
+    "eraId": 2,
+    "poemsCount": 150
+  },
+  {
+    "id": 2857,
+    "name": "ابن وهبون",
+    "slug": "ibn-wahbon ",
+    "eraId": 7,
+    "poemsCount": 52
+  },
+  {
+    "id": 2773,
+    "name": "ابن وهيب الحميري",
+    "slug": "ibn-wahib-al-humairi",
+    "eraId": 2,
+    "poemsCount": 44
+  },
+  {
+    "id": 2666,
+    "name": "ابن يموت",
+    "slug": "ibn-yamut",
+    "eraId": 2,
+    "poemsCount": 1
+  },
+  {
+    "id": 2941,
+    "name": "الأبلة البغدادي",
+    "slug": "alablah-albaghdadi",
+    "eraId": 10,
+    "poemsCount": 300
+  },
+  {
+    "id": 2838,
+    "name": "الأبيوردي",
+    "slug": "alabywrdy",
+    "eraId": 7,
+    "poemsCount": 390
+  },
+  {
+    "id": 3188,
+    "name": "الأحبش التميمي",
+    "slug": "alahbash-tamimi",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3189,
+    "name": "الأحمر بن جندل",
+    "slug": "cat-alahmr-ben-jandal",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2719,
+    "name": "الأحنف العكبري",
+    "slug": "al-ahnaf-alakbari",
+    "eraId": 2,
+    "poemsCount": 824
+  },
+  {
+    "id": 3388,
+    "name": "الأحوص الأنصاري",
+    "slug": "alahos-alansari",
+    "eraId": 4,
+    "poemsCount": 224
+  },
+  {
+    "id": 3187,
+    "name": "الأخضر الفزاري",
+    "slug": "alokhaddr-alfsara",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3451,
+    "name": "الأخضر اللهبي",
+    "slug": "al-akhdar-al-lahbi",
+    "eraId": 4,
+    "poemsCount": 58
+  },
+  {
+    "id": 3383,
+    "name": "الأخطل",
+    "slug": "akhtal",
+    "eraId": 4,
+    "poemsCount": 196
+  },
+  {
+    "id": 3190,
+    "name": "الأخنس التغلبي",
+    "slug": "alokhns-altglbe",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3191,
+    "name": "الأدير الكلبي",
+    "slug": "aladar-kalbi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2840,
+    "name": "الأرجاني",
+    "slug": "alarjani",
+    "eraId": 7,
+    "poemsCount": 315
+  },
+  {
+    "id": 3192,
+    "name": "الأسعر الجعفي",
+    "slug": "alosar-aljafee",
+    "eraId": 5,
+    "poemsCount": 10
+  },
+  {
+    "id": 3194,
+    "name": "الأسفع الأرحبي",
+    "slug": "alosfa-arhabi",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3193,
+    "name": "الأسلوم اليامي",
+    "slug": "alosalum-yami",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3196,
+    "name": "الأسود التغلبي",
+    "slug": "alosod-altgelba",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3198,
+    "name": "الأسود النهشلي",
+    "slug": "alosaud-alnhishla",
+    "eraId": 5,
+    "poemsCount": 74
+  },
+  {
+    "id": 3467,
+    "name": "الأسود بن قطبة",
+    "slug": "alaswad-bin-qutbah",
+    "eraId": 6,
+    "poemsCount": 9
+  },
+  {
+    "id": 3199,
+    "name": "الأشتر الحمامي",
+    "slug": "alostr-ahamami",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3195,
+    "name": "الأشعث الجاشي",
+    "slug": "alohath-aljashi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3197,
+    "name": "الأشعث بن عابس",
+    "slug": "alohos-ben-aabs",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2702,
+    "name": "الأصمعي",
+    "slug": "al-asmaee",
+    "eraId": 2,
+    "poemsCount": 1
+  },
+  {
+    "id": 3200,
+    "name": "الأضبط السعدي",
+    "slug": "aloillt-saadi",
+    "eraId": 5,
+    "poemsCount": 6
+  },
+  {
+    "id": 3203,
+    "name": "الأعرج المري",
+    "slug": "aloarj-almra",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3201,
+    "name": "الأعسر الضبي",
+    "slug": "alasar-dabbi",
+    "eraId": 5,
+    "poemsCount": 4
+  },
+  {
+    "id": 3484,
+    "name": "الأعشى",
+    "slug": "al-asha",
+    "eraId": 6,
+    "poemsCount": 82
+  },
+  {
+    "id": 3202,
+    "name": "الأعور بن عمرو الازدي",
+    "slug": "aloaor-ben-amr-alazda",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3521,
+    "name": "الأغلب العجلي",
+    "slug": "al-aghlab-alajli",
+    "eraId": 6,
+    "poemsCount": 65
+  },
+  {
+    "id": 3205,
+    "name": "الأفوة الأودي",
+    "slug": "alavoh-audi",
+    "eraId": 5,
+    "poemsCount": 28
+  },
+  {
+    "id": 2631,
+    "name": "الأقرع بن معاذ",
+    "slug": "al-aqrae-bin-maeadh",
+    "eraId": 1,
+    "poemsCount": 22
+  },
+  {
+    "id": 3443,
+    "name": "الأقيشر الأسدي",
+    "slug": "al-uqayshir-al-assadi",
+    "eraId": 4,
+    "poemsCount": 48
+  },
+  {
+    "id": 3058,
+    "name": "الأمير الصنعاني",
+    "slug": "alamer-alsnaani",
+    "eraId": 9,
+    "poemsCount": 433
+  },
+  {
+    "id": 3023,
+    "name": "الأمير منجك باشا",
+    "slug": "alamir-mnczyk-pasha",
+    "eraId": 9,
+    "poemsCount": 444
+  },
+  {
+    "id": 2712,
+    "name": "الأمين العباسي",
+    "slug": "al-amin",
+    "eraId": 2,
+    "poemsCount": 34
+  },
+  {
+    "id": 2701,
+    "name": "الإمام الشافعي",
+    "slug": "al-shafie",
+    "eraId": 2,
+    "poemsCount": 143
+  },
+  {
+    "id": 2974,
+    "name": "الباخرزي",
+    "slug": "al-bakhrzi",
+    "eraId": 8,
+    "poemsCount": 210
+  },
+  {
+    "id": 2954,
+    "name": "الباعونية",
+    "slug": "albaonih",
+    "eraId": 8,
+    "poemsCount": 12
+  },
+  {
+    "id": 2737,
+    "name": "الببغاء",
+    "slug": "albabgha",
+    "eraId": 2,
+    "poemsCount": 148
+  },
+  {
+    "id": 2649,
+    "name": "البحتري",
+    "slug": "albohtry",
+    "eraId": 2,
+    "poemsCount": 931
+  },
+  {
+    "id": 3204,
+    "name": "البراق",
+    "slug": "alburaq",
+    "eraId": 5,
+    "poemsCount": 12
+  },
+  {
+    "id": 3209,
+    "name": "البُرجُمي",
+    "slug": "albergma",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2978,
+    "name": "البرعي",
+    "slug": "al-burai",
+    "eraId": 8,
+    "poemsCount": 93
+  },
+  {
+    "id": 3208,
+    "name": "البسوس بنت منقذ التميمية",
+    "slug": "alpsos-pent-manqd-altmimah",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3444,
+    "name": "البعيث المجاشعي",
+    "slug": "al-baith-bin-al-majashi",
+    "eraId": 4,
+    "poemsCount": 85
+  },
+  {
+    "id": 2955,
+    "name": "البوصيري",
+    "slug": "al-busayri",
+    "eraId": 8,
+    "poemsCount": 59
+  },
+  {
+    "id": 2852,
+    "name": "التطيلي الأعمى",
+    "slug": "al-tutili",
+    "eraId": 7,
+    "poemsCount": 111
+  },
+  {
+    "id": 2727,
+    "name": "التهامي",
+    "slug": "al-tohami",
+    "eraId": 2,
+    "poemsCount": 105
+  },
+  {
+    "id": 2760,
+    "name": "الثعالبي",
+    "slug": "al-thaalibi",
+    "eraId": 2,
+    "poemsCount": 226
+  },
+  {
+    "id": 2710,
+    "name": "الجاحظ",
+    "slug": "al-jahiz",
+    "eraId": 2,
+    "poemsCount": 32
+  },
+  {
+    "id": 3207,
+    "name": "الجحاف الفزاري",
+    "slug": "aljuhav-fazari",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3206,
+    "name": "الجراح الهمداني",
+    "slug": "jarrah-al-hamdani",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2947,
+    "name": "الجزار السرقسطي",
+    "slug": "al-jazzar-ibn-al-saraqusti",
+    "eraId": 10,
+    "poemsCount": 71
+  },
+  {
+    "id": 3212,
+    "name": "الجميح الأسدي",
+    "slug": "aljmeh-alasadi",
+    "eraId": 5,
+    "poemsCount": 17
+  },
+  {
+    "id": 3210,
+    "name": "الجندل الفزاري",
+    "slug": "jandal-fazari",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3211,
+    "name": "الجوزاء بنت عروة البصرية",
+    "slug": "jawza-bnt-aroh",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3217,
+    "name": "الجيداء بنت زاهر الزبيدية",
+    "slug": "jida-bnt-zaher-zubaydiah",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3510,
+    "name": "الحادرة",
+    "slug": "al-hadra",
+    "eraId": 6,
+    "poemsCount": 15
+  },
+  {
+    "id": 3219,
+    "name": "الحارث الجرمي",
+    "slug": "alharth-aljerma",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3213,
+    "name": "الحارث الحضرمي",
+    "slug": "harith-al-hadrami",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3423,
+    "name": "الحارث المخزومي",
+    "slug": "al-makhzumi-al-harith",
+    "eraId": 4,
+    "poemsCount": 52
+  },
+  {
+    "id": 3216,
+    "name": "الحارث المذحجي",
+    "slug": "harith-almzhadji",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3215,
+    "name": "الحارث بن الحصين",
+    "slug": "harith-bin-alhchin-alkalpa",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3137,
+    "name": "الحارث بن حلزة",
+    "slug": "harith-bin-halzh",
+    "eraId": 5,
+    "poemsCount": 17
+  },
+  {
+    "id": 3214,
+    "name": "الحارث بن زهير",
+    "slug": "harith-bin-zuhair",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3218,
+    "name": "الحارث بن صريم الوادعي",
+    "slug": "harith-bin-sureym",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3222,
+    "name": "الحارث بن ظالم المري",
+    "slug": "harith-bn-zalm-marri",
+    "eraId": 5,
+    "poemsCount": 23
+  },
+  {
+    "id": 3221,
+    "name": "الحارث بن عباد",
+    "slug": "harith-ibn-abbad",
+    "eraId": 5,
+    "poemsCount": 10
+  },
+  {
+    "id": 3220,
+    "name": "الحارث بن عمرو الفزاري",
+    "slug": "cat-harith-bin-amr-fazari",
+    "eraId": 5,
+    "poemsCount": 5
+  },
+  {
+    "id": 3227,
+    "name": "الحارث بن مر",
+    "slug": "harith-bin-mor",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3090,
+    "name": "الحر العاملي",
+    "slug": "al-hurr-al-amili",
+    "eraId": 9,
+    "poemsCount": 12
+  },
+  {
+    "id": 3225,
+    "name": "الحسل الهمداني",
+    "slug": "al_husl-hamdani",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3039,
+    "name": "الحسن بن أحمد المسفيوي",
+    "slug": "al-misfiwiu",
+    "eraId": 9,
+    "poemsCount": 21
+  },
+  {
+    "id": 2663,
+    "name": "الحسن بن أحمد الهمداني",
+    "slug": "al-hassan-al-hamdani",
+    "eraId": 2,
+    "poemsCount": 12
+  },
+  {
+    "id": 2758,
+    "name": "الحسين بن الضحاك",
+    "slug": "ibn-al-dahhak-al-bahili",
+    "eraId": 2,
+    "poemsCount": 146
+  },
+  {
+    "id": 3400,
+    "name": "الحسين بن علي",
+    "slug": "husayn-ibn-ali",
+    "eraId": 4,
+    "poemsCount": 49
+  },
+  {
+    "id": 2799,
+    "name": "الحسين بن مطير الأسدي",
+    "slug": "al-hussein-al-asadi",
+    "eraId": 2,
+    "poemsCount": 39
+  },
+  {
+    "id": 3228,
+    "name": "الحشاش الأصغر",
+    "slug": "alhacas-alasgr",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3229,
+    "name": "الحصين بن حمام الفزاري",
+    "slug": "alhsan-ibn-hmam-fazari",
+    "eraId": 5,
+    "poemsCount": 18
+  },
+  {
+    "id": 3482,
+    "name": "الحطيئة",
+    "slug": "jarwal-ibn-aws",
+    "eraId": 6,
+    "poemsCount": 124
+  },
+  {
+    "id": 3226,
+    "name": "الحكم الفزاري",
+    "slug": "alhakm-alfazare",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3429,
+    "name": "الحكم بن عبدل الأسدي",
+    "slug": "al-hakam-bin-abdul-asadi",
+    "eraId": 4,
+    "poemsCount": 44
+  },
+  {
+    "id": 2739,
+    "name": "الحلاج",
+    "slug": "al-hallaj",
+    "eraId": 2,
+    "poemsCount": 137
+  },
+  {
+    "id": 2810,
+    "name": "الحمدوي",
+    "slug": "alhamdoui",
+    "eraId": 2,
+    "poemsCount": 78
+  },
+  {
+    "id": 2863,
+    "name": "الحيص بيص",
+    "slug": "alhees-bess",
+    "eraId": 10,
+    "poemsCount": 666
+  },
+  {
+    "id": 2659,
+    "name": "الخباز البلدي",
+    "slug": "alkhabaz-albalade",
+    "eraId": 2,
+    "poemsCount": 43
+  },
+  {
+    "id": 2726,
+    "name": "الخبز أرزي",
+    "slug": "al-khubz-aruzzi",
+    "eraId": 2,
+    "poemsCount": 375
+  },
+  {
+    "id": 3223,
+    "name": "الخرنق بنت بدر",
+    "slug": "khernq-bnt-bdr",
+    "eraId": 5,
+    "poemsCount": 15
+  },
+  {
+    "id": 2774,
+    "name": "الخريمي",
+    "slug": "al-khuraimy",
+    "eraId": 2,
+    "poemsCount": 71
+  },
+  {
+    "id": 3005,
+    "name": "الخطيب الحصكفي",
+    "slug": "al-khatib-al-hasakfi",
+    "eraId": 8,
+    "poemsCount": 85
+  },
+  {
+    "id": 3081,
+    "name": "الخفنجي",
+    "slug": "al-khafnji",
+    "eraId": 9,
+    "poemsCount": 37
+  },
+  {
+    "id": 2761,
+    "name": "الخليل الفراهيدي",
+    "slug": "al-khalil-al-farahidi",
+    "eraId": 2,
+    "poemsCount": 65
+  },
+  {
+    "id": 3138,
+    "name": "الخنساء",
+    "slug": "al-khansa",
+    "eraId": 5,
+    "poemsCount": 101
+  },
+  {
+    "id": 3224,
+    "name": "الخنساء بنت التيجان",
+    "slug": "alkhnasa-bnt-altejan",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3235,
+    "name": "الخنساء بنت زهير",
+    "slug": "khansaa-bnt-zhir",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3232,
+    "name": "الدحداحة الفقيمية",
+    "slug": "aldhaddahh-fiqimah",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3230,
+    "name": "الدعجاء بنت وهب",
+    "slug": "dajae-bnt-wahab",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3236,
+    "name": "الدهنا بنت مسحل",
+    "slug": "dhen-bnt-mshal",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3233,
+    "name": "الراشاء بن نهار",
+    "slug": "alrachae-ben-niahar",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2721,
+    "name": "الراضي بالله",
+    "slug": "ar-radi",
+    "eraId": 2,
+    "poemsCount": 53
+  },
+  {
+    "id": 3234,
+    "name": "الراعي المري",
+    "slug": "alraiaa-marti",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3391,
+    "name": "الراعي النميري",
+    "slug": "alraia-numeira",
+    "eraId": 4,
+    "poemsCount": 126
+  },
+  {
+    "id": 3231,
+    "name": "الراعي الهمداني",
+    "slug": "alrai-alhmdani",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2623,
+    "name": "الرباب بنت امرؤ القيس",
+    "slug": "arbab-bint-imru-al-qays",
+    "eraId": 1,
+    "poemsCount": 2
+  },
+  {
+    "id": 3237,
+    "name": "الربيع بن أبي الحقيق",
+    "slug": "raba-abn-iba-alhakik",
+    "eraId": 5,
+    "poemsCount": 11
+  },
+  {
+    "id": 3239,
+    "name": "الربيع بن زياد العبسي",
+    "slug": "raba-abn-ziad-al-absi",
+    "eraId": 5,
+    "poemsCount": 10
+  },
+  {
+    "id": 3238,
+    "name": "الربيع بن زياد الكلبي",
+    "slug": "raba-abn-ziad-al-kalbi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3242,
+    "name": "الربيع بن عقيل",
+    "slug": "raba-abn-aqeel",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2942,
+    "name": "الرصافي البلنسي",
+    "slug": "rusafi-al-balansi",
+    "eraId": 10,
+    "poemsCount": 80
+  },
+  {
+    "id": 3516,
+    "name": "الزبرقان بن بدر",
+    "slug": "alzubraqan-bin-badr",
+    "eraId": 6,
+    "poemsCount": 32
+  },
+  {
+    "id": 2640,
+    "name": "الزبير بن العوام",
+    "slug": "zubayr-ibn-al-awam",
+    "eraId": 1,
+    "poemsCount": 5
+  },
+  {
+    "id": 3240,
+    "name": "الزفيان",
+    "slug": "alzfean",
+    "eraId": 4,
+    "poemsCount": 13
+  },
+  {
+    "id": 2994,
+    "name": "الزمخشري",
+    "slug": "al-zamakhshari",
+    "eraId": 8,
+    "poemsCount": 19
+  },
+  {
+    "id": 3009,
+    "name": "الستالي",
+    "slug": "al-staley",
+    "eraId": 8,
+    "poemsCount": 133
+  },
+  {
+    "id": 2650,
+    "name": "السراج البغدادي",
+    "slug": "al-sarraj-al-baghdadi",
+    "eraId": 2,
+    "poemsCount": 91
+  },
+  {
+    "id": 2953,
+    "name": "السراج الوراق",
+    "slug": "alseraj-alwaraq",
+    "eraId": 8,
+    "poemsCount": 554
+  },
+  {
+    "id": 2725,
+    "name": "السري الرفاء",
+    "slug": "al-sari-al-raffa",
+    "eraId": 2,
+    "poemsCount": 559
+  },
+  {
+    "id": 3244,
+    "name": "السفاح التغلبي",
+    "slug": "asfah-altglbe",
+    "eraId": 5,
+    "poemsCount": 6
+  },
+  {
+    "id": 3241,
+    "name": "السلكة أم السليك",
+    "slug": "asalkh-om-alcelik",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3245,
+    "name": "السليك بن السلكة",
+    "slug": "alsleek-pn-asalkh",
+    "eraId": 5,
+    "poemsCount": 17
+  },
+  {
+    "id": 2614,
+    "name": "السمهري العلكي",
+    "slug": "alsmhry-alki",
+    "eraId": 1,
+    "poemsCount": 13
+  },
+  {
+    "id": 3243,
+    "name": "السموأل",
+    "slug": "samawal",
+    "eraId": 5,
+    "poemsCount": 15
+  },
+  {
+    "id": 2946,
+    "name": "السهروردي المقتول",
+    "slug": "suhrawardi",
+    "eraId": 10,
+    "poemsCount": 53
+  },
+  {
+    "id": 2787,
+    "name": "السيد الحميري",
+    "slug": "al-sayed-al-humairi",
+    "eraId": 2,
+    "poemsCount": 222
+  },
+  {
+    "id": 2952,
+    "name": "الشاب الظريف",
+    "slug": "alchab-alzerev",
+    "eraId": 8,
+    "poemsCount": 424
+  },
+  {
+    "id": 3078,
+    "name": "الشرواني",
+    "slug": "sherwani",
+    "eraId": 9,
+    "poemsCount": 0
+  },
+  {
+    "id": 2711,
+    "name": "الشريف الرضي",
+    "slug": "alsharif-alradi",
+    "eraId": 2,
+    "poemsCount": 679
+  },
+  {
+    "id": 2984,
+    "name": "الشريف العقيلي",
+    "slug": "sharif-al-aqili",
+    "eraId": 8,
+    "poemsCount": 983
+  },
+  {
+    "id": 2975,
+    "name": "الشريف المرتضى",
+    "slug": "sharif-al-murtaza",
+    "eraId": 8,
+    "poemsCount": 588
+  },
+  {
+    "id": 3492,
+    "name": "الشماخ الذبياني",
+    "slug": "alshimakh-al-dhubyani",
+    "eraId": 6,
+    "poemsCount": 75
+  },
+  {
+    "id": 3246,
+    "name": "الشنفرى",
+    "slug": "al-shanfari",
+    "eraId": 5,
+    "poemsCount": 29
+  },
+  {
+    "id": 3006,
+    "name": "الشهاب المنصوري",
+    "slug": "shehab-al-mansouri",
+    "eraId": 8,
+    "poemsCount": 119
+  },
+  {
+    "id": 2948,
+    "name": "الشهاب محمود بن سلمان",
+    "slug": "shehab-mahmoud-bin-salman",
+    "eraId": 10,
+    "poemsCount": 85
+  },
+  {
+    "id": 3061,
+    "name": "الشيخ علوان",
+    "slug": "sheikh-alwan",
+    "eraId": 9,
+    "poemsCount": 18
+  },
+  {
+    "id": 2729,
+    "name": "الصاحب بن عباد",
+    "slug": "sahib-ibn-abbad",
+    "eraId": 2,
+    "poemsCount": 322
+  },
+  {
+    "id": 2981,
+    "name": "الصرصري",
+    "slug": "al-sarsari",
+    "eraId": 8,
+    "poemsCount": 65
+  },
+  {
+    "id": 3457,
+    "name": "الصلتان العبدي",
+    "slug": "as-siltan-al-abedy",
+    "eraId": 4,
+    "poemsCount": 20
+  },
+  {
+    "id": 3424,
+    "name": "الصمة القشيري",
+    "slug": "samma-al-qushayri",
+    "eraId": 4,
+    "poemsCount": 45
+  },
+  {
+    "id": 2752,
+    "name": "الصنوبري",
+    "slug": "alsanubri",
+    "eraId": 2,
+    "poemsCount": 693
+  },
+  {
+    "id": 3405,
+    "name": "الطرماح",
+    "slug": "al-tirimmah",
+    "eraId": 4,
+    "poemsCount": 75
+  },
+  {
+    "id": 2985,
+    "name": "الطغرائي",
+    "slug": "al-tughrai",
+    "eraId": 8,
+    "poemsCount": 375
+  },
+  {
+    "id": 3512,
+    "name": "الطفيل الدوسي",
+    "slug": "tufayl-ibn-amr",
+    "eraId": 6,
+    "poemsCount": 4
+  },
+  {
+    "id": 3247,
+    "name": "الطفيل الغنوي",
+    "slug": "altofail-alghannoa",
+    "eraId": 5,
+    "poemsCount": 50
+  },
+  {
+    "id": 2707,
+    "name": "العباس بن الأحنف",
+    "slug": "al-abas-ibn-al-ahnaf",
+    "eraId": 2,
+    "poemsCount": 484
+  },
+  {
+    "id": 3493,
+    "name": "العباس بن مرداس",
+    "slug": "abbas-bin-mirdas",
+    "eraId": 6,
+    "poemsCount": 106
+  },
+  {
+    "id": 3491,
+    "name": "العجاج",
+    "slug": "alajaj",
+    "eraId": 6,
+    "poemsCount": 44
+  },
+  {
+    "id": 3248,
+    "name": "العجلان بن خليد",
+    "slug": "ajlan-bin-khalid",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3440,
+    "name": "العجير السلولي",
+    "slug": "al-ujayr-al-salouli",
+    "eraId": 4,
+    "poemsCount": 52
+  },
+  {
+    "id": 3399,
+    "name": "العرجي",
+    "slug": "al-arji",
+    "eraId": 4,
+    "poemsCount": 91
+  },
+  {
+    "id": 3074,
+    "name": "العُشاري",
+    "slug": "aloshari",
+    "eraId": 9,
+    "poemsCount": 191
+  },
+  {
+    "id": 2695,
+    "name": "العطوي",
+    "slug": "alatawi",
+    "eraId": 2,
+    "poemsCount": 89
+  },
+  {
+    "id": 2843,
+    "name": "العفيف التلمساني",
+    "slug": "afif-tlemceni",
+    "eraId": 7,
+    "poemsCount": 107
+  },
+  {
+    "id": 3255,
+    "name": "العقار بن سليل",
+    "slug": "alakar-ibn-sleyl",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2949,
+    "name": "العماد الأصبهاني",
+    "slug": "al-imad-al-asbahani",
+    "eraId": 10,
+    "poemsCount": 176
+  },
+  {
+    "id": 2795,
+    "name": "العماني الراجز",
+    "slug": "omani-al-rajiz",
+    "eraId": 2,
+    "poemsCount": 35
+  },
+  {
+    "id": 3250,
+    "name": "العنبر الخضم",
+    "slug": "anbr-alkhaddm",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3249,
+    "name": "العوراء الذبيانية",
+    "slug": "alaoura-alzpianih",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3254,
+    "name": "العوراء اليربوعية",
+    "slug": "alaoura-alerbuaah",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2621,
+    "name": "العيوق بنت مسعود",
+    "slug": "al-ayouq-bint-masoud",
+    "eraId": 1,
+    "poemsCount": 2
+  },
+  {
+    "id": 2989,
+    "name": "الغزالي",
+    "slug": "al-ghazali",
+    "eraId": 8,
+    "poemsCount": 32
+  },
+  {
+    "id": 3253,
+    "name": "الغطمش الضبي",
+    "slug": "alguetmh-dabbi",
+    "eraId": 5,
+    "poemsCount": 8
+  },
+  {
+    "id": 3256,
+    "name": "الفارعة بنت معاوية",
+    "slug": "alvarah-bnt-muawiya",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3385,
+    "name": "الفرزدق",
+    "slug": "farazdaq",
+    "eraId": 4,
+    "poemsCount": 781
+  },
+  {
+    "id": 3251,
+    "name": "الفند الزماني",
+    "slug": "alfhend-alzamani",
+    "eraId": 5,
+    "poemsCount": 9
+  },
+  {
+    "id": 2780,
+    "name": "القاضي التنوخي",
+    "slug": "al-qadi-al-tanoukhi",
+    "eraId": 2,
+    "poemsCount": 92
+  },
+  {
+    "id": 2865,
+    "name": "القاضي الفاضل",
+    "slug": "alkadhi-alfadil",
+    "eraId": 10,
+    "poemsCount": 684
+  },
+  {
+    "id": 2997,
+    "name": "القاضي عياض",
+    "slug": "qadi-ayyad",
+    "eraId": 8,
+    "poemsCount": 8
+  },
+  {
+    "id": 3408,
+    "name": "القتال الكلابي",
+    "slug": "al-qattal-al-kilabi",
+    "eraId": 4,
+    "poemsCount": 47
+  },
+  {
+    "id": 3438,
+    "name": "القحيف العقيلي",
+    "slug": "al-qahif-al-aqili",
+    "eraId": 4,
+    "poemsCount": 35
+  },
+  {
+    "id": 2696,
+    "name": "القصافي",
+    "slug": "al-qassafi",
+    "eraId": 2,
+    "poemsCount": 7
+  },
+  {
+    "id": 3441,
+    "name": "القطامي التغلبي",
+    "slug": "al-qatami-al-taghlibi",
+    "eraId": 4,
+    "poemsCount": 47
+  },
+  {
+    "id": 3252,
+    "name": "القعقاع بن شبث اليهودي",
+    "slug": "qaqaa-bin-shbut",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3488,
+    "name": "القعقاع بن عمرو",
+    "slug": "qaqaa-bin-amr",
+    "eraId": 6,
+    "poemsCount": 37
+  },
+  {
+    "id": 3257,
+    "name": "الكذاب الطابخي",
+    "slug": "alkdab-altabkhi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3258,
+    "name": "الكذاب الكلبي",
+    "slug": "alkdab-alkalpa",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3259,
+    "name": "الكلحبة العرني",
+    "slug": "alklhabh-aerna",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3389,
+    "name": "الكميت بن زيد",
+    "slug": "kumait-bin-zaid",
+    "eraId": 4,
+    "poemsCount": 679
+  },
+  {
+    "id": 3072,
+    "name": "الكيذاوي",
+    "slug": "alkadawi",
+    "eraId": 9,
+    "poemsCount": 159
+  },
+  {
+    "id": 2870,
+    "name": "اللواح",
+    "slug": "alluah",
+    "eraId": 10,
+    "poemsCount": 208
+  },
+  {
+    "id": 2783,
+    "name": "المأمون",
+    "slug": "al-mamoun",
+    "eraId": 2,
+    "poemsCount": 53
+  },
+  {
+    "id": 3260,
+    "name": "المتلمس الضبعي",
+    "slug": "almtelmus-aldhabai",
+    "eraId": 5,
+    "poemsCount": 45
+  },
+  {
+    "id": 2646,
+    "name": "المتنبي",
+    "slug": "mutanabi",
+    "eraId": 2,
+    "poemsCount": 323
+  },
+  {
+    "id": 3261,
+    "name": "المتنخل",
+    "slug": "almtnkhal",
+    "eraId": 5,
+    "poemsCount": 6
+  },
+  {
+    "id": 3436,
+    "name": "المتوكل الليثي",
+    "slug": "almutawakil-allaithy",
+    "eraId": 4,
+    "poemsCount": 27
+  },
+  {
+    "id": 3266,
+    "name": "المثقب العبدي",
+    "slug": "almthab-alabdi",
+    "eraId": 5,
+    "poemsCount": 22
+  },
+  {
+    "id": 3262,
+    "name": "المثلم الفزاري",
+    "slug": "almolatm-alfsara",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3263,
+    "name": "المثلم المري",
+    "slug": "almolatm-marri",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3264,
+    "name": "المثلم بن عمرو التنوخي",
+    "slug": "almolatm-bin-amr-altnokhi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3268,
+    "name": "المثلم بن قرط البلوي",
+    "slug": "almolatm-bin-qirt-albloa",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3077,
+    "name": "المحبي",
+    "slug": "al-muhibbi",
+    "eraId": 9,
+    "poemsCount": 80
+  },
+  {
+    "id": 2615,
+    "name": "المحرق المزني",
+    "slug": "muharraq-al mazni",
+    "eraId": 1,
+    "poemsCount": 4
+  },
+  {
+    "id": 3265,
+    "name": "المحيا الهمداني",
+    "slug": "mahia-alhmdani",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3508,
+    "name": "المخبل السعدي",
+    "slug": "al-makhbal-al-saadi",
+    "eraId": 6,
+    "poemsCount": 50
+  },
+  {
+    "id": 3445,
+    "name": "المرار الفقعسي",
+    "slug": "al-murar-al-faqasi",
+    "eraId": 4,
+    "poemsCount": 75
+  },
+  {
+    "id": 3267,
+    "name": "المرار الكلبي",
+    "slug": "almrar-alkalpa",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2611,
+    "name": "المرار بن منقذ",
+    "slug": "almrar-bin-monkd",
+    "eraId": 1,
+    "poemsCount": 8
+  },
+  {
+    "id": 3269,
+    "name": "المرقش الأصغر",
+    "slug": "almriqch-alasgur",
+    "eraId": 5,
+    "poemsCount": 9
+  },
+  {
+    "id": 3271,
+    "name": "المرقش الأكبر",
+    "slug": "almriqch-alokbr",
+    "eraId": 5,
+    "poemsCount": 20
+  },
+  {
+    "id": 3272,
+    "name": "المسجاح الضبي",
+    "slug": "almsjah-dabbi",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3270,
+    "name": "المسيب بن علس",
+    "slug": "almusayyib-bin-als",
+    "eraId": 5,
+    "poemsCount": 33
+  },
+  {
+    "id": 3276,
+    "name": "المشؤوم",
+    "slug": "almshum",
+    "eraId": 5,
+    "poemsCount": 5
+  },
+  {
+    "id": 3273,
+    "name": "المعان بن روق",
+    "slug": "almaane-ben-rouk",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3014,
+    "name": "المعتضد بن عباد",
+    "slug": "al-mutadid-bin-abbad",
+    "eraId": 8,
+    "poemsCount": 49
+  },
+  {
+    "id": 2825,
+    "name": "المعتمد بن عباد",
+    "slug": "almatmud-ban-ebad",
+    "eraId": 7,
+    "poemsCount": 233
+  },
+  {
+    "id": 3422,
+    "name": "المغيرة بن حبناء",
+    "slug": "al-mughira-bin-hbnaa",
+    "eraId": 4,
+    "poemsCount": 55
+  },
+  {
+    "id": 3275,
+    "name": "المفضل النكري",
+    "slug": "mufdil-alnkre",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3387,
+    "name": "المقنع الكندي",
+    "slug": "almguena-alknda",
+    "eraId": 4,
+    "poemsCount": 15
+  },
+  {
+    "id": 2866,
+    "name": "المكزون السنجاري",
+    "slug": "almkazhon-singari",
+    "eraId": 10,
+    "poemsCount": 388
+  },
+  {
+    "id": 2864,
+    "name": "الملك الأمجد",
+    "slug": "almlk-alamjad",
+    "eraId": 10,
+    "poemsCount": 141
+  },
+  {
+    "id": 3277,
+    "name": "الممزق العبدي",
+    "slug": "almomzk-alabdi",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3279,
+    "name": "المنخل اليشكري",
+    "slug": "almnkhal-alishchri",
+    "eraId": 5,
+    "poemsCount": 4
+  },
+  {
+    "id": 3539,
+    "name": "المنفلوطي",
+    "slug": "al-manfaluti",
+    "eraId": 3,
+    "poemsCount": 29
+  },
+  {
+    "id": 3012,
+    "name": "المهذب بن الزبير",
+    "slug": "muhadhab-bin-zubair",
+    "eraId": 8,
+    "poemsCount": 65
+  },
+  {
+    "id": 2950,
+    "name": "الموفق التلعفري",
+    "slug": "al-muwafaq-al-talafari",
+    "eraId": 10,
+    "poemsCount": 8
+  },
+  {
+    "id": 2819,
+    "name": "الميكالي",
+    "slug": "almikala",
+    "eraId": 7,
+    "poemsCount": 194
+  },
+  {
+    "id": 3274,
+    "name": "النابغة التغلبي",
+    "slug": "nabigha-altglbe",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3483,
+    "name": "النابغة الجعدي",
+    "slug": "al-nabigha-al-jadi",
+    "eraId": 6,
+    "poemsCount": 96
+  },
+  {
+    "id": 3278,
+    "name": "النابغة الحارثي",
+    "slug": "nabigh-alharthy",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3280,
+    "name": "النابغة الذبياني",
+    "slug": "nabgh-alzpiani",
+    "eraId": 5,
+    "poemsCount": 80
+  },
+  {
+    "id": 3414,
+    "name": "النابغة الشيباني",
+    "slug": "al-nabigha_al-shaibani",
+    "eraId": 4,
+    "poemsCount": 27
+  },
+  {
+    "id": 3282,
+    "name": "النابغة الغنوي",
+    "slug": "nabigha-alghanawi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2748,
+    "name": "الناشئ الأكبر",
+    "slug": "al-nashi-al-akbar ",
+    "eraId": 2,
+    "poemsCount": 135
+  },
+  {
+    "id": 3017,
+    "name": "النبهاني العماني",
+    "slug": "omani-nabhani",
+    "eraId": 8,
+    "poemsCount": 76
+  },
+  {
+    "id": 3529,
+    "name": "النجاشي الحارثي",
+    "slug": "al-najashi-al-harithi ",
+    "eraId": 6,
+    "poemsCount": 60
+  },
+  {
+    "id": 3381,
+    "name": "النعمان بن بشير الأنصاري",
+    "slug": "al-numan-al-ansari",
+    "eraId": 4,
+    "poemsCount": 24
+  },
+  {
+    "id": 2629,
+    "name": "النعمان بن عقبة العتكي",
+    "slug": "al-numan-al-ataki",
+    "eraId": 1,
+    "poemsCount": 1
+  },
+  {
+    "id": 3502,
+    "name": "النمر بن تولب",
+    "slug": "alnamar-bin-twlyb",
+    "eraId": 6,
+    "poemsCount": 54
+  },
+  {
+    "id": 3379,
+    "name": "النُّميري",
+    "slug": "al-nimri",
+    "eraId": 4,
+    "poemsCount": 18
+  },
+  {
+    "id": 3382,
+    "name": "النَهشَلي",
+    "slug": "al-nahshali",
+    "eraId": 4,
+    "poemsCount": 2
+  },
+  {
+    "id": 2694,
+    "name": "النهشلي القيرواني",
+    "slug": "alnahshli-alqayrawani",
+    "eraId": 2,
+    "poemsCount": 16
+  },
+  {
+    "id": 3283,
+    "name": "النوار الجل",
+    "slug": "nawar-algel",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3066,
+    "name": "الهبل",
+    "slug": "alhbal",
+    "eraId": 9,
+    "poemsCount": 374
+  },
+  {
+    "id": 3281,
+    "name": "الهبل بن عامر",
+    "slug": "alhbel-bin-amer",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3284,
+    "name": "الهجرس التغلبي",
+    "slug": "alhjurs-altglbe",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3286,
+    "name": "الهدم بن امرئ القيس",
+    "slug": "alhedm-bin-amri-qays",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3287,
+    "name": "الهذلول بن كعب",
+    "slug": "hathloul-ibn-kab",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3288,
+    "name": "الهذيل الأكبر التغلبي",
+    "slug": "hudhayl-alkbr-altglbe",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3285,
+    "name": "الهذيل بن أم عفاش",
+    "slug": "hudhayl-bin-om-afash",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3291,
+    "name": "الهيبان الفهمي",
+    "slug": "alheiban-alfahma",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2871,
+    "name": "الهيثم بن أبي الهيثم",
+    "slug": "al-haytham-bin-abi-al-haytham",
+    "eraId": 10,
+    "poemsCount": 1
+  },
+  {
+    "id": 3376,
+    "name": "الهيردان",
+    "slug": "al-herdan",
+    "eraId": 4,
+    "poemsCount": 3
+  },
+  {
+    "id": 3289,
+    "name": "الهيفاء بنت صبيح القضاعية",
+    "slug": "alheifa-bnt-sabih-alqdaih",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2730,
+    "name": "الوأواء الدمشقي",
+    "slug": "alwawaa-aldmshk",
+    "eraId": 2,
+    "poemsCount": 333
+  },
+  {
+    "id": 3377,
+    "name": "الوازع بن ذؤالة",
+    "slug": "al-waze-bin-thaala",
+    "eraId": 4,
+    "poemsCount": 1
+  },
+  {
+    "id": 2804,
+    "name": "الواساني",
+    "slug": "alwasani",
+    "eraId": 2,
+    "poemsCount": 12
+  },
+  {
+    "id": 3087,
+    "name": "الورغي",
+    "slug": "al-wargi",
+    "eraId": 9,
+    "poemsCount": 95
+  },
+  {
+    "id": 2776,
+    "name": "الوزير المهلبي",
+    "slug": "al-wazir-al-muhallabi",
+    "eraId": 2,
+    "poemsCount": 122
+  },
+  {
+    "id": 3290,
+    "name": "الوقي الهمداني",
+    "slug": "alouki-hamdani",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3412,
+    "name": "الوليد بن يزيد",
+    "slug": "walid-ibn-yazid",
+    "eraId": 4,
+    "poemsCount": 127
+  },
+  {
+    "id": 3131,
+    "name": "امرؤ القيس",
+    "slug": "imru-alqays",
+    "eraId": 5,
+    "poemsCount": 66
+  },
+  {
+    "id": 3297,
+    "name": "امرؤ القيس الزهيري",
+    "slug": "imru-qays-al-zuhairi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3299,
+    "name": "امرؤ القيس السكوني",
+    "slug": "imru-qays-alsconi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3298,
+    "name": "امرؤ القيس الكلبي",
+    "slug": "imru-qays-alkalpa",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3309,
+    "name": "بداء بن سليمان",
+    "slug": "bda-bn-sulaiman",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3308,
+    "name": "بدر الفزاري",
+    "slug": "badr-fazari",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2703,
+    "name": "بديع الزمان الهمذاني",
+    "slug": "badi-zaman-hamdani",
+    "eraId": 2,
+    "poemsCount": 147
+  },
+  {
+    "id": 3310,
+    "name": "برة بنت عبد المطلب",
+    "slug": "brhi-bnt-abdulmuttalib",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3007,
+    "name": "برهان الدين القيراطي",
+    "slug": "burhan-al-din-al-qirati",
+    "eraId": 8,
+    "poemsCount": 145
+  },
+  {
+    "id": 3311,
+    "name": "بسام بن شريح",
+    "slug": "bassam-bin-shurayh",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2704,
+    "name": "بشار بن برد",
+    "slug": "bashar-ibn-burd",
+    "eraId": 2,
+    "poemsCount": 639
+  },
+  {
+    "id": 3312,
+    "name": "بشامة بن الغدير",
+    "slug": "bashama-bin-ghadeer",
+    "eraId": 5,
+    "poemsCount": 11
+  },
+  {
+    "id": 3316,
+    "name": "بشر الفزاري",
+    "slug": "bashr-alfsara",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3313,
+    "name": "بشر بن أبي خازم",
+    "slug": "bishr-ibn-ibe-khazm ",
+    "eraId": 5,
+    "poemsCount": 55
+  },
+  {
+    "id": 3317,
+    "name": "بشر بن عمرو",
+    "slug": "bishr-ibn-amr",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3315,
+    "name": "بشير بن النكث",
+    "slug": "bashir-ibn-alinkth",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3034,
+    "name": "بطرس البستاني",
+    "slug": "boutros-al-boustani",
+    "eraId": 9,
+    "poemsCount": 15
+  },
+  {
+    "id": 3314,
+    "name": "بغثر بن لقيط الأسدي",
+    "slug": "bgther-lqait-bin-al-asadi",
+    "eraId": 5,
+    "poemsCount": 6
+  },
+  {
+    "id": 3318,
+    "name": "بكر الجرهمي",
+    "slug": "bakr-aljerhma",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3442,
+    "name": "بكر بن النطاح",
+    "slug": "bakr-bin-al-nattah",
+    "eraId": 4,
+    "poemsCount": 84
+  },
+  {
+    "id": 2867,
+    "name": "بلبل الغرام الحاجري",
+    "slug": "bulbul-gram-ahajery",
+    "eraId": 10,
+    "poemsCount": 178
+  },
+  {
+    "id": 3319,
+    "name": "بلعاء بن قيس الكناني",
+    "slug": "belaa-bin-qais-kanani",
+    "eraId": 5,
+    "poemsCount": 25
+  },
+  {
+    "id": 3080,
+    "name": "بهاء الدين العاملي",
+    "slug": "bahaa-el-din-el-amili",
+    "eraId": 9,
+    "poemsCount": 40
+  },
+  {
+    "id": 2977,
+    "name": "بهاء الدين زهير",
+    "slug": "baha-aldin-zuhair",
+    "eraId": 8,
+    "poemsCount": 448
+  },
+  {
+    "id": 3320,
+    "name": "بيهس الغطفاني",
+    "slug": "bahs-algtafana",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3327,
+    "name": "بيهس الفزاري",
+    "slug": "bahs-fazari",
+    "eraId": 5,
+    "poemsCount": 7
+  },
+  {
+    "id": 3324,
+    "name": "تأبط شرا",
+    "slug": "tibt-shra",
+    "eraId": 5,
+    "poemsCount": 57
+  },
+  {
+    "id": 3018,
+    "name": "تقي الدين المغربي",
+    "slug": "taqi-al-din-al-mughrabi",
+    "eraId": 8,
+    "poemsCount": 10
+  },
+  {
+    "id": 3325,
+    "name": "تماضر بنت الشريد",
+    "slug": "tmadhar-bnt-shareed",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2980,
+    "name": "تميم الفاطمي",
+    "slug": "tamim-al-fatimi",
+    "eraId": 8,
+    "poemsCount": 565
+  },
+  {
+    "id": 3505,
+    "name": "تميم بن أبي بن مقبل",
+    "slug": "tamim-bin-abi-bin-muqbel",
+    "eraId": 6,
+    "poemsCount": 102
+  },
+  {
+    "id": 3321,
+    "name": "تنها بنت قرط العبدية",
+    "slug": "tnea-bnt-crdo-alabdih",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3411,
+    "name": "توبة الخفاجي",
+    "slug": "tawbat-alkhfajy",
+    "eraId": 4,
+    "poemsCount": 16
+  },
+  {
+    "id": 3323,
+    "name": "ثعلبة المازني",
+    "slug": "talbh-almazina",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3322,
+    "name": "ثعلبة بن بكر الأزدي",
+    "slug": "talbh-ibn-bakr-alazdi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3328,
+    "name": "ثعلبة بن عامر",
+    "slug": "talbh-ibn-amer",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3326,
+    "name": "جابر المرني",
+    "slug": "jaber-almrna",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3329,
+    "name": "جابر المري",
+    "slug": "jaber-al-marri",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3330,
+    "name": "جبار الفزاري",
+    "slug": "jabbar-fazari",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3331,
+    "name": "جبار بن قرط",
+    "slug": "jabbar-bn-qrt",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3334,
+    "name": "جبر المعاوي",
+    "slug": "jabr-almaawi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3534,
+    "name": "جبران خليل جبران",
+    "slug": "khalil-gibran",
+    "eraId": 3,
+    "poemsCount": 1069
+  },
+  {
+    "id": 3332,
+    "name": "جبلة بن الحارث",
+    "slug": "jblh-ibn-harith",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2632,
+    "name": "جبيهاء الأشجعي",
+    "slug": "jbhee-ashjai",
+    "eraId": 1,
+    "poemsCount": 16
+  },
+  {
+    "id": 3462,
+    "name": "جحدر العكلي",
+    "slug": "jahdur-al-akli",
+    "eraId": 4,
+    "poemsCount": 19
+  },
+  {
+    "id": 3333,
+    "name": "جحدر الوائلي",
+    "slug": "gehdr-waili",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2766,
+    "name": "جحظة البرمكي",
+    "slug": "jahza-al-barmaki",
+    "eraId": 2,
+    "poemsCount": 209
+  },
+  {
+    "id": 3337,
+    "name": "جحيش الهمداني",
+    "slug": "gehich-hamdani",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3433,
+    "name": "جران العود النمري",
+    "slug": "jran-aloud-al-nimri",
+    "eraId": 4,
+    "poemsCount": 36
+  },
+  {
+    "id": 3069,
+    "name": "جرمانوس فرحات",
+    "slug": "germanus-farhat",
+    "eraId": 9,
+    "poemsCount": 373
+  },
+  {
+    "id": 3384,
+    "name": "جرير",
+    "slug": "jarir",
+    "eraId": 4,
+    "poemsCount": 289
+  },
+  {
+    "id": 3343,
+    "name": "جساس بن مرة",
+    "slug": "jasas-bin-marr",
+    "eraId": 5,
+    "poemsCount": 8
+  },
+  {
+    "id": 3037,
+    "name": "جعفر زوين",
+    "slug": "jaafar-zwain",
+    "eraId": 9,
+    "poemsCount": 7
+  },
+  {
+    "id": 3041,
+    "name": "جعفر كاشف الغطاء",
+    "slug": "jaafar-kashif-al-ghita",
+    "eraId": 9,
+    "poemsCount": 19
+  },
+  {
+    "id": 3402,
+    "name": "جميل بثينة",
+    "slug": "jamil-buthaina",
+    "eraId": 4,
+    "poemsCount": 120
+  },
+  {
+    "id": 3065,
+    "name": "جميل صدقي الزهاوي",
+    "slug": "jamil-sidqi-al-zahawi",
+    "eraId": 9,
+    "poemsCount": 373
+  },
+  {
+    "id": 3130,
+    "name": "حاتم الطائي",
+    "slug": "hatim-al-tai",
+    "eraId": 5,
+    "poemsCount": 54
+  },
+  {
+    "id": 3346,
+    "name": "حاجز الأزدي",
+    "slug": "hajir-al-azdi",
+    "eraId": 5,
+    "poemsCount": 30
+  },
+  {
+    "id": 3431,
+    "name": "حارثة بن بدر الغداني",
+    "slug": "haritha-bin-badr-al-ghadani",
+    "eraId": 4,
+    "poemsCount": 57
+  },
+  {
+    "id": 2633,
+    "name": "حبيب الهلالي",
+    "slug": "habib-hilali",
+    "eraId": 1,
+    "poemsCount": 11
+  },
+  {
+    "id": 3479,
+    "name": "حسان بن ثابت",
+    "slug": "hassan-ibn-thabit",
+    "eraId": 6,
+    "poemsCount": 372
+  },
+  {
+    "id": 3056,
+    "name": "حسن حسني الطويراني",
+    "slug": "hasan-husni-al-tuwayrani",
+    "eraId": 9,
+    "poemsCount": 1483
+  },
+  {
+    "id": 2610,
+    "name": "حكيم بن جبلة",
+    "slug": "hakim-bin-jableh",
+    "eraId": 1,
+    "poemsCount": 3
+  },
+  {
+    "id": 3471,
+    "name": "حميد بن ثور الهلالي",
+    "slug": "hamid-al-hilali",
+    "eraId": 6,
+    "poemsCount": 59
+  },
+  {
+    "id": 3459,
+    "name": "حميدة بنت النعمان بن بشير",
+    "slug": "hamida-bint-al-numan",
+    "eraId": 4,
+    "poemsCount": 12
+  },
+  {
+    "id": 2813,
+    "name": "خالد الكاتب",
+    "slug": "khaled-alkateb",
+    "eraId": 2,
+    "poemsCount": 643
+  },
+  {
+    "id": 2637,
+    "name": "خالد بن الوليد",
+    "slug": "khalid-ibn-al-walid",
+    "eraId": 1,
+    "poemsCount": 10
+  },
+  {
+    "id": 3472,
+    "name": "خداش العامري",
+    "slug": "khedash-al-amri",
+    "eraId": 6,
+    "poemsCount": 59
+  },
+  {
+    "id": 3511,
+    "name": "خراش الهذلي",
+    "slug": "kharash-al-hudhali",
+    "eraId": 6,
+    "poemsCount": 22
+  },
+  {
+    "id": 2612,
+    "name": "خزيمة بن ثابت الأنصاري",
+    "slug": "khuzayma-al-ansari",
+    "eraId": 1,
+    "poemsCount": 14
+  },
+  {
+    "id": 3490,
+    "name": "خفاف بن ندبة السلمي",
+    "slug": "khafaf-bin-nidbat-alsilmi",
+    "eraId": 6,
+    "poemsCount": 53
+  },
+  {
+    "id": 2788,
+    "name": "خلف الأحمر",
+    "slug": "khalaf-al-ahmar",
+    "eraId": 2,
+    "poemsCount": 25
+  },
+  {
+    "id": 3086,
+    "name": "خليل البصير",
+    "slug": "khalil-al-baseer",
+    "eraId": 9,
+    "poemsCount": 13
+  },
+  {
+    "id": 2944,
+    "name": "داود بن عيسى الايوبي",
+    "slug": "dawood-bin-issa-al-ayyubi",
+    "eraId": 10,
+    "poemsCount": 97
+  },
+  {
+    "id": 3344,
+    "name": "دريد بن الصمة",
+    "slug": "darid-bin-alsmm",
+    "eraId": 5,
+    "poemsCount": 75
+  },
+  {
+    "id": 2714,
+    "name": "دعبل الخزاعي",
+    "slug": "dhabal-khuzaie",
+    "eraId": 2,
+    "poemsCount": 416
+  },
+  {
+    "id": 3360,
+    "name": "دوسر بن هذيل",
+    "slug": "dosser-bin-hadeel",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3335,
+    "name": "دويد القضاعي",
+    "slug": "doad-alqdai",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2735,
+    "name": "ديك الجن",
+    "slug": "dik-aljinn",
+    "eraId": 2,
+    "poemsCount": 208
+  },
+  {
+    "id": 3336,
+    "name": "ذؤيب بن كعب",
+    "slug": "doub-bin-kab",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3355,
+    "name": "ذو الإصبع العدواني",
+    "slug": "dhu-al-asba-al-adwani",
+    "eraId": 5,
+    "poemsCount": 23
+  },
+  {
+    "id": 3398,
+    "name": "ذو الرمة",
+    "slug": "dhul-rumma",
+    "eraId": 4,
+    "poemsCount": 180
+  },
+  {
+    "id": 2689,
+    "name": "ذو النون المصري",
+    "slug": "dhul-nun-al-misri",
+    "eraId": 2,
+    "poemsCount": 31
+  },
+  {
+    "id": 2793,
+    "name": "رؤبة بن العجاج",
+    "slug": "roba-bin-al-ajaj",
+    "eraId": 2,
+    "poemsCount": 184
+  },
+  {
+    "id": 2789,
+    "name": "ربيعة الرقي",
+    "slug": "rabia-al-ruqi",
+    "eraId": 2,
+    "poemsCount": 26
+  },
+  {
+    "id": 3469,
+    "name": "ربيعة بن مقروم الضبي",
+    "slug": "rabia-al-dhabi",
+    "eraId": 6,
+    "poemsCount": 23
+  },
+  {
+    "id": 3535,
+    "name": "رفاعة الطهطاوي",
+    "slug": "rifaa-al-tahtawi",
+    "eraId": 3,
+    "poemsCount": 58
+  },
+  {
+    "id": 3093,
+    "name": "زبان بن سيار الفزاري",
+    "slug": "zaban-al-fazari",
+    "eraId": 5,
+    "poemsCount": 24
+  },
+  {
+    "id": 3348,
+    "name": "زهير بن أبي سلمى",
+    "slug": "zuhair-bin-abi-salma",
+    "eraId": 5,
+    "poemsCount": 54
+  },
+  {
+    "id": 3448,
+    "name": "زياد الأعجم",
+    "slug": "ziad-al-ajam",
+    "eraId": 4,
+    "poemsCount": 82
+  },
+  {
+    "id": 2634,
+    "name": "زياد التميمي",
+    "slug": "ziad-altamimi",
+    "eraId": 1,
+    "poemsCount": 6
+  },
+  {
+    "id": 3456,
+    "name": "زيادة بن زيد العذري",
+    "slug": "ziada-bin-zaid-al-athari ",
+    "eraId": 4,
+    "poemsCount": 14
+  },
+  {
+    "id": 3358,
+    "name": "زيد الخيل الطائي",
+    "slug": "zayd-al-khayl",
+    "eraId": 5,
+    "poemsCount": 67
+  },
+  {
+    "id": 3083,
+    "name": "زينب الشهارية",
+    "slug": "zainab-alshahari",
+    "eraId": 9,
+    "poemsCount": 6
+  },
+  {
+    "id": 3437,
+    "name": "سابق البربري",
+    "slug": "sabiq-al-barbari",
+    "eraId": 4,
+    "poemsCount": 53
+  },
+  {
+    "id": 2937,
+    "name": "سبط بن التعاويذي",
+    "slug": "sibt-ibn-altaawithy",
+    "eraId": 10,
+    "poemsCount": 332
+  },
+  {
+    "id": 3421,
+    "name": "سراقة البارقي",
+    "slug": "sarqa-al-barqi",
+    "eraId": 4,
+    "poemsCount": 22
+  },
+  {
+    "id": 3059,
+    "name": "سعيد بن أحمد البوسعيدي",
+    "slug": "said-bin-ahmad",
+    "eraId": 9,
+    "poemsCount": 4
+  },
+  {
+    "id": 2768,
+    "name": "سعيد بن جودي",
+    "slug": "said-bin-judy",
+    "eraId": 2,
+    "poemsCount": 11
+  },
+  {
+    "id": 3098,
+    "name": "سلامة بن جندل",
+    "slug": "salama-bin-jandal",
+    "eraId": 5,
+    "poemsCount": 26
+  },
+  {
+    "id": 2723,
+    "name": "سلم الخاسر",
+    "slug": "salam-al-khasir",
+    "eraId": 2,
+    "poemsCount": 68
+  },
+  {
+    "id": 2765,
+    "name": "سمنون المحب",
+    "slug": "samnoun-al-muhib",
+    "eraId": 2,
+    "poemsCount": 18
+  },
+  {
+    "id": 3095,
+    "name": "سنان المري",
+    "slug": "sinan-al-marri",
+    "eraId": 5,
+    "poemsCount": 16
+  },
+  {
+    "id": 3523,
+    "name": "سويد اليشكري",
+    "slug": "sweed-al-yashkuri",
+    "eraId": 6,
+    "poemsCount": 34
+  },
+  {
+    "id": 3425,
+    "name": "سويد بن كراع",
+    "slug": "suwaid-bin-kraa",
+    "eraId": 4,
+    "poemsCount": 22
+  },
+  {
+    "id": 2740,
+    "name": "سيف الدولة الحمداني",
+    "slug": "sayf-al-dawla",
+    "eraId": 2,
+    "poemsCount": 8
+  },
+  {
+    "id": 3464,
+    "name": "شبيب بن البرصاء",
+    "slug": "shabib-bin-al-barasa",
+    "eraId": 4,
+    "poemsCount": 28
+  },
+  {
+    "id": 3450,
+    "name": "شظاظ الضبي",
+    "slug": "shazaz-al-dhabi",
+    "eraId": 4,
+    "poemsCount": 4
+  },
+  {
+    "id": 3338,
+    "name": "شمر الحنفي",
+    "slug": "shamar-alhanafi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3013,
+    "name": "شهاب الدين التلعفري",
+    "slug": "shahabuddin-talafari",
+    "eraId": 8,
+    "poemsCount": 351
+  },
+  {
+    "id": 3075,
+    "name": "شهاب الدين الخفاجي",
+    "slug": "shihab-al-din-al-khafaji",
+    "eraId": 9,
+    "poemsCount": 319
+  },
+  {
+    "id": 2960,
+    "name": "شهاب الدين الخلوف",
+    "slug": "shehab-al-din-al-khalouf",
+    "eraId": 8,
+    "poemsCount": 401
+  },
+  {
+    "id": 2662,
+    "name": "صاعد البغدادي",
+    "slug": "saed-al-baghdadi",
+    "eraId": 2,
+    "poemsCount": 33
+  },
+  {
+    "id": 2801,
+    "name": "صاعد البغدادي",
+    "slug": "saad-al-baghdadi ",
+    "eraId": 2,
+    "poemsCount": 33
+  },
+  {
+    "id": 2755,
+    "name": "صالح بن عبد القدوس",
+    "slug": "saleh-bin-abdul-quddus",
+    "eraId": 2,
+    "poemsCount": 85
+  },
+  {
+    "id": 3339,
+    "name": "صخر الغي",
+    "slug": "sakhr-alkhthema",
+    "eraId": 5,
+    "poemsCount": 13
+  },
+  {
+    "id": 2734,
+    "name": "صردر",
+    "slug": "sardar",
+    "eraId": 2,
+    "poemsCount": 130
+  },
+  {
+    "id": 2743,
+    "name": "صريع الغواني",
+    "slug": "muslim-ibn-al-walid",
+    "eraId": 2,
+    "poemsCount": 204
+  },
+  {
+    "id": 2854,
+    "name": "صفوان التجيبي",
+    "slug": "safwan-al-tajbi ",
+    "eraId": 7,
+    "poemsCount": 81
+  },
+  {
+    "id": 2976,
+    "name": "صفي الدين الحلي",
+    "slug": "safi-al-din-al-hilli",
+    "eraId": 8,
+    "poemsCount": 899
+  },
+  {
+    "id": 2990,
+    "name": "صلاح الدين الصفدي",
+    "slug": "al-safadi",
+    "eraId": 8,
+    "poemsCount": 780
+  },
+  {
+    "id": 3352,
+    "name": "صيفي الأسلت",
+    "slug": "saifi-al-aslat",
+    "eraId": 5,
+    "poemsCount": 26
+  },
+  {
+    "id": 3525,
+    "name": "ضابئ البرجمي",
+    "slug": "dabi-al-burgami",
+    "eraId": 6,
+    "poemsCount": 5
+  },
+  {
+    "id": 3526,
+    "name": "ضباعة بنت عامر القشيرية",
+    "slug": "dabaa-al-qushayri",
+    "eraId": 6,
+    "poemsCount": 3
+  },
+  {
+    "id": 3495,
+    "name": "ضرار الفهري",
+    "slug": "dirar-alfihri",
+    "eraId": 6,
+    "poemsCount": 28
+  },
+  {
+    "id": 3125,
+    "name": "ضمرة بن ضمرة",
+    "slug": "damra-bin-damra",
+    "eraId": 5,
+    "poemsCount": 13
+  },
+  {
+    "id": 3340,
+    "name": "طرفة بن العبد",
+    "slug": "tarafa-ibn-al-abd",
+    "eraId": 5,
+    "poemsCount": 34
+  },
+  {
+    "id": 3369,
+    "name": "طريح بن إسماعيل الثقفي",
+    "slug": "tareeh-al-thaqafi",
+    "eraId": 4,
+    "poemsCount": 46
+  },
+  {
+    "id": 2827,
+    "name": "ظافر الحداد",
+    "slug": "dhafer-al-haddad",
+    "eraId": 7,
+    "poemsCount": 317
+  },
+  {
+    "id": 2835,
+    "name": "عائشة القرطبية",
+    "slug": "aisha-al-qurtubiyya",
+    "eraId": 7,
+    "poemsCount": 3
+  },
+  {
+    "id": 2644,
+    "name": "عائشة بنت أبي بكر",
+    "slug": "aisha-bint-abi-bakr",
+    "eraId": 1,
+    "poemsCount": 2
+  },
+  {
+    "id": 2645,
+    "name": "عاتكة بنت زيد",
+    "slug": "atika-bint-zaid",
+    "eraId": 1,
+    "poemsCount": 7
+  },
+  {
+    "id": 3468,
+    "name": "عاصم بن عمرو التميمي",
+    "slug": "asim-al-tamimi",
+    "eraId": 6,
+    "poemsCount": 24
+  },
+  {
+    "id": 3031,
+    "name": "عامر الأنبوطي",
+    "slug": "amer-alonbouti",
+    "eraId": 9,
+    "poemsCount": 5
+  },
+  {
+    "id": 3517,
+    "name": "عامر بن الطفيل",
+    "slug": "amir-ibn-al-tufayl",
+    "eraId": 6,
+    "poemsCount": 63
+  },
+  {
+    "id": 3410,
+    "name": "عباس بن فرناس",
+    "slug": "abbas-ibn-firnas",
+    "eraId": 4,
+    "poemsCount": 30
+  },
+  {
+    "id": 3536,
+    "name": "عباس محمود العقاد",
+    "slug": "abbas-mahmoud-al-aqqad",
+    "eraId": 3,
+    "poemsCount": 62
+  },
+  {
+    "id": 3430,
+    "name": "عبد الرحمن بن حسان",
+    "slug": "abdulrahman-bin-hassan",
+    "eraId": 4,
+    "poemsCount": 75
+  },
+  {
+    "id": 2794,
+    "name": "عبدالصمد العبدي",
+    "slug": "abdulsamad-al-abdi",
+    "eraId": 2,
+    "poemsCount": 166
+  },
+  {
+    "id": 2800,
+    "name": "عبد الصمد بن المعذل",
+    "slug": "bin-al-muathil",
+    "eraId": 2,
+    "poemsCount": 1
+  },
+  {
+    "id": 2839,
+    "name": "عبد الغفار الأخرس",
+    "slug": "abdul-ghafar-al-akhras",
+    "eraId": 9,
+    "poemsCount": 378
+  },
+  {
+    "id": 3063,
+    "name": "عبد الغني النابلسي",
+    "slug": "abd-al-ghani-al-nabulsi",
+    "eraId": 9,
+    "poemsCount": 967
+  },
+  {
+    "id": 3071,
+    "name": "عبدالله الشبراوي",
+    "slug": "shabrawy",
+    "eraId": 9,
+    "poemsCount": 102
+  },
+  {
+    "id": 3470,
+    "name": "عبد الله بن الزبعرى",
+    "slug": "abdullah-bin-al-zabri",
+    "eraId": 6,
+    "poemsCount": 31
+  },
+  {
+    "id": 3368,
+    "name": "عبد الله بن الزبير الأسدي",
+    "slug": "abdullah-al-asadi",
+    "eraId": 4,
+    "poemsCount": 71
+  },
+  {
+    "id": 2655,
+    "name": "عبد الله بن المبارك",
+    "slug": "abdullah-bin-mubarak",
+    "eraId": 2,
+    "poemsCount": 55
+  },
+  {
+    "id": 3509,
+    "name": "عبد الله بن رواحة",
+    "slug": "abdullah-ibn-rawaha",
+    "eraId": 6,
+    "poemsCount": 39
+  },
+  {
+    "id": 3362,
+    "name": "عبد الله بن معاوية",
+    "slug": "abdullah-bin-muawiyah",
+    "eraId": 4,
+    "poemsCount": 56
+  },
+  {
+    "id": 3363,
+    "name": "عبد الله بن همام السلولي",
+    "slug": "bin-hammam",
+    "eraId": 4,
+    "poemsCount": 47
+  },
+  {
+    "id": 2911,
+    "name": "عبد المجيد الأزدي",
+    "slug": "abdulmajid-alazdi",
+    "eraId": 10,
+    "poemsCount": 1
+  },
+  {
+    "id": 2733,
+    "name": "عبد المحسن الصوري",
+    "slug": "abdul-mohsen-al-suri",
+    "eraId": 2,
+    "poemsCount": 623
+  },
+  {
+    "id": 3356,
+    "name": "عبد المسيح بن عسلة",
+    "slug": "abdul-masih-bin-asla",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 2664,
+    "name": "عبد الملك الحارثي",
+    "slug": "abdulmalik-al harthy",
+    "eraId": 2,
+    "poemsCount": 44
+  },
+  {
+    "id": 2951,
+    "name": "عبد المنعم الجلياني",
+    "slug": "abdelmoneim-al-jilani ",
+    "eraId": 10,
+    "poemsCount": 43
+  },
+  {
+    "id": 3504,
+    "name": "عبدة بن يزيد",
+    "slug": "abda-bin-yazid ",
+    "eraId": 6,
+    "poemsCount": 17
+  },
+  {
+    "id": 3357,
+    "name": "عبد يغوث الحارثي",
+    "slug": "abed-yaghout-al-harthy",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3463,
+    "name": "عبيد الله الجَعفي",
+    "slug": "obaidullah-al-jaafi",
+    "eraId": 4,
+    "poemsCount": 79
+  },
+  {
+    "id": 3420,
+    "name": "عبيد الله بن الرقيات",
+    "slug": "ubayd-allah-bin-al-roqayat ",
+    "eraId": 4,
+    "poemsCount": 113
+  },
+  {
+    "id": 3461,
+    "name": "عبيد بن أيوب العنبري",
+    "slug": "obaid-bin-ayyub",
+    "eraId": 4,
+    "poemsCount": 37
+  },
+  {
+    "id": 3347,
+    "name": "عبيد بن الأبرص",
+    "slug": "abid-ibn-al-abras",
+    "eraId": 5,
+    "poemsCount": 48
+  },
+  {
+    "id": 3434,
+    "name": "عبيدة اليشكري",
+    "slug": "obeida-al-yashkari",
+    "eraId": 4,
+    "poemsCount": 17
+  },
+  {
+    "id": 3407,
+    "name": "عدي بن الرقاع",
+    "slug": "uday-bin-al-rqaa",
+    "eraId": 4,
+    "poemsCount": 76
+  },
+  {
+    "id": 3341,
+    "name": "عدي بن ربيعة",
+    "slug": "euday-bin-rabiea",
+    "eraId": 5,
+    "poemsCount": 51
+  },
+  {
+    "id": 3353,
+    "name": "عدي بن زيد",
+    "slug": "adi-ibn-zayd",
+    "eraId": 5,
+    "poemsCount": 161
+  },
+  {
+    "id": 2772,
+    "name": "عرقلة الدمشقي",
+    "slug": "irqla-al-dimashqi",
+    "eraId": 2,
+    "poemsCount": 178
+  },
+  {
+    "id": 3393,
+    "name": "عروة بن أذينة",
+    "slug": "erwa-bin-uthaina",
+    "eraId": 4,
+    "poemsCount": 18
+  },
+  {
+    "id": 3345,
+    "name": "عروة بن الورد",
+    "slug": "urwa-ibn-al-ward",
+    "eraId": 5,
+    "poemsCount": 38
+  },
+  {
+    "id": 2636,
+    "name": "عروة بن حزام",
+    "slug": "urwah-bin-hezim",
+    "eraId": 1,
+    "poemsCount": 23
+  },
+  {
+    "id": 2859,
+    "name": "عزوز الملزوزي",
+    "slug": "azzouz-elmalazouzi ",
+    "eraId": 7,
+    "poemsCount": 12
+  },
+  {
+    "id": 2641,
+    "name": "عقبة بن النعمان العتكي",
+    "slug": "uqba-bin-al-numan",
+    "eraId": 1,
+    "poemsCount": 3
+  },
+  {
+    "id": 3342,
+    "name": "علقمة الفحل",
+    "slug": "alqama",
+    "eraId": 5,
+    "poemsCount": 28
+  },
+  {
+    "id": 2998,
+    "name": "علي الحصري القيرواني",
+    "slug": "abou-al-hassan-al-housri",
+    "eraId": 8,
+    "poemsCount": 290
+  },
+  {
+    "id": 3088,
+    "name": "علي الغراب الصفاقسي",
+    "slug": "ali-ghorab-sfaxien",
+    "eraId": 9,
+    "poemsCount": 394
+  },
+  {
+    "id": 3497,
+    "name": "علي بن أبي طالب",
+    "slug": "ali-ibn-abi-talib",
+    "eraId": 6,
+    "poemsCount": 418
+  },
+  {
+    "id": 2759,
+    "name": "علي بن الجهم",
+    "slug": "ali-bin-al-jahm",
+    "eraId": 2,
+    "poemsCount": 181
+  },
+  {
+    "id": 2639,
+    "name": "علي بن الحسين",
+    "slug": "ali-ibn-husayn",
+    "eraId": 1,
+    "poemsCount": 8
+  },
+  {
+    "id": 2661,
+    "name": "علي بن جبلة - العكوك",
+    "slug": "al-akouk",
+    "eraId": 2,
+    "poemsCount": 65
+  },
+  {
+    "id": 2767,
+    "name": "علية بنت المهدي",
+    "slug": "ulayya-bint-al-mahdi",
+    "eraId": 2,
+    "poemsCount": 101
+  },
+  {
+    "id": 3527,
+    "name": "عمار بن ياسر",
+    "slug": "ammar-bin-yasir",
+    "eraId": 6,
+    "poemsCount": 20
+  },
+  {
+    "id": 2823,
+    "name": "عمارة اليمني",
+    "slug": "amarh-alyemni",
+    "eraId": 7,
+    "poemsCount": 316
+  },
+  {
+    "id": 2802,
+    "name": "عمارة بن عقيل",
+    "slug": "ammara-bin-aqeel",
+    "eraId": 2,
+    "poemsCount": 115
+  },
+  {
+    "id": 3370,
+    "name": "عمار ذو كبار",
+    "slug": "ammar-dhu-kabar",
+    "eraId": 4,
+    "poemsCount": 11
+  },
+  {
+    "id": 2993,
+    "name": "عمر الخيام",
+    "slug": "omar-khayyam",
+    "eraId": 8,
+    "poemsCount": 10
+  },
+  {
+    "id": 3401,
+    "name": "عمر بن أبي ربيعة",
+    "slug": "umar-ibn-abi-rabah",
+    "eraId": 4,
+    "poemsCount": 412
+  },
+  {
+    "id": 3439,
+    "name": "عمر بن لجأ التيمي",
+    "slug": "omar-bin-laji-al-timi",
+    "eraId": 4,
+    "poemsCount": 36
+  },
+  {
+    "id": 3498,
+    "name": "عمرو الباهلي",
+    "slug": "amr-al-bahli",
+    "eraId": 6,
+    "poemsCount": 69
+  },
+  {
+    "id": 2691,
+    "name": "عمرو الوراق",
+    "slug": "amro-al-warraq",
+    "eraId": 2,
+    "poemsCount": 20
+  },
+  {
+    "id": 3515,
+    "name": "عمرو بن الأهتم",
+    "slug": "amr-bin-al-ahtham",
+    "eraId": 6,
+    "poemsCount": 25
+  },
+  {
+    "id": 3514,
+    "name": "عمرو بن براقة",
+    "slug": "amr-bin-baraqa",
+    "eraId": 6,
+    "poemsCount": 11
+  },
+  {
+    "id": 3350,
+    "name": "عمرو بن قميئة",
+    "slug": "amr-bin-qumiah",
+    "eraId": 5,
+    "poemsCount": 33
+  },
+  {
+    "id": 3136,
+    "name": "عمرو بن كلثوم",
+    "slug": "amr-ibn-kulthum",
+    "eraId": 5,
+    "poemsCount": 44
+  },
+  {
+    "id": 3499,
+    "name": "عمرو بن معد يكرب",
+    "slug": "amr-bin-maadi-yakrib",
+    "eraId": 6,
+    "poemsCount": 107
+  },
+  {
+    "id": 3135,
+    "name": "عنترة بن شداد",
+    "slug": "antar-bin-shaddad",
+    "eraId": 5,
+    "poemsCount": 143
+  },
+  {
+    "id": 3452,
+    "name": "عويف القوافي",
+    "slug": "awyf-al-qawafi",
+    "eraId": 4,
+    "poemsCount": 30
+  },
+  {
+    "id": 3473,
+    "name": "فارعة المرية",
+    "slug": "faraa-almeria",
+    "eraId": 6,
+    "poemsCount": 1
+  },
+  {
+    "id": 2638,
+    "name": "فاطمة الزهراء",
+    "slug": "fatima-alzahra",
+    "eraId": 1,
+    "poemsCount": 16
+  },
+  {
+    "id": 2939,
+    "name": "فتيان الشاغوري",
+    "slug": "alshaghouri",
+    "eraId": 10,
+    "poemsCount": 392
+  },
+  {
+    "id": 3096,
+    "name": "قبيصة بن النصراني",
+    "slug": "qabisa-bin-nasrani",
+    "eraId": 5,
+    "poemsCount": 5
+  },
+  {
+    "id": 3351,
+    "name": "قس بن ساعدة",
+    "slug": "qas-bin-saeda",
+    "eraId": 5,
+    "poemsCount": 12
+  },
+  {
+    "id": 3406,
+    "name": "قطري بن الفجاءة",
+    "slug": "qatari-ibn-al-fujaa",
+    "eraId": 4,
+    "poemsCount": 22
+  },
+  {
+    "id": 3349,
+    "name": "قيس بن الحدادية",
+    "slug": "qais-bin-al-haddadiyah",
+    "eraId": 5,
+    "poemsCount": 17
+  },
+  {
+    "id": 3506,
+    "name": "قيس بن الخطيم",
+    "slug": "qais-bin-al-khatim",
+    "eraId": 6,
+    "poemsCount": 44
+  },
+  {
+    "id": 3392,
+    "name": "قيس بن الملوح",
+    "slug": "qays-ibn-al-mulawwah",
+    "eraId": 4,
+    "poemsCount": 312
+  },
+  {
+    "id": 3386,
+    "name": "قيس بن ذريح",
+    "slug": "qais-bn-dhirih",
+    "eraId": 4,
+    "poemsCount": 82
+  },
+  {
+    "id": 3494,
+    "name": "قيس بن زهير",
+    "slug": "qays-bin-zuhayr",
+    "eraId": 6,
+    "poemsCount": 23
+  },
+  {
+    "id": 3397,
+    "name": "كثير عزة",
+    "slug": "kuthayyir",
+    "eraId": 4,
+    "poemsCount": 135
+  },
+  {
+    "id": 2746,
+    "name": "كشاجم",
+    "slug": "kashajim",
+    "eraId": 2,
+    "poemsCount": 378
+  },
+  {
+    "id": 3519,
+    "name": "كعب الغنوي",
+    "slug": "kaab-alghannawi",
+    "eraId": 6,
+    "poemsCount": 10
+  },
+  {
+    "id": 3481,
+    "name": "كعب بن زهير",
+    "slug": "kaab-bin-zuhair",
+    "eraId": 6,
+    "poemsCount": 51
+  },
+  {
+    "id": 3507,
+    "name": "كعب بن مالك الأنصاري",
+    "slug": "kaab-bin-malik-al-ansari",
+    "eraId": 6,
+    "poemsCount": 73
+  },
+  {
+    "id": 2609,
+    "name": "كعب بن مشهور",
+    "slug": "kaab-bin-mashhour",
+    "eraId": 1,
+    "poemsCount": 17
+  },
+  {
+    "id": 2693,
+    "name": "كلثوم العتابي",
+    "slug": "aleitabi",
+    "eraId": 2,
+    "poemsCount": 89
+  },
+  {
+    "id": 2943,
+    "name": "كمال الدين بن النبيه",
+    "slug": "kamal-al-din-bin-nabih",
+    "eraId": 10,
+    "poemsCount": 99
+  },
+  {
+    "id": 3485,
+    "name": "لبيد بن ربيعة",
+    "slug": "labid-ibn-rabiah",
+    "eraId": 6,
+    "poemsCount": 121
+  },
+  {
+    "id": 2973,
+    "name": "لسان الدين بن الخطيب",
+    "slug": "ibn-alkhatib",
+    "eraId": 8,
+    "poemsCount": 746
+  },
+  {
+    "id": 3132,
+    "name": "لقيط بن زرارة",
+    "slug": "laqit-bin-zarara",
+    "eraId": 5,
+    "poemsCount": 5
+  },
+  {
+    "id": 3092,
+    "name": "لقيط بن يعمر الإيادي",
+    "slug": "laqit-al-ayadi",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3418,
+    "name": "ليلى الأخليلية",
+    "slug": "layla-al-akhyaliyya",
+    "eraId": 4,
+    "poemsCount": 74
+  },
+  {
+    "id": 3417,
+    "name": "ليلى العامرية",
+    "slug": "layla-alamiriya",
+    "eraId": 4,
+    "poemsCount": 6
+  },
+  {
+    "id": 3487,
+    "name": "مالك الأشتر",
+    "slug": "malek-ashtar",
+    "eraId": 6,
+    "poemsCount": 46
+  },
+  {
+    "id": 3409,
+    "name": "مالك بن الريب",
+    "slug": "malik-bin-al-reeb",
+    "eraId": 4,
+    "poemsCount": 32
+  },
+  {
+    "id": 2996,
+    "name": "مالك بن المرحل",
+    "slug": "malik-ibn-al-murahhal",
+    "eraId": 8,
+    "poemsCount": 162
+  },
+  {
+    "id": 3354,
+    "name": "مالك بن حريم الهمداني",
+    "slug": "malik-bin-hareem-al-hamdani",
+    "eraId": 5,
+    "poemsCount": 13
+  },
+  {
+    "id": 2812,
+    "name": "ماني الموسوس",
+    "slug": "mani-almusos",
+    "eraId": 2,
+    "poemsCount": 56
+  },
+  {
+    "id": 3513,
+    "name": "متمم اليربوعي",
+    "slug": "mutamam-al-yarboui",
+    "eraId": 6,
+    "poemsCount": 27
+  },
+  {
+    "id": 3097,
+    "name": "محرز الضبي",
+    "slug": "mahrez-al-dhabi",
+    "eraId": 5,
+    "poemsCount": 14
+  },
+  {
+    "id": 3055,
+    "name": "محمد البكري",
+    "slug": "mohammad-bakri",
+    "eraId": 9,
+    "poemsCount": 6
+  },
+  {
+    "id": 3068,
+    "name": "محمد المعولي",
+    "slug": "mohamed-almawali",
+    "eraId": 9,
+    "poemsCount": 208
+  },
+  {
+    "id": 3030,
+    "name": "محمد اليدالي الديماني",
+    "slug": "mohammed-al-yedali al-dimani",
+    "eraId": 9,
+    "poemsCount": 6
+  },
+  {
+    "id": 3453,
+    "name": "محمد بن بشير الخارجي",
+    "slug": "mohammed-bin-bashir-al-kharji",
+    "eraId": 4,
+    "poemsCount": 38
+  },
+  {
+    "id": 2762,
+    "name": "محمد بن حازم الباهلي",
+    "slug": "mohammed-bin-hazem-al-bahili",
+    "eraId": 2,
+    "poemsCount": 108
+  },
+  {
+    "id": 2961,
+    "name": "محمد بن حمير الهمداني",
+    "slug": "mohammed-al-hamdani",
+    "eraId": 8,
+    "poemsCount": 194
+  },
+  {
+    "id": 3035,
+    "name": "محمد سعيد الحبوبي",
+    "slug": "muhammad-saeed-al-habboubi",
+    "eraId": 9,
+    "poemsCount": 9
+  },
+  {
+    "id": 3064,
+    "name": "محمد فضولي",
+    "slug": "muhammad-fuzuli",
+    "eraId": 9,
+    "poemsCount": 35
+  },
+  {
+    "id": 2741,
+    "name": "محمود الوراق",
+    "slug": "mahmoud-al-warak",
+    "eraId": 2,
+    "poemsCount": 226
+  },
+  {
+    "id": 3530,
+    "name": "محمود درويش",
+    "slug": "mahmoud-darwish",
+    "eraId": 3,
+    "poemsCount": 9
+  },
+  {
+    "id": 3532,
+    "name": "محمود سامي البارودي",
+    "slug": "mahmoud-samial-baroudi",
+    "eraId": 3,
+    "poemsCount": 374
+  },
+  {
+    "id": 2945,
+    "name": "محيي الدين بن عربي",
+    "slug": "ibn-arabi",
+    "eraId": 10,
+    "poemsCount": 922
+  },
+  {
+    "id": 2826,
+    "name": "مرج الكحل",
+    "slug": "marj-al-kahl",
+    "eraId": 7,
+    "poemsCount": 53
+  },
+  {
+    "id": 2831,
+    "name": "مروان الطليق",
+    "slug": "marwan-al-taliq",
+    "eraId": 7,
+    "poemsCount": 30
+  },
+  {
+    "id": 2635,
+    "name": "مروان بن أبي حفصة",
+    "slug": "marwan-ibn-abi-hafsa",
+    "eraId": 1,
+    "poemsCount": 77
+  },
+  {
+    "id": 3404,
+    "name": "مسكين الدارمي",
+    "slug": "miskin-al-darimi",
+    "eraId": 4,
+    "poemsCount": 52
+  },
+  {
+    "id": 2764,
+    "name": "مصطفى البابي الحلبي",
+    "slug": "mustafa-al-babi-al-halabi",
+    "eraId": 2,
+    "poemsCount": 55
+  },
+  {
+    "id": 3533,
+    "name": "مصطفى صادق الرافعي",
+    "slug": "mostafa-saadeq-al-rafe",
+    "eraId": 3,
+    "poemsCount": 346
+  },
+  {
+    "id": 3419,
+    "name": "معاوية بن أبي سفيان",
+    "slug": "muawiyah-bin-abi-sufyan",
+    "eraId": 4,
+    "poemsCount": 57
+  },
+  {
+    "id": 3359,
+    "name": "معقر بن حمار البارقي",
+    "slug": "maqar-al-barqi",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3518,
+    "name": "معن المزني",
+    "slug": "maen-al-muzni",
+    "eraId": 6,
+    "poemsCount": 48
+  },
+  {
+    "id": 2642,
+    "name": "منظور الأسدي",
+    "slug": "manzur-al-asadi",
+    "eraId": 1,
+    "poemsCount": 2
+  },
+  {
+    "id": 2731,
+    "name": "مهيار الديلمي",
+    "slug": "mihyar-al-daylami",
+    "eraId": 2,
+    "poemsCount": 388
+  },
+  {
+    "id": 3364,
+    "name": "نافع الحروري",
+    "slug": "nafa-al-haruri",
+    "eraId": 4,
+    "poemsCount": 1
+  },
+  {
+    "id": 3477,
+    "name": "نافع الزبيري",
+    "slug": "nafa-al-zubairi",
+    "eraId": 6,
+    "poemsCount": 1
+  },
+  {
+    "id": 3503,
+    "name": "نافع بن الأسود",
+    "slug": "nafea-bin-al-aswad",
+    "eraId": 6,
+    "poemsCount": 20
+  },
+  {
+    "id": 3540,
+    "name": "نزار قباني",
+    "slug": "nizar-qabbani",
+    "eraId": 3,
+    "poemsCount": 16
+  },
+  {
+    "id": 3396,
+    "name": "نصيب بن رباح",
+    "slug": "nasib-bin-rubah",
+    "eraId": 4,
+    "poemsCount": 163
+  },
+  {
+    "id": 3016,
+    "name": "نظام الدين الأصفهاني",
+    "slug": "nizam-al-din-al-isfahani",
+    "eraId": 8,
+    "poemsCount": 498
+  },
+  {
+    "id": 3032,
+    "name": "نقولا النقاش",
+    "slug": "niqula-al-niqash",
+    "eraId": 9,
+    "poemsCount": 80
+  },
+  {
+    "id": 2625,
+    "name": "نمران الهمداني",
+    "slug": "nimran-hamdani",
+    "eraId": 1,
+    "poemsCount": 1
+  },
+  {
+    "id": 3432,
+    "name": "نهار بن توسعة",
+    "slug": "nahar-bin-altawsieat",
+    "eraId": 4,
+    "poemsCount": 28
+  },
+  {
+    "id": 3466,
+    "name": "نهشل بن حري",
+    "slug": "nahshal-bin-hurri",
+    "eraId": 6,
+    "poemsCount": 37
+  },
+  {
+    "id": 3128,
+    "name": "نهيكة الفزاري",
+    "slug": "nahika-al-fazari",
+    "eraId": 5,
+    "poemsCount": 4
+  },
+  {
+    "id": 3070,
+    "name": "نيقولاوس الصائغ",
+    "slug": "nicolaos al-sayegh",
+    "eraId": 9,
+    "poemsCount": 342
+  },
+  {
+    "id": 2753,
+    "name": "هارون الرشيد",
+    "slug": "harun-al-rashid",
+    "eraId": 2,
+    "poemsCount": 50
+  },
+  {
+    "id": 2687,
+    "name": "هارون بن علي المنجم",
+    "slug": "harun-bin-ali-al-manjim",
+    "eraId": 2,
+    "poemsCount": 12
+  },
+  {
+    "id": 3051,
+    "name": "هاشم كمال الدين",
+    "slug": "hashim-kamal-eddin",
+    "eraId": 9,
+    "poemsCount": 5
+  },
+  {
+    "id": 2626,
+    "name": "هانئ الأرحبي",
+    "slug": "hani-al-arhabi",
+    "eraId": 1,
+    "poemsCount": 1
+  },
+  {
+    "id": 3126,
+    "name": "هبل الكلبي",
+    "slug": "hubble-alkalbi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3124,
+    "name": "هبيرة المري",
+    "slug": "habira-al-marri",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3366,
+    "name": "هدبة بن الخشرم",
+    "slug": "hadba-bin-al-khashram",
+    "eraId": 4,
+    "poemsCount": 54
+  },
+  {
+    "id": 2872,
+    "name": "هذيل الإشبيلي",
+    "slug": "hazel-al-ishbili",
+    "eraId": 10,
+    "poemsCount": 4
+  },
+  {
+    "id": 3127,
+    "name": "هزيلة الجديسية",
+    "slug": "hazila-al-jadisia",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3123,
+    "name": "هشام المري",
+    "slug": "hisham-al-marri",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3117,
+    "name": "هلال بن رزين",
+    "slug": "hilal-bin-rezin",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3119,
+    "name": "همام التميمي",
+    "slug": "hammam-al-tamimi",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3380,
+    "name": "همام الفزاري",
+    "slug": "hammam-al-fazari",
+    "eraId": 4,
+    "poemsCount": 1
+  },
+  {
+    "id": 2624,
+    "name": "هميان بن قحافة",
+    "slug": "humayan-bin-qahfa",
+    "eraId": 1,
+    "poemsCount": 1
+  },
+  {
+    "id": 3122,
+    "name": "هناءة بن مالك الأزدي",
+    "slug": "hana-ibn-malik-al-azdi",
+    "eraId": 5,
+    "poemsCount": 5
+  },
+  {
+    "id": 3374,
+    "name": "هند الأنصارية",
+    "slug": "hind-ansariya",
+    "eraId": 4,
+    "poemsCount": 3
+  },
+  {
+    "id": 3116,
+    "name": "هند الأيادية",
+    "slug": "hind-al-ayadia",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2622,
+    "name": "هند الجلاحية",
+    "slug": "hind-al-jalahiya",
+    "eraId": 1,
+    "poemsCount": 1
+  },
+  {
+    "id": 3114,
+    "name": "هند السدوسية",
+    "slug": "hind-al-sadusiya",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3121,
+    "name": "هند الضبابية",
+    "slug": "hind-al-dababia",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3118,
+    "name": "هند الفزارية",
+    "slug": "hind-al-fazaria",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2627,
+    "name": "هند الهمدانية",
+    "slug": "hind-hamdaniya",
+    "eraId": 1,
+    "poemsCount": 1
+  },
+  {
+    "id": 3480,
+    "name": "هند بنت أثاثة بن عباد",
+    "slug": "hind-bint-athatha-bin-abad",
+    "eraId": 6,
+    "poemsCount": 5
+  },
+  {
+    "id": 3115,
+    "name": "هند بنت الخس",
+    "slug": "hind-bint-al-khasi",
+    "eraId": 5,
+    "poemsCount": 4
+  },
+  {
+    "id": 3378,
+    "name": "هند بنت النعمان",
+    "slug": "hind-bint-al-numan",
+    "eraId": 4,
+    "poemsCount": 10
+  },
+  {
+    "id": 3120,
+    "name": "هند بنت بن عامر الأسلمي",
+    "slug": "hind-bint-ibn-amer-al-aslami",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3500,
+    "name": "هند بنت عتبة",
+    "slug": "hind-bint-utbah",
+    "eraId": 6,
+    "poemsCount": 19
+  },
+  {
+    "id": 3113,
+    "name": "هند بنت معبد",
+    "slug": "hind-bint-mabad",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3112,
+    "name": "هني الكناني",
+    "slug": "hani-al-kanani",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2619,
+    "name": "وبرة الطائي",
+    "slug": "wabara-al-tai",
+    "eraId": 1,
+    "poemsCount": 2
+  },
+  {
+    "id": 2684,
+    "name": "وجيه الدولة الحمداني",
+    "slug": "wajih-al-dawla-al-hamdani",
+    "eraId": 2,
+    "poemsCount": 52
+  },
+  {
+    "id": 3103,
+    "name": "وجيهة الضبية",
+    "slug": "wajihah-al-dhabiya",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3100,
+    "name": "وداك المازني",
+    "slug": "wadak-al-mazni",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 3105,
+    "name": "ورقاء بن زهير",
+    "slug": "warqa-bin-zuhair",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3474,
+    "name": "ورقة بن نوفل",
+    "slug": "waraqah-ibn-nawfal",
+    "eraId": 6,
+    "poemsCount": 13
+  },
+  {
+    "id": 3395,
+    "name": "وضاح اليمن",
+    "slug": "waddah-alyaman",
+    "eraId": 4,
+    "poemsCount": 38
+  },
+  {
+    "id": 2685,
+    "name": "ولادة المهزمية",
+    "slug": "wilada-al-muhzamia",
+    "eraId": 2,
+    "poemsCount": 1
+  },
+  {
+    "id": 2834,
+    "name": "ولادة بنت المستكفي",
+    "slug": "wallada-bint-al-mustakfi",
+    "eraId": 7,
+    "poemsCount": 10
+  },
+  {
+    "id": 3099,
+    "name": "وهيبة بنت عبد العزى",
+    "slug": "wahiba-bint-abdelezza",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3094,
+    "name": "ياسر الخيبري",
+    "slug": "yasser-al-khaibri",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 2869,
+    "name": "ياقوت الحموي",
+    "slug": "yaqut-al-hamawi",
+    "eraId": 10,
+    "poemsCount": 10
+  },
+  {
+    "id": 2868,
+    "name": "ياقوت الرومي",
+    "slug": "yaqut-al-rumi",
+    "eraId": 10,
+    "poemsCount": 5
+  },
+  {
+    "id": 2686,
+    "name": "ياقوت المستعصمي",
+    "slug": "yaqut-al-mustasimi",
+    "eraId": 2,
+    "poemsCount": 8
+  },
+  {
+    "id": 2771,
+    "name": "يحيى الغزال",
+    "slug": "yahya-alghazal",
+    "eraId": 2,
+    "poemsCount": 65
+  },
+  {
+    "id": 2683,
+    "name": "يحيى اليزيدي",
+    "slug": "yahya-yazidi",
+    "eraId": 2,
+    "poemsCount": 45
+  },
+  {
+    "id": 2682,
+    "name": "يحيى بن الزبير",
+    "slug": "yahya-bin-al-zubayr",
+    "eraId": 2,
+    "poemsCount": 1
+  },
+  {
+    "id": 2681,
+    "name": "يحيى بن زياد الحارثي",
+    "slug": "yahya-bin-ziyad-al-harthi",
+    "eraId": 2,
+    "poemsCount": 58
+  },
+  {
+    "id": 2680,
+    "name": "يحيى بن طالب",
+    "slug": "yahya-bin-talib",
+    "eraId": 2,
+    "poemsCount": 7
+  },
+  {
+    "id": 2777,
+    "name": "يحيى بن علي المنجم",
+    "slug": "yahya-bin-ali-al-majim",
+    "eraId": 2,
+    "poemsCount": 21
+  },
+  {
+    "id": 2620,
+    "name": "يحيى بن معاذ",
+    "slug": "yahya-bin-moaz",
+    "eraId": 1,
+    "poemsCount": 1
+  },
+  {
+    "id": 3367,
+    "name": "يحيى بن نوفل",
+    "slug": "yahya-bin-nofal",
+    "eraId": 4,
+    "poemsCount": 26
+  },
+  {
+    "id": 3109,
+    "name": "يربوع بن حنظلة",
+    "slug": "yerba-bin-hanzala",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3107,
+    "name": "يزيد الأرحبي",
+    "slug": "yazid-al-arhabi",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3106,
+    "name": "يزيد الشني",
+    "slug": "yazid-al-shani",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2617,
+    "name": "يزيد العقيلي",
+    "slug": "yazid-al-aqili",
+    "eraId": 1,
+    "poemsCount": 1
+  },
+  {
+    "id": 2678,
+    "name": "يزيد المهلبي",
+    "slug": "yazid-muhalabi",
+    "eraId": 2,
+    "poemsCount": 46
+  },
+  {
+    "id": 3427,
+    "name": "يزيد بن الحكم",
+    "slug": "yazid bin al-hakam",
+    "eraId": 4,
+    "poemsCount": 40
+  },
+  {
+    "id": 3111,
+    "name": "يزيد بن الرومي العتكي",
+    "slug": "yazid-bin-al-rumi-al-ataki",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3108,
+    "name": "يزيد بن الصعق",
+    "slug": "yazid-bin-al-saaq",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3403,
+    "name": "يزيد بن الطثرية",
+    "slug": "yazeed-bin-tathiriya",
+    "eraId": 4,
+    "poemsCount": 65
+  },
+  {
+    "id": 3375,
+    "name": "يزيد بن حبناء",
+    "slug": "yazid-bin-habna",
+    "eraId": 4,
+    "poemsCount": 3
+  },
+  {
+    "id": 2616,
+    "name": "يزيد بن ذي المشعار",
+    "slug": "yazid-bin-al-mashaar",
+    "eraId": 1,
+    "poemsCount": 1
+  },
+  {
+    "id": 3110,
+    "name": "يزيد بن سنان المري",
+    "slug": "yazid-bin-sinan-al-marri",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3373,
+    "name": "يزيد بن ضبة",
+    "slug": "yazid-ibn-dabbah",
+    "eraId": 4,
+    "poemsCount": 3
+  },
+  {
+    "id": 3476,
+    "name": "يزيد بن عبد المدان",
+    "slug": "yazid-bin-abdullmadan",
+    "eraId": 6,
+    "poemsCount": 4
+  },
+  {
+    "id": 3104,
+    "name": "يزيد بن قنافة",
+    "slug": "yazid-bin-qanafa",
+    "eraId": 5,
+    "poemsCount": 1
+  },
+  {
+    "id": 3102,
+    "name": "يزيد بن مجالد الفزاري",
+    "slug": "yazid-bin-mujaled-al-fazari",
+    "eraId": 5,
+    "poemsCount": 3
+  },
+  {
+    "id": 3390,
+    "name": "يزيد بن معاوية",
+    "slug": "yazid-bin-muawiyah",
+    "eraId": 4,
+    "poemsCount": 50
+  },
+  {
+    "id": 3101,
+    "name": "يزيد ذو القفا",
+    "slug": "yazid-al-qafa",
+    "eraId": 5,
+    "poemsCount": 2
+  },
+  {
+    "id": 2679,
+    "name": "يعقوب التمار",
+    "slug": "yaqub-al-tammar",
+    "eraId": 2,
+    "poemsCount": 5
+  },
+  {
+    "id": 2673,
+    "name": "يعقوب بن الربيع",
+    "slug": "yaqub-bin-al-rabee",
+    "eraId": 2,
+    "poemsCount": 12
+  },
+  {
+    "id": 2677,
+    "name": "يعقوب بن صالح",
+    "slug": "yaqub-bin-salih",
+    "eraId": 2,
+    "poemsCount": 2
+  },
+  {
+    "id": 3426,
+    "name": "يعلى الأحول الأزدي",
+    "slug": "yala-ahwal-azdi",
+    "eraId": 4,
+    "poemsCount": 1
+  },
+  {
+    "id": 2671,
+    "name": "يعلى بن أحمد",
+    "slug": "yuelaa-bin-ahmad",
+    "eraId": 2,
+    "poemsCount": 3
+  },
+  {
+    "id": 2792,
+    "name": "يموت بن المزرع",
+    "slug": "yamout-bin-al-mazra",
+    "eraId": 2,
+    "poemsCount": 5
+  },
+  {
+    "id": 3033,
+    "name": "يوسف الأسير الحسيني",
+    "slug": "yusuf-al-asir",
+    "eraId": 9,
+    "poemsCount": 70
+  },
+  {
+    "id": 3052,
+    "name": "يوسف البديعي",
+    "slug": "yusuf-badie",
+    "eraId": 9,
+    "poemsCount": 8
+  },
+  {
+    "id": 3050,
+    "name": "يوسف الحصري",
+    "slug": "yusuf-al-hosari",
+    "eraId": 9,
+    "poemsCount": 1
+  },
+  {
+    "id": 2967,
+    "name": "يوسف الرندي",
+    "slug": "yusuf-al-randi",
+    "eraId": 8,
+    "poemsCount": 9
+  },
+  {
+    "id": 3042,
+    "name": "يوسف الكفرقوقي",
+    "slug": "youssef-al-kafrqouqi",
+    "eraId": 9,
+    "poemsCount": 7
+  },
+  {
+    "id": 3029,
+    "name": "يوسف باخوس",
+    "slug": "youssef-bacchus",
+    "eraId": 9,
+    "poemsCount": 9
+  },
+  {
+    "id": 3038,
+    "name": "يوسف بن أبي الفتح",
+    "slug": "yusuf-bin-abi-al-fath",
+    "eraId": 9,
+    "poemsCount": 20
+  },
+  {
+    "id": 2850,
+    "name": "يوسف بن هارون الرمادي",
+    "slug": "youssef-bin-harun-al-ramadi",
+    "eraId": 7,
+    "poemsCount": 139
+  },
+  {
+    "id": 3049,
+    "name": "يونس الغروي",
+    "slug": "younes-al-gharawi",
+    "eraId": 9,
+    "poemsCount": 4
+  },
+  {
+    "id": 3046,
+    "name": "يونس بن الشيخ خضر",
+    "slug": "younes-bin-sheikh-khadr",
+    "eraId": 9,
+    "poemsCount": 1
+  }
+]

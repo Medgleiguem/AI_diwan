@@ -97,36 +97,37 @@ export default function ChatPage() {
   const showSuggestions = messages.length === 1
 
   return (
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 py-6 flex flex-col" style={{ height: 'calc(100vh - 64px)' }} dir="rtl">
+    <div className="max-w-3xl mx-auto px-3 sm:px-6 py-4 sm:py-6 flex flex-col" style={{ height: 'calc(100vh - 56px) sm:calc(100vh - 64px)' }} dir="rtl">
       {/* Header */}
-      <div className="flex items-center justify-between mb-4 flex-shrink-0">
-        <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-lg bg-purple-900/20 border border-purple-800/30
-                           flex items-center justify-center">
-            <MessageCircle size={15} className="text-purple-400" />
+      <div className="flex items-center justify-between mb-3 sm:mb-4 flex-shrink-0 gap-2">
+        <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+          <div className="w-7 sm:w-8 h-7 sm:h-8 rounded-lg bg-purple-900/20 border border-purple-800/30
+                           flex items-center justify-center flex-shrink-0">
+            <MessageCircle size={14} className="text-purple-400 sm:w-4 sm:h-4" />
           </div>
-          <div>
-            <h1 className="font-arabic text-xl font-bold text-parchment-100 leading-tight">
+          <div className="min-w-0">
+            <h1 className="font-arabic text-lg sm:text-xl font-bold text-parchment-100 leading-tight truncate">
               حوار مع الشاعر
             </h1>
-            <p className="text-ink-600 text-xs">شاعر رقمي متمكن من تراث الشعر العربي</p>
+            <p className="text-ink-600 text-xs leading-tight">شاعر رقمي متمكن</p>
           </div>
         </div>
         {messages.length > 1 && (
-          <button onClick={clearChat} className="btn-danger text-xs py-1.5 px-3">
-            <Trash2 size={13} />مسح
+          <button onClick={clearChat} className="btn-danger text-xs py-1.5 px-2 sm:px-3 flex-shrink-0">
+            <Trash2 size={12} className="sm:w-4 sm:h-4" />
+            <span className="hidden sm:inline">مسح</span>
           </button>
         )}
       </div>
 
       {/* Suggestions */}
       {showSuggestions && (
-        <div className="grid grid-cols-2 gap-2 mb-4 flex-shrink-0">
+        <div className="grid grid-cols-2 gap-2 mb-3 sm:mb-4 flex-shrink-0">
           {SUGGESTIONS.map(s => (
             <button key={s} onClick={() => send(s)}
-                    className="text-right px-3 py-2.5 rounded-xl card-parchment
+                    className="text-right px-2.5 sm:px-3 py-2 sm:py-2.5 rounded-xl card-parchment
                                hover:border-ink-600 text-ink-400 hover:text-ink-200
-                               transition-all text-sm leading-snug">
+                               transition-all text-xs sm:text-sm leading-snug">
               {s}
             </button>
           ))}
@@ -134,33 +135,33 @@ export default function ChatPage() {
       )}
 
       {/* Messages */}
-      <div className="flex-1 overflow-y-auto card-parchment mb-4 min-h-0">
-        <div className="p-4 space-y-4">
+      <div className="flex-1 overflow-y-auto card-parchment mb-3 sm:mb-4 min-h-0">
+        <div className="p-3 sm:p-4 space-y-3 sm:space-y-4">
           {messages.map(m => (
             <div key={m.id}
-                 className={clsx('flex gap-3', m.role === 'user' ? 'flex-row-reverse' : 'flex-row')}>
+                 className={clsx('flex gap-2 sm:gap-3', m.role === 'user' ? 'flex-row-reverse' : 'flex-row')}>
               {/* Avatar */}
               <div className={clsx(
-                'w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5',
+                'w-7 sm:w-8 h-7 sm:h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5',
                 m.role === 'user'
                   ? 'bg-gold-900/30 border border-gold-800/40'
                   : 'bg-purple-900/30 border border-purple-800/40'
               )}>
                 {m.role === 'user'
-                  ? <User size={14} className="text-gold-400" />
-                  : <Bot  size={14} className="text-purple-400" />}
+                  ? <User size={13} className="text-gold-400 sm:w-4 sm:h-4" />
+                  : <Bot  size={13} className="text-purple-400 sm:w-4 sm:h-4" />}
               </div>
 
               {/* Bubble */}
               <div className={clsx(
-                'max-w-[82%] rounded-2xl px-4 py-3 text-sm leading-relaxed font-arabic whitespace-pre-wrap',
+                'max-w-[85%] sm:max-w-[82%] rounded-2xl px-3 sm:px-4 py-2 sm:py-3 text-xs sm:text-sm leading-relaxed font-arabic whitespace-pre-wrap',
                 m.role === 'user'
                   ? 'bg-gold-900/20 border border-gold-800/30 text-parchment-100 rounded-tr-sm'
                   : 'bg-ink-900 border border-ink-800 text-ink-300 rounded-tl-sm'
               )}>
                 {m.content}
                 <div className={clsx(
-                  'text-xs mt-2 opacity-40',
+                  'text-xs mt-1.5 opacity-40',
                   m.role === 'user' ? 'text-left' : 'text-right'
                 )}>
                   {m.timestamp.toLocaleTimeString('ar', { hour: '2-digit', minute: '2-digit' })}
@@ -171,12 +172,12 @@ export default function ChatPage() {
 
           {/* Loading dots */}
           {loading && (
-            <div className="flex gap-3">
-              <div className="w-8 h-8 rounded-full bg-purple-900/30 border border-purple-800/40
+            <div className="flex gap-2 sm:gap-3">
+              <div className="w-7 sm:w-8 h-7 sm:h-8 rounded-full bg-purple-900/30 border border-purple-800/40
                                flex items-center justify-center flex-shrink-0">
-                <Bot size={14} className="text-purple-400" />
+                <Bot size={13} className="text-purple-400 sm:w-4 sm:h-4" />
               </div>
-              <div className="bg-ink-900 border border-ink-800 rounded-2xl rounded-tl-sm px-4 py-3">
+              <div className="bg-ink-900 border border-ink-800 rounded-2xl rounded-tl-sm px-3 sm:px-4 py-2 sm:py-3">
                 <div className="flex gap-1 items-center h-5">
                   {[0, 1, 2].map(i => (
                     <div key={i}
@@ -193,27 +194,28 @@ export default function ChatPage() {
       </div>
 
       {/* Error */}
-      {error && <div className="mb-3 flex-shrink-0"><ErrorBox message={error} /></div>}
+      {error && <div className="mb-2 sm:mb-3 flex-shrink-0"><ErrorBox message={error} /></div>}
 
       {/* Input */}
-      <div className="card-parchment p-3 flex-shrink-0">
+      <div className="card-parchment p-2.5 sm:p-3 flex-shrink-0 gap-3 sm:gap-4">
         <div className="flex gap-2 items-end">
           <textarea
             ref={inputRef}
-            className="input-arabic flex-1 resize-none min-h-[44px] max-h-28 py-2.5 leading-relaxed"
-            placeholder="اكتب سؤالك أو طلبك هنا..."
+            className="input-arabic flex-1 resize-none min-h-[44px] max-h-24 sm:max-h-28 py-2 sm:py-2.5 px-3 text-sm leading-relaxed"
+            placeholder="اكتب سؤالك..."
             rows={1}
             value={input}
             onChange={e => setInput(e.target.value)}
             onKeyDown={onKeyDown}
           />
           <button onClick={() => send()} disabled={loading || !input.trim()}
-                  className="btn-gold px-4 py-2.5 flex-shrink-0">
+                  className="btn-gold px-3 sm:px-4 py-2.5 sm:py-3 flex-shrink-0">
             {loading ? <Spinner className="w-4 h-4" /> : <Send size={16} />}
           </button>
         </div>
         <p className="text-xs text-ink-700 text-center mt-1.5">
-          Enter للإرسال · Shift+Enter لسطر جديد
+          <span className="hidden sm:inline">Enter للإرسال · Shift+Enter لسطر جديد</span>
+          <span className="sm:hidden">للإرسال: Enter</span>
         </p>
       </div>
     </div>

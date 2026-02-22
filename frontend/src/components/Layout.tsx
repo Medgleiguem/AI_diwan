@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { Sparkles, BookOpen, Search, MessageCircle, Home, Menu, X } from 'lucide-react'
 import clsx from 'clsx'
 
+
 const NAV = [
   { to: '/',         label: 'الرئيسية',       icon: Home,          exact: true },
   { to: '/generate', label: 'أنشئ قصيدة',     icon: Sparkles },
@@ -18,15 +19,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen flex flex-col">
       {/* ── Header ── */}
       <header className="sticky top-0 z-50 border-b border-ink-800 bg-ink-950/90 backdrop-blur-md">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 flex items-center justify-between h-14 sm:h-16">
           {/* Logo */}
-          <NavLink to="/" className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-gold-400 to-gold-700
-                            flex items-center justify-center text-ink-950 font-bold text-lg shadow-md">
+          <NavLink to="/" className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-lg sm:rounded-xl bg-gradient-to-br from-gold-400 to-gold-700
+                            flex items-center justify-center text-ink-950 font-bold text-sm sm:text-lg shadow-md flex-shrink-0">
               د
             </div>
             <div className="hidden sm:block leading-tight">
-              <div className="font-arabic text-lg font-bold text-gold-300">ديوان الذكاء</div>
+              <div className="font-arabic text-base sm:text-lg font-bold text-gold-300">الديوان الذكي</div>
               <div className="text-xs text-ink-500">منصة الشعر العربي</div>
             </div>
           </NavLink>
@@ -36,7 +37,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             {NAV.map(n => (
               <NavLink key={n.to} to={n.to} end={n.exact}
                 className={({ isActive }) => clsx(
-                  'flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-sm font-medium transition-all duration-200',
+                  'flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200',
                   isActive
                     ? 'bg-gold-600/20 text-gold-400 border border-gold-600/30'
                     : 'text-parchment-300 hover:text-parchment-100 hover:bg-ink-800'
@@ -48,15 +49,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </nav>
 
           {/* Mobile toggle */}
-          <button className="md:hidden p-2 text-ink-400 hover:text-gold-300"
+          <button className="md:hidden p-2 text-ink-400 hover:text-gold-300 transition-colors flex-shrink-0"
                   onClick={() => setOpen(o => !o)}>
-            {open ? <X size={22} /> : <Menu size={22} />}
+            {open ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>
 
         {/* Mobile nav */}
         {open && (
-          <nav className="md:hidden border-t border-ink-800 bg-ink-950/95 px-4 py-3 flex flex-col gap-1">
+          <nav className="md:hidden border-t border-ink-800 bg-ink-950/95 px-3 sm:px-4 py-3 flex flex-col gap-1">
             {NAV.map(n => (
               <NavLink key={n.to} to={n.to} end={n.exact}
                 onClick={() => setOpen(false)}
@@ -66,7 +67,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     ? 'bg-gold-800/30 text-gold-300 border border-gold-700/30'
                     : 'text-ink-400 hover:text-ink-200 hover:bg-ink-800'
                 )}>
-                <n.icon size={18} />
+                <n.icon size={16} />
                 {n.label}
               </NavLink>
             ))}
@@ -78,19 +79,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <main className="flex-1">{children}</main>
 
       {/* ── Footer ── */}
-      <footer className="border-t border-ink-800 mt-20">
-        <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row
-                        items-center justify-between gap-3 text-sm text-ink-600">
-          <span className="font-arabic text-ink-500">ديوان الذكاء ✦ شعر عربي بالذكاء الاصطناعي</span>
-          {/* <div className="flex gap-4">
-            <a href="https://qafiyah.com"                      target="_blank" rel="noopener noreferrer"
-               className="hover:text-gold-500 transition-colors">قافية</a>
-            <a href="https://github.com/ARBML/qawafi"          target="_blank" rel="noopener noreferrer"
-               className="hover:text-gold-500 transition-colors">قوافي</a>
-            <a href="https://github.com/alwalxed/qafiyah"      target="_blank" rel="noopener noreferrer"
-               className="hover:text-gold-500 transition-colors">GitHub</a>
-          </div> */}
-          <p>med gleiguem</p>
+      <footer className="border-t border-ink-800 mt-16 sm:mt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8 flex flex-col sm:flex-row
+                        items-center justify-between gap-4 text-xs sm:text-sm text-ink-600">
+          <span className="font-arabic text-ink-500 text-center sm:text-left">الديوان الذكي ✦ شعر عربي بالذكاء الاصطناعي</span>
+          <p className="text-center sm:text-right">mohamed gleiguem</p>
         </div>
       </footer>
     </div>

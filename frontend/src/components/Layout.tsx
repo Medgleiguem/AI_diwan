@@ -82,14 +82,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row
                         items-center justify-between gap-3 text-sm text-ink-600">
           <span className="font-arabic text-ink-500">ديوان الذكاء ✦ شعر عربي بالذكاء الاصطناعي</span>
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             <a href="https://qafiyah.com"                      target="_blank" rel="noopener noreferrer"
                className="hover:text-gold-500 transition-colors">قافية</a>
             <a href="https://github.com/ARBML/qawafi"          target="_blank" rel="noopener noreferrer"
                className="hover:text-gold-500 transition-colors">قوافي</a>
             <a href="https://github.com/alwalxed/qafiyah"      target="_blank" rel="noopener noreferrer"
                className="hover:text-gold-500 transition-colors">GitHub</a>
-          </div>
+          </div> */}
+          <p>med gleiguem</p>
         </div>
       </footer>
     </div>

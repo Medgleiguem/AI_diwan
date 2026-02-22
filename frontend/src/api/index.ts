@@ -4,7 +4,9 @@ import type { GenerateRequest, GenerationResponse, ChatHistoryItem, LocalMeter }
 // ── Backend HTTP client (qafiyah proxy + local meters) ───────────────────────
 // When deploying, set VITE_API_URL in the frontend environment (Vercel/Vite):
 //   VITE_API_URL=https://your-backend.example.com
-const API_BASE = (import.meta.env.VITE_API_URL as string | undefined) || '/api'
+const rawBase = (import.meta.env.VITE_API_URL as string | undefined) || '/api'
+// Ensure base URL always points to the API root (ends with /api)
+const API_BASE = rawBase.endsWith('/api') ? rawBase : rawBase.replace(/\/$/, '') + '/api'
 const http = axios.create({
   baseURL: API_BASE,
   timeout: 90_000,
@@ -334,8 +336,14 @@ export async function chatWithPoet(
 }
 
 // ── Local meters list (still from backend — backend serves METERS dict) ───────
-export const getLocalMeters = (): Promise<{ meters: LocalMeter[] }> =>
-  http.get('/meters').then(r => r.data)
+export const getLocalMeters = (): Promise<{ meters: LocalMeter[] }> => {
+  const meters = Object.entries(METERS).map(([name, pattern]) => ({
+    name,
+    pattern,
+    feet: pattern.split(' ').length,
+  }))
+  return Promise.resolve({ meters })
+}
 
 // ── Qafiyah — Poets ──────────────────────────────────────────────────────────
 export const getPoetsPage = (page: number) =>

@@ -1,0 +1,207 @@
+import { useState, useRef } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
+import { Search, User, Feather, ChevronLeft, ChevronRight } from 'lucide-react'
+import { searchPoetry } from '../api'
+import { PageLoader, Empty, ErrorBox } from '../components/UI'
+import clsx from 'clsx'
+
+type SearchType = 'poems' | 'poets'
+type MatchType  = 'exact' | 'all' | 'any'
+
+function extractList<T>(data: unknown): T[] {
+  if (!data) return []
+  if (Array.isArray(data)) return data as T[]
+  const d = data as Record<string, unknown>
+  for (const key of ['data', 'results', 'poems', 'poets', 'items']) {
+    if (Array.isArray(d[key])) return d[key] as T[]
+  }
+  return []
+}
+
+export default function SearchPage() {
+  const navigate = useNavigate()
+  const [q, setQ]                     = useState('')
+  const [searchType, setSearchType]   = useState<SearchType>('poems')
+  const [matchType, setMatchType]     = useState<MatchType>('all')
+  const [page, setPage]               = useState(1)
+  const [results, setResults]         = useState<any[]>([])
+  const [loading, setLoading]         = useState(false)
+  const [error, setError]             = useState('')
+  const [searched, setSearched]       = useState(false)
+  const inputRef = useRef<HTMLInputElement>(null)
+
+  const doSearch = async (p = 1) => {
+    if (!q.trim()) return
+    setLoading(true)
+    setError('')
+    setPage(p)
+    try {
+      const response = await searchPoetry({ q: q.trim(), search_type: searchType, match_type: matchType, page: p })
+      const data = response?.data?.results || extractList(response)
+      setResults(data)
+      setSearched(true)
+    } catch (e: any) {
+      setError(e.message || 'خطأ في البحث')
+      setResults([])
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  const onKey = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') doSearch(1)
+  }
+
+  return (
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10" dir="rtl">
+      {/* Header */}
+      <div className="mb-8">
+        <div className="flex items-center gap-3 mb-1">
+          <div className="w-8 h-8 rounded-lg bg-purple-900/20 border border-purple-800/30
+                           flex items-center justify-center">
+            <Search size={15} className="text-purple-400" />
+          </div>
+          <h1 className="font-arabic text-3xl font-bold text-parchment-100">بحث في الشعر</h1>
+        </div>
+        <p className="text-ink-500 text-sm mr-11">ابحث في أكثر من 944,000 بيت شعري</p>
+      </div>
+
+      {/* Search bar */}
+      <div className="card-parchment p-4 mb-6 space-y-4">
+        <div className="flex gap-2">
+          <div className="relative flex-1">
+            <Search size={15} className="absolute right-3 top-1/2 -translate-y-1/2
+                                          text-ink-600 pointer-events-none" />
+            <input ref={inputRef}
+                   className="input-arabic pr-9"
+                   placeholder="أدخل كلمة أو مقطع شعري..."
+                   value={q}
+                   onChange={e => setQ(e.target.value)}
+                   onKeyDown={onKey} />
+          </div>
+          <button onClick={() => doSearch(1)} disabled={loading || !q.trim()}
+                  className="btn-gold px-6">
+            بحث
+          </button>
+        </div>
+
+        {/* Options */}
+        <div className="flex flex-wrap gap-3">
+          <div className="flex gap-1">
+            {([['poems', 'أبيات', Feather], ['poets', 'شعراء', User]] as const).map(([t, label, Icon]) => (
+              <button key={t} onClick={() => setSearchType(t)}
+                      className={clsx(
+                        'flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm transition-all',
+                        searchType === t
+                          ? 'bg-gold-800/30 text-gold-300 border border-gold-700/30'
+                          : 'text-ink-500 hover:text-ink-300 border border-ink-800'
+                      )}>
+                <Icon size={13} />{label}
+              </button>
+            ))}
+          </div>
+          <div className="flex gap-1">
+            {([['all', 'جميع'], ['any', 'أي'], ['exact', 'كامل']] as const).map(([t, label]) => (
+              <button key={t} onClick={() => setMatchType(t)}
+                      className={clsx(
+                        'px-3 py-1.5 rounded-lg text-sm transition-all border',
+                        matchType === t
+                          ? 'bg-ink-800 text-ink-200 border-ink-600'
+                          : 'text-ink-600 border-ink-800 hover:text-ink-400'
+                      )}>
+                {label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Error */}
+      {error && <ErrorBox message={error} />}
+
+      {/* Loading */}
+      {loading && <PageLoader message="جارٍ البحث..." />}
+
+      {/* Results */}
+      {!loading && searched && (
+        results.length === 0
+          ? <Empty message="لا توجد نتائج — جرب كلمات مختلفة" />
+          : (
+            <div className="space-y-4">
+              <p className="text-ink-600 text-sm">{results.length} نتيجة</p>
+
+              {results.map((item, i) => {
+                const isPoet  = searchType === 'poets'
+                const name    = item.name || item.poet_name || item.poet?.name
+                const slug    = item.slug || item.poem_slug || item.poet_slug || item.id
+                const verses  = item.verses || (item.poem_snippet ? item.poem_snippet.split('*').slice(1, -1) : item.text ? [item.text] : [])
+                const title   = item.title || item.poem_title
+                const meter   = item.meter || item.poem_meter
+
+                if (isPoet) return (
+                  <Link key={slug || i} to={`/library/poet/${slug}`}
+                        className="card-parchment p-4 hover:border-ink-600 transition-all flex items-center gap-4 group">
+                    <div className="w-10 h-10 rounded-full bg-gold-900/20 border border-gold-800/30
+                                     flex items-center justify-center flex-shrink-0">
+                      <span className="font-arabic text-gold-400 font-bold">{name?.[0]}</span>
+                    </div>
+                    <div>
+                      <div className="font-arabic font-bold text-parchment-200 group-hover:text-gold-300
+                                       transition-colors">{name}</div>
+                      {item.era && <div className="text-xs text-ink-600">{item.era}</div>}
+                    </div>
+                  </Link>
+                )
+
+                return (
+                  <div key={slug || i} className="poem-container p-5 hover:border-ink-600 transition-all cursor-pointer"
+                       onClick={() => navigate(`/library/poem/${slug}`)}>
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      {name  && <span className="text-gold-500 font-arabic text-sm">— {name}</span>}
+                      {title && <span className="font-arabic text-parchment-300 text-sm">{title}</span>}
+                      {meter && <span className="badge">{meter}</span>}
+                    </div>
+                    {verses.length > 0 ? (
+                      verses.slice(0, 4).map((v: string, j: number) => (
+                        <div key={j} className="font-arabic text-lg text-parchment-100 text-center leading-loose py-0.5">
+                          <span dangerouslySetInnerHTML={{ __html: v.replace(/<mark>(.*?)<\/mark>/g, '<mark style="color: #ef4444; background-color: transparent;">$1</mark>') }} />
+                        </div>
+                      ))
+                    ) : (
+                      <div className="font-arabic text-lg text-parchment-100 text-center leading-loose py-0.5">
+                        <span dangerouslySetInnerHTML={{ __html: item.poem_snippet.replace(/<mark>(.*?)<\/mark>/g, '<mark style="color: #ef4444; background-color: transparent;">$1</mark>') }} />
+                      </div>
+                    )}
+                    {verses.length > 4 && (
+                      <p className="text-center text-xs text-ink-700 mt-2">... و{verses.length - 4} أبيات</p>
+                    )}
+                  </div>
+                )
+              })}
+
+              {/* Pagination */}
+              <div className="flex items-center justify-center gap-4 pt-4">
+                <button onClick={() => doSearch(page - 1)} disabled={page === 1}
+                        className="btn-ghost disabled:opacity-30">
+                  <ChevronRight size={15} />السابق
+                </button>
+                <span className="text-ink-600 text-sm tabular-nums">صفحة {page}</span>
+                <button onClick={() => doSearch(page + 1)} disabled={results.length === 0}
+                        className="btn-ghost disabled:opacity-30">
+                  التالي<ChevronLeft size={15} />
+                </button>
+              </div>
+            </div>
+          )
+      )}
+
+      {/* Placeholder */}
+      {!searched && !loading && (
+        <div className="text-center py-20 text-ink-700">
+          <Search size={40} className="mx-auto mb-4 opacity-20" />
+          <p>اكتب كلمة أو مقطعاً شعرياً للبحث</p>
+        </div>
+      )}
+    </div>
+  )
+}

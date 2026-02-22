@@ -91,7 +91,7 @@ export default function HomePage() {
           </h1>
 
           <p
-            className="text-parchment-400 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-10"
+            className="text-parchment-400 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-10 mt-5"
             style={{ animationDelay: "0.2s", animationFillMode: "both" }}
           >
             منصة لتوليد الشعر العربي الملتزم بالأوزان والقوافي، واستكشاف كنوز

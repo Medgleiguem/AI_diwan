@@ -7,4 +7,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # RUN pip install --no-cache-dir git+https://github.com/ARBML/qawafi.git
 COPY . .
 EXPOSE 5000
-CMD ["gunicorn", "app:app", "--workers", "2", "--bind", "0.0.0.0:5000", "--timeout", "120", "--log-level", "info"]
+# Use shell form so runtime $PORT (set by Render) is respected. Default to 5000 when PORT is unset.
+CMD gunicorn app:app --workers 2 --bind 0.0.0.0:${PORT:-5000} --timeout 120 --log-level info

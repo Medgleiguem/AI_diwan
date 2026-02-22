@@ -97,7 +97,7 @@ export default function ChatPage() {
   const showSuggestions = messages.length === 1
 
   return (
-    <div className="max-w-3xl mx-auto px-3 sm:px-6 py-4 sm:py-6 flex flex-col" style={{ height: 'calc(100vh - 56px) sm:calc(100vh - 64px)' }} dir="rtl">
+    <div className="max-w-3xl mx-auto px-3 sm:px-6 py-4 sm:py-6 flex flex-col h-[calc(100vh-56px)] sm:h-[calc(100vh-64px)]" dir="rtl">
       {/* Header */}
       <div className="flex items-center justify-between mb-3 sm:mb-4 flex-shrink-0 gap-2">
         <div className="flex items-center gap-2 sm:gap-3 min-w-0">

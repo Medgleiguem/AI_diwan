@@ -199,7 +199,13 @@ export default function LibraryPage() {
 
       {/* Tabs */}
       <div className="flex gap-1 border-b-2 border-ink-800/50 mb-8 overflow-x-auto">
-        {([['poets', 'الشعراء', User], ['eras', 'العصور', Globe], ['meters', 'البحور', Music], ['themes', 'الموضاعات', Sparkles], ['rhymes', 'القوافي', Zap]] as const).map(([t, label, Icon]) => (
+      {([
+        ['poets',  'الشعراء',   'شاعر', User],
+        ['eras',   'العصور',    'عصر', Globe],
+        ['meters', 'البحور',    'بحر', Music],
+        ['themes', 'الموضوعات', 'موضوع', Sparkles],
+        ['rhymes', 'القوافي',   'قافية', Zap],
+      ] as const).map(([t, label, shortLabel, Icon]) => (
           <button key={t} onClick={() => { setTab(t); setPage(1) }}
                   className={clsx(
                     'flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-2.5 text-xs sm:text-sm font-medium whitespace-nowrap flex-shrink-0',
@@ -210,7 +216,7 @@ export default function LibraryPage() {
                   )}>
             <Icon size={14} className="sm:w-4 sm:h-4" />
             <span className="hidden sm:inline">{label}</span>
-            <span className="sm:hidden">{label.slice(0, 2)}</span>
+            <span className="sm:hidden">{shortLabel}</span>
           </button>
         ))}
       </div>

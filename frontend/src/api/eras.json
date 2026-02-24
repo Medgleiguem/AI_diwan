@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 5,
+      "name": "جاهلي",
+      "slug": "jahili",
+      "poetsCount": 268,
+      "poemsCount": 2460
+    },
+    {
+      "id": 6,
+      "name": "مخضرم",
+      "slug": "mukhadram",
+      "poetsCount": 65,
+      "poemsCount": 3308
+    },
+    {
+      "id": 1,
+      "name": "إسلامي",
+      "slug": "islamic",
+      "poetsCount": 37,
+      "poemsCount": 355
+    },
+    {
+      "id": 4,
+      "name": "أموي",
+      "slug": "umayyad",
+      "poetsCount": 105,
+      "poemsCount": 7416
+    },
+    {
+      "id": 2,
+      "name": "عباسي",
+      "slug": "abbasid",
+      "poetsCount": 172,
+      "poemsCount": 27475
+    },
+    {
+      "id": 7,
+      "name": "أندلسي",
+      "slug": "andalusian",
+      "poetsCount": 44,
+      "poemsCount": 5801
+    },
+    {
+      "id": 10,
+      "name": "أيوبي",
+      "slug": "ayyubi",
+      "poetsCount": 89,
+      "poemsCount": 8210
+    },
+    {
+      "id": 8,
+      "name": "مملوكي",
+      "slug": "mamluki",
+      "poetsCount": 70,
+      "poemsCount": 16517
+    },
+    {
+      "id": 9,
+      "name": "عثماني",
+      "slug": "ottoman",
+      "poetsCount": 71,
+      "poemsCount": 9690
+    },
+    {
+      "id": 3,
+      "name": "متأخر",
+      "slug": "late",
+      "poetsCount": 11,
+      "poemsCount": 3097
+    }
+  ]
+}

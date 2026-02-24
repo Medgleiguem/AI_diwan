@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link, useNavigate, useLocation } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
-import { getEraPoems } from '../api'
+import { getEraPoems, getEraDetails } from '../api'
 import { PageLoader, Empty, ErrorBox } from '../components/UI'
 import { ArrowRight, BookOpen, ChevronRight, ChevronLeft, User } from 'lucide-react'
 import type { QafiyahPoem } from '../types'
 import allPoetsData from '../api/all_poets.json'
+import erasData from '../api/eras.json'
 
 type Tab = 'poets' | 'poems'
 const POETS_PER_PAGE = 10
@@ -56,17 +57,16 @@ export default function EraPage() {
       
       setLoadingAllPoets(true)
       try {
-        // Load era details to get era ID
-        const eraData = await getEraPoems(slug, 1)
-        const eraDetails = (eraData as any)?.data?.eraDetails
-        const loadedEraId = eraDetails?.id
-        const eraName = eraDetails?.name
-        const totalPoemsCount = eraDetails?.poemsCount || 0
+        // Get era details from local JSON
+        const eraDetails = await getEraDetails(slug)
         
-        if (loadedEraId) {
+        if (eraDetails) {
+          const loadedEraId = eraDetails.id
+          const eraName = eraDetails.name
+          
           setEraId(loadedEraId)
           setEraDetailsName(eraName || null)
-          setEraTotal(totalPoemsCount)
+          setEraTotal(eraDetails.poemsCount || 0)
           
           // Filter poets from JSON by era ID
           const eraPoets = (allPoetsData as any[]).filter(

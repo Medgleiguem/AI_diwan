@@ -1,0 +1,117 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 43,
+      "name": "البسيط",
+      "slug": "albasit",
+      "poemsCount": 10422,
+      "poetsCount": 593
+    },
+    {
+      "id": 39,
+      "name": "الخفيف",
+      "slug": "alkhafif",
+      "poemsCount": 5861,
+      "poetsCount": 440
+    },
+    {
+      "id": 37,
+      "name": "الرجز",
+      "slug": "alrajz",
+      "poemsCount": 2773,
+      "poetsCount": 407
+    },
+    {
+      "id": 41,
+      "name": "الرمل",
+      "slug": "alramal",
+      "poemsCount": 1558,
+      "poetsCount": 306
+    },
+    {
+      "id": 29,
+      "name": "السريع",
+      "slug": "alsarie",
+      "poemsCount": 4777,
+      "poetsCount": 385
+    },
+    {
+      "id": 19,
+      "name": "الطويل",
+      "slug": "altawil",
+      "poemsCount": 20592,
+      "poetsCount": 706
+    },
+    {
+      "id": 10,
+      "name": "الكامل",
+      "slug": "alkamil",
+      "poemsCount": 11137,
+      "poetsCount": 587
+    },
+    {
+      "id": 34,
+      "name": "المتدارك",
+      "slug": "almutadarak",
+      "poemsCount": 65,
+      "poetsCount": 38
+    },
+    {
+      "id": 36,
+      "name": "المتقارب",
+      "slug": "almutakarib",
+      "poemsCount": 3592,
+      "poetsCount": 442
+    },
+    {
+      "id": 11,
+      "name": "المجتث",
+      "slug": "almujtath",
+      "poemsCount": 1106,
+      "poetsCount": 203
+    },
+    {
+      "id": 18,
+      "name": "المديد",
+      "slug": "al-madid",
+      "poemsCount": 453,
+      "poetsCount": 171
+    },
+    {
+      "id": 26,
+      "name": "المضارع",
+      "slug": "almudari",
+      "poemsCount": 13,
+      "poetsCount": 12
+    },
+    {
+      "id": 22,
+      "name": "المقتضب",
+      "slug": "almuqtadab",
+      "poemsCount": 21,
+      "poetsCount": 16
+    },
+    {
+      "id": 31,
+      "name": "المنسرح",
+      "slug": "almunsarih",
+      "poemsCount": 2271,
+      "poetsCount": 322
+    },
+    {
+      "id": 6,
+      "name": "الهزج",
+      "slug": "alhazaj",
+      "poemsCount": 475,
+      "poetsCount": 139
+    },
+    {
+      "id": 15,
+      "name": "الوافر",
+      "slug": "alwafir",
+      "poemsCount": 7043,
+      "poetsCount": 573
+    }
+  ]
+}

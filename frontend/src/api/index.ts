@@ -1,5 +1,6 @@
 import axios from 'axios'
 import type { GenerateRequest, GenerationResponse, ChatHistoryItem, LocalMeter } from '../types'
+import erasData from './eras.json'
 
 // ── Backend HTTP client (qafiyah proxy + local meters) ───────────────────────
 // When deploying, set VITE_API_URL in the frontend environment (Vercel/Vite):
@@ -364,7 +365,12 @@ export const getPoemBySlug = (slug: string) =>
 
 // ── Qafiyah — Eras ───────────────────────────────────────────────────────────
 export const getEras = () =>
-  http.get('/eras').then(r => r.data)
+  Promise.resolve(erasData.data)
+
+export const getEraDetails = (slug: string) => {
+  const era = erasData.data.find((e: any) => e.slug === slug)
+  return Promise.resolve(era || null)
+}
 
 export const getEraPoems = (slug: string, page: number) =>
   http.get(`/eras/${slug}/page/${page}`).then(r => r.data)

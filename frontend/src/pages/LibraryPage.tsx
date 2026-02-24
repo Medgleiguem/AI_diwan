@@ -1,14 +1,17 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
-import { BookOpen, User, Globe, Feather, ChevronRight, ChevronLeft, RefreshCw } from 'lucide-react'
+import { BookOpen, User, Globe, Feather, ChevronRight, ChevronLeft, RefreshCw, Music, Sparkles, Zap } from 'lucide-react'
 import { getEras, getRandomPoem } from '../api'
 import { PageLoader, Empty, ErrorBox, PoemCardSkeleton } from '../components/UI'
 import type { QafiyahPoem } from '../types'
 import allPoets from '../api/all_poets.json'
+import metersData from '../api/meters.json'
+import themesData from '../api/themes.json'
+import rhymesData from '../api/rhymes.json'
 import clsx from 'clsx'
 
-type Tab = 'poets' | 'eras' | 'random'
+type Tab = 'poets' | 'eras' | 'meters' | 'themes' | 'rhymes' | 'random'
 
 const POETS_PER_PAGE = 16
 
@@ -51,6 +54,15 @@ export default function LibraryPage() {
   })
 
   const eras: any[] = extractList(erasData)
+
+  // Extract meters from imported JSON
+  const meters: any[] = metersData?.data ? (Array.isArray(metersData.data) ? metersData.data : []) : []
+
+  // Extract themes from imported JSON
+  const themes: any[] = themesData?.data ? (Array.isArray(themesData.data) ? themesData.data : []) : []
+
+  // Extract rhymes from imported JSON
+  const rhymes: any[] = rhymesData?.data ? (Array.isArray(rhymesData.data) ? rhymesData.data : []) : []
 
   // Create mapping from eraId to era name
   const eraMap = useMemo(() => {
@@ -187,7 +199,7 @@ export default function LibraryPage() {
 
       {/* Tabs */}
       <div className="flex gap-1 border-b-2 border-ink-800/50 mb-8">
-        {([['poets', 'الشعراء', User], ['eras', 'العصور', Globe]] as const).map(([t, label, Icon]) => (
+        {([['poets', 'الشعراء', User], ['eras', 'العصور', Globe], ['meters', 'البحور', Music], ['themes', 'الموضاعات', Sparkles], ['rhymes', 'القوافي', Zap]] as const).map(([t, label, Icon]) => (
           <button key={t} onClick={() => { setTab(t); setPage(1) }}
                   className={clsx(
                     'flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-medium whitespace-nowrap',
@@ -319,6 +331,96 @@ export default function LibraryPage() {
                 </div>
               )
           )}
+        </>
+      )}
+
+      {/* Meters list */}
+      {tab === 'meters' && (
+        <>
+          {meters.length === 0
+            ? <Empty message="لا يوجد بيانات البحور" />
+            : (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 lg:gap-6">
+                {meters.map((meter: any) => {
+                  const name  = meter?.name || meter?.slug
+                  const slug  = meter?.slug || meter?.name
+                  const poemsCount = meter?.poemsCount
+                  const poetsCount = meter?.poetsCount
+                  return (
+                    <Link key={slug} to={`/library/meter/${slug}`} state={{ name }}
+                      className="card-parchment p-5 hover:border-ink-600 transition-all group">
+                      <Music size={16} className="text-gold-600 mb-2 group-hover:text-gold-400 transition-colors" />
+                      <div className="font-arabic font-bold text-parchment-200 mb-1 group-hover:text-gold-300 transition-colors">{name}</div>
+                      <div className="text-xs text-ink-600">
+                        {poemsCount != null && <div>{poemsCount} قصيدة</div>}
+                        {poetsCount != null && <div>{poetsCount} شاعر</div>}
+                      </div>
+                    </Link>
+                  )
+                })}
+              </div>
+            )
+        }
+        </>
+      )}
+
+      {/* Themes list */}
+      {tab === 'themes' && (
+        <>
+          {themes.length === 0
+            ? <Empty message="لا يوجد بيانات المواضيع" />
+            : (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 lg:gap-6">
+                {themes.map((theme: any) => {
+                  const name  = theme?.name || theme?.slug
+                  const slug  = theme?.slug || theme?.name
+                  const poemsCount = theme?.poemsCount
+                  const poetsCount = theme?.poetsCount
+                  return (
+                    <Link key={slug} to={`/library/theme/${slug}`} state={{ name }}
+                      className="card-parchment p-5 hover:border-ink-600 transition-all group">
+                      <Sparkles size={16} className="text-gold-600 mb-2 group-hover:text-gold-400 transition-colors" />
+                      <div className="font-arabic font-bold text-parchment-200 mb-1 group-hover:text-gold-300 transition-colors">{name}</div>
+                      <div className="text-xs text-ink-600">
+                        {poemsCount != null && <div>{poemsCount} قصيدة</div>}
+                        {poetsCount != null && <div>{poetsCount} شاعر</div>}
+                      </div>
+                    </Link>
+                  )
+                })}
+              </div>
+            )
+        }
+        </>
+      )}
+
+      {/* Rhymes list */}
+      {tab === 'rhymes' && (
+        <>
+          {rhymes.length === 0
+            ? <Empty message="لا يوجد بيانات القوافي" />
+            : (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 lg:gap-6">
+                {rhymes.map((rhyme: any) => {
+                  const name  = rhyme?.name || rhyme?.slug
+                  const slug  = rhyme?.slug || rhyme?.name
+                  const poemsCount = rhyme?.poemsCount
+                  const poetsCount = rhyme?.poetsCount
+                  return (
+                    <Link key={slug} to={`/library/rhyme/${slug}`} state={{ name }}
+                      className="card-parchment p-5 hover:border-ink-600 transition-all group">
+                      <Zap size={16} className="text-gold-600 mb-2 group-hover:text-gold-400 transition-colors" />
+                      <div className="font-arabic font-bold text-parchment-200 mb-1 group-hover:text-gold-300 transition-colors">{name}</div>
+                      <div className="text-xs text-ink-600">
+                        {poemsCount != null && <div>{poemsCount} قصيدة</div>}
+                        {poetsCount != null && <div>{poetsCount} شاعر</div>}
+                      </div>
+                    </Link>
+                  )
+                })}
+              </div>
+            )
+        }
         </>
       )}
       </div>

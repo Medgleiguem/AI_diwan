@@ -72,7 +72,8 @@ export default function GeneratePage() {
                            flex items-center justify-center flex-shrink-0">
             <Sparkles size={14} className="text-gold-400 sm:w-4 sm:h-4" />
           </div>
-          <h1 className="font-arabic text-2xl sm:text-3xl font-bold text-parchment-100">أنشئ قصيدتك</h1>
+          <h1 className="font-arabic text-2xl sm:text-3xl font-bold text-parchment-100">أنشئ قصيدتك  <span className='text-red-600'>  ( هذه الخاصية ماتزال قيد الانشاء)</span></h1>
+
         </div>
         <p className="text-ink-500 text-xs sm:text-sm mr-10 sm:mr-11">
           حدد الموضوع والبحر وسيُولّد الذكاء الاصطناعي قصيدة محققة الوزن

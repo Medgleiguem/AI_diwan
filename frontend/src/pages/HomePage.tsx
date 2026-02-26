@@ -178,13 +178,6 @@ export default function HomePage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
           {[
             {
-              icon: Sparkles,
-              title: "توليد القصائد",
-              desc: "أنشئ قصائد ملتزمة بالأوزان مع التحقق الآلي والتصحيح التلقائي",
-              to: "/generate",
-              cta: "ابدأ الإنشاء",
-            },
-            {
               icon: BookOpen,
               title: "مكتبة الشعر",
               desc: "944K+ بيت من 932 شاعراً عبر 10 عصور من قافية المفتوحة",
@@ -200,10 +193,17 @@ export default function HomePage() {
             },
             {
               icon: MessageCircle,
-              title: "حوار الشاعر",
-              desc: "تحدث مع شاعر رقمي متمكن يعرف تاريخ الشعر العربي كله",
+              title: "جالس الشاعر",
+              desc: "استعد زمن الفصاحة في حوارٍ حي مع ذكاءٍ اصطناعي يُحاكي بلاغة العرب.",
               to: "/chat",
-              cta: "ابدأ الحوار",
+              cta: "ادخل المجلس",
+            },
+            {
+              icon: Sparkles,
+              title: "توليد القصائد (قيد الأنشاء ماتزال)",
+              desc: "أنشئ قصائد ملتزمة بالأوزان مع التحقق الآلي والتصحيح التلقائي",
+              to: "/generate",
+              cta: "ابدأ الإنشاء",
             },
           ].map((f) => (
             <div

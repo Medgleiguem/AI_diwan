@@ -6,10 +6,11 @@ import clsx from 'clsx'
 
 const NAV = [
   { to: '/',         label: 'الرئيسية',       icon: Home,          exact: true },
-  { to: '/generate', label: 'أنشئ قصيدة',     icon: Sparkles },
   { to: '/library',  label: 'مكتبة الشعر',    icon: BookOpen },
   { to: '/search',   label: 'بحث',            icon: Search },
   { to: '/chat',     label: 'حوار الشاعر',    icon: MessageCircle },
+    { to: '/generate', label: 'أنشئ قصيدة',     icon: Sparkles },
+
 ]
 
 export default function Layout({ children }: { children: React.ReactNode }) {

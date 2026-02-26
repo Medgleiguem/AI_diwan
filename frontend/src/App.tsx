@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import { useEffect } from "react";
 import Layout from './components/Layout'
 import HomePage      from './pages/HomePage'
 import GeneratePage  from './pages/GeneratePage'
@@ -11,8 +12,16 @@ import ThemePage     from './pages/ThemePage'
 import RhymePage     from './pages/RhymePage'
 import SearchPage    from './pages/SearchPage'
 import ChatPage      from './pages/ChatPage'
+import { getHealth } from './api'
 
 export default function App() {
+   
+  useEffect(() => {
+    getHealth().catch(() => {
+      // ignore error – this is just to wake backend
+    });
+  }, []);
+
   return (
     <Layout>
       <Routes>

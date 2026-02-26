@@ -83,7 +83,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8 flex flex-col sm:flex-row
                         items-center justify-between gap-4 text-xs sm:text-sm text-ink-600">
           <span className="font-arabic text-ink-500 text-center sm:text-left">الديوان الذكي ✦ شعر عربي بالذكاء الاصطناعي</span>
-          <p className="text-center sm:text-right">mohamed gleiguem</p>
+          <p className="text-center text-gold-500/80 sm:text-right">Mohamed Gleiguem</p>
         </div>
       </footer>
     </div>

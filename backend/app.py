@@ -109,12 +109,9 @@ def meters_local():
     return jsonify({"meters": [{"name": k, "pattern": v["pattern"], "feet": v["feet"]}
                                 for k, v in METERS.items()]})
 
-# @app.route("/api/health")
-# def health():
-#     return jsonify({"status": "ok", "gemini_configured": bool(GEMINI_API_KEY),
-#                     "gemini_model": GEMINI_MODEL, "max_retries": MAX_RETRIES,
-#                     "api_call_delay": API_CALL_DELAY})
-
+@app.route("/api/health")
+def health():
+    return jsonify({"status": "ok"})
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 5000))

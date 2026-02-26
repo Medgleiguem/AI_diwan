@@ -110,23 +110,61 @@ export default function HomePage() {
               >
                 {verse.text}
               </div>
-              <p className="mt-4 sm:mt-6 text-gold-500 text-xs sm:text-sm">— {verse.poet}</p>
+              <p className="mt-4 sm:mt-6 text-gold-500 text-xs sm:text-sm">
+                — {verse.poet}
+              </p>
             </div>
           </section>
 
           {/* CTAs */}
           <div
-            className="flex flex-col sm:flex-row items-center justify-center gap-3
-                           animate-fade-up w-full"
+            className="flex flex-col sm:flex-row items-center justify-center gap-4
+             animate-fade-up w-full max-w-md sm:max-w-6xl mx-auto px-4"
             style={{ animationDelay: "0.3s", animationFillMode: "both" }}
           >
-            <Link to="/generate" className="btn-gold text-sm sm:text-base px-6 sm:px-8 py-3 w-full sm:w-auto">
-              <Sparkles size={16} />
-              أنشئ قصيدتك الآن
+            {/* Primary Button: Explore Library */}
+            <Link
+              to="/library"
+              className="btn-gold flex items-center justify-center gap-2 text-base px-6
+               w-full sm:w-64 h-14 sm:h-16 rounded-xl shadow-lg transition-transform active:scale-95"
+            >
+              <BookOpen size={20} />
+              <span className="font-arabic font-bold">استكشف المكتبة</span>
             </Link>
-            <Link to="/library" className="btn-ghost text-sm sm:text-base px-6 py-3 w-full sm:w-auto">
-              <BookOpen size={16} />
-              استكشف المكتبة
+
+            {/* Poets Button: Sit with the Poet */}
+            <Link
+              to="/chat"
+              className="group relative flex flex-col items-center justify-center 
+               bg-ink-900/40 border border-gold-600/40 active:bg-gold-600/20
+               text-parchment-100 rounded-xl px-6 w-full sm:w-64 h-14 sm:h-16
+               transition-all duration-300 overflow-hidden active:scale-95 hover:bg-gold-600/10"
+            >
+              {/* Inner Wrapper: Keeps everything centered and stable */}
+              <div className="relative flex flex-col items-center justify-center h-full w-full">
+                {/* Main Text: Stays centered on mobile, slides up on desktop hover */}
+                <div className="flex items-center gap-2 transition-all duration-300 transform sm:group-hover:-translate-y-3">
+                  <MessageCircle size={20} className="text-gold-500" />
+                  <span className="font-arabic font-bold text-lg leading-none">
+                    جالس الشاعر
+                  </span>
+                </div>
+
+                {/* Sub-header: Hidden on desktop until hover, always visible but small on mobile */}
+                <span
+                  className="font-arabic text-gold-500/80 text-[10px] sm:text-xs
+                       mt-1 sm:mt-0 
+                       sm:absolute sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:translate-y-2
+                       sm:opacity-0 sm:group-hover:opacity-100 sm:group-hover:translate-y-1
+                       transition-all duration-300 whitespace-nowrap"
+                >
+                  استعد زمن الفصاحة
+                </span>
+              </div>
+
+              {/* Decorative Touch: Corner highlights that don't affect layout */}
+              <div className="absolute top-0 right-0 w-2 h-2 border-t border-r border-gold-600/30" />
+              <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-gold-600/30" />
             </Link>
           </div>
         </div>

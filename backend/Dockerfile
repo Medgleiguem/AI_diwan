@@ -3,8 +3,8 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends git curl && rm -rf /var/lib/apt/lists/*
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-# Uncomment to include qawafi:
-# RUN pip install --no-cache-dir git+https://github.com/ARBML/qawafi.git
+# Install qawafi for best meter validation (all 16 meters + zihafat)
+RUN pip install --no-cache-dir git+https://github.com/ARBML/qawafi.git
 COPY . .
 EXPOSE 5000
 # Use shell form so runtime $PORT (set by Render) is respected. Default to 5000 when PORT is unset.

@@ -5,6 +5,7 @@ import {
   BookOpen,
   Search,
   MessageCircle,
+  ShieldCheck,
   ArrowLeft,
 } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
@@ -197,6 +198,13 @@ export default function HomePage() {
               desc: "استعد زمن الفصاحة في حوارٍ حي مع ذكاءٍ اصطناعي يُحاكي بلاغة العرب.",
               to: "/chat",
               cta: "ادخل المجلس",
+            },
+            {
+              icon: ShieldCheck,
+              title: "تحقق من القصيدة",
+              desc: "تحقق من الأوزان والقوافي — أدخل أبيات قصيدتك وتأكد من صحتها",
+              to: "/check",
+              cta: "ابدأ التحقق",
             },
             {
               icon: Sparkles,

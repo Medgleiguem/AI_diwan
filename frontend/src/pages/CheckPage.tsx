@@ -87,7 +87,7 @@ export default function CheckPage() {
             <ShieldCheck size={14} className="text-gold-400 sm:w-4 sm:h-4" />
           </div>
           <h1 className="font-arabic text-2xl sm:text-3xl font-bold text-parchment-100">
-            تحقق من قصيدتك
+            تحقق من قصيدتك <span className='text-red-600'>نموذج أولي</span>
           </h1>
         </div>
         <p className="text-ink-500 text-xs sm:text-sm mr-10 sm:mr-11">
@@ -100,7 +100,7 @@ export default function CheckPage() {
         <div>
           <p className="text-ink-400 text-sm font-medium">الأبيات</p>
           <p className="text-ink-600 text-xs mt-1">
-            الصدر والعجز في حقلين منفصلين. وضع التشكيل يزيد دقة التحقق.
+            الصدر والعجز في حقلين منفصلين.  <span className='text-red-500'>   وضع التشكيل يزيد دقة التحقق.</span>
           </p>
         </div>
 
@@ -185,7 +185,7 @@ export default function CheckPage() {
             ))}
           </select>
           <p className="text-ink-600 text-xs mt-1">
-            إن لم تختر بحراً، نحاول اكتشافه من البيت الأول (يفضّل وضع التشكيل).
+            إن لم تختر بحراً، نحاول اكتشافه من البيت الأول <span className='text-red-500'>(يرجي وضع التشكيل).</span>
           </p>
         </div>
 
@@ -202,7 +202,7 @@ export default function CheckPage() {
           ) : (
             <>
               <ShieldCheck size={16} />
-              تحقق من القصيدة
+              تحقق من القصيدة 
             </>
           )}
         </button>

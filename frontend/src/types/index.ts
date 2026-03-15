@@ -4,6 +4,7 @@ export interface GenerateRequest {
   meter: string
   num_verses: number
   style: string
+  gemini_api_key?: string
 }
 
 export interface PoemData {
@@ -24,13 +25,7 @@ export interface VerseValidation {
   error?: string
 }
 
-export interface Validation {
-  valid: boolean
-  validator: 'qawafi' | 'rule-based'
-  results: VerseValidation[]
-  feedback: string | null
-  rhyme_endings?: string[]
-}
+
 
 export interface GenerationAttempt {
   attempt: number
@@ -96,6 +91,16 @@ export interface QafiyahListResponse<T> {
   [key: string]: unknown
 }
 
+export interface Validation {
+  valid: boolean
+  validator: 'bohour' | 'pyarud' | 'structural' | 'rule-based'
+  results: VerseValidation[]
+  feedback: string | null
+  rhyme_endings?: string[]
+  detected_meters?: string[]
+  detected_meter?: string
+  auto_detected?: string
+}
 export interface LocalMeter {
   name: string
   pattern: string
@@ -116,7 +121,7 @@ export const POEM_STYLES = [
   { value: 'غزل',        label: 'غزل' },
 ]
 
-export const VERSE_COUNTS = [4, 6, 8, 10, 12, 14, 16]
+export const VERSE_COUNTS = [4, 6]
 
 export const FALLBACK_VERSES = [
   { text: 'أَنَا الَّذِي نَظَرَ الأَعْمَى إِلَى أَدَبِي // وَأَسْمَعَتْ كَلِمَاتِي مَنْ بِهِ صَمَمُ', poet: 'المتنبي' },

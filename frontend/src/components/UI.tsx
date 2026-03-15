@@ -47,7 +47,7 @@ export function PoetryLoader({ attempt = 0, max = 5 }: { attempt?: number; max?:
         <p className="font-arabic text-parchment-200 text-lg animate-pulse">{msg}</p>
         {attempt > 0 && (
           <p className="text-ink-600 text-xs">
-            المحاولة {attempt} من {max}
+            المرحلة {attempt} من {max}
           </p>
         )}
       </div>

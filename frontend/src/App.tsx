@@ -12,6 +12,7 @@ import ThemePage     from './pages/ThemePage'
 import RhymePage     from './pages/RhymePage'
 import SearchPage    from './pages/SearchPage'
 import ChatPage      from './pages/ChatPage'
+import CheckPage     from './pages/CheckPage'
 import NotFoundPage  from './pages/NotFoundPage'
 import { getHealth } from './api'
 
@@ -37,6 +38,7 @@ export default function App() {
         <Route path="/library/poem/:slug" element={<PoemPage />} />
         <Route path="/search"        element={<SearchPage />} />
         <Route path="/chat"          element={<ChatPage />} />
+        <Route path="/check"         element={<CheckPage />} />
         
         {/* Catch-all route for missing pages */}
         <Route path="*"               element={<NotFoundPage />} />

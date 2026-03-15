@@ -1,9 +1,26 @@
+# ── Web Framework ────────────────────────────────────────────────────────
 flask==3.0.3
 flask-cors==4.0.1
-google-genai>=1.0.0
-requests==2.32.3
 gunicorn==23.0.0
+
+# ── HTTP & Environment ───────────────────────────────────────────────────
+requests==2.32.3
 python-dotenv==1.0.1
 
-# Optional — install for proper Arabic prosody analysis:
-# pip install git+https://github.com/ARBML/qawafi.git
+# ── Arabic Prosody Tools ─────────────────────────────────────────────────
+# Diacritizer (adds vowels/tashkeel to Arabic text)
+mishkal>=0.9.0
+
+# Meter validation — choose ONE:
+qawafi>=0.3.0              # ✅ Recommended: Most complete (all 16 meters + zihafat)
+# pyarud>=0.2.0            # Alternative: Simpler, requires Python 3.12+
+
+# ── LLM Providers (choose which ones you use) ────────────────────────────
+google-generativeai>=0.3.0  # For Gemini
+anthropic>=0.28.0          # For Claude
+groq>=0.9.0                # For Groq
+
+# ── Optional: Rate Limiting (recommended for production) ──────────────────
+flask-limiter>=3.5.0
+
+# ── Optional: Production Performance ─────────────────────────────────────

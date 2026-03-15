@@ -22,6 +22,7 @@ export default function GeneratePage() {
     meter:       params.get('meter') || 'الطويل',
     num_verses:  6,
     style:       'كلاسيكي',
+    gemini_api_key: '',
   })
 
   const { data: metersData } = useQuery({
@@ -72,7 +73,7 @@ export default function GeneratePage() {
                            flex items-center justify-center flex-shrink-0">
             <Sparkles size={14} className="text-gold-400 sm:w-4 sm:h-4" />
           </div>
-          <h1 className="font-arabic text-2xl sm:text-3xl font-bold text-parchment-100">أنشئ قصيدتك  <span className='text-red-600'>  ( هذه الخاصية ماتزال قيد الانشاء)</span></h1>
+          <h1 className="font-arabic text-2xl sm:text-3xl font-bold text-parchment-100">أنشئ قصيدتك  <span className='text-red-600'>  ( هذه الخاصية ماتزال قيد التحسين)</span></h1>
 
         </div>
         <p className="text-ink-500 text-xs sm:text-sm mr-10 sm:mr-11">
@@ -129,6 +130,23 @@ export default function GeneratePage() {
               ))}
             </select>
           </div>
+        </div>
+
+        {/* Gemini API Key (optional) */}
+        <div>
+          <label className="block text-ink-400 text-sm mb-1.5">
+            مفتاح Gemini API <span className='text-gold-400'> (اختياري)</span>
+          </label>
+          <input
+            type="password"
+            className="input-arabic text-xs font-mono"
+            placeholder="اتركها فارغة لاستخدام المفتاح الافتراضي... (أو أدخل مفتاحك الخاص من Google AI)"
+            value={form.gemini_api_key || ''}
+            onChange={e => set('gemini_api_key', e.target.value)}
+          />
+          <p className="text-ink-600 text-xs mt-1.5">
+            احصل على مفتاح مجاني من: <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" className="text-gold-400 hover:text-gold-300">aistudio.google.com</a>
+          </p>
         </div>
 
         {/* Meter hint */}

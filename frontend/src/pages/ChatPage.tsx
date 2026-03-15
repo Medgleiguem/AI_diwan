@@ -37,6 +37,7 @@ export default function ChatPage() {
   const [input, setInput]       = useState('')
   const [loading, setLoading]   = useState(false)
   const [error, setError]       = useState('')
+  const [gemini_api_key, setGeminiApiKey] = useState('')
   const endRef   = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
 
@@ -66,7 +67,7 @@ export default function ChatPage() {
       .map(m => ({ role: m.role as 'user' | 'assistant', content: m.content }))
 
     try {
-      const { response } = await chatWithPoet(msg, history)
+      const { response } = await chatWithPoet(msg, history, gemini_api_key)
       const botMsg: ChatMessage = {
         id: (Date.now() + 1).toString(),
         role: 'assistant',
@@ -118,6 +119,25 @@ export default function ChatPage() {
             <span className="hidden sm:inline">مسح</span>
           </button>
         )}
+      </div>
+
+      {/* API Key Input */}
+      <div className="mb-3 sm:mb-4 p-3 rounded-lg bg-ink-950 border border-ink-800 flex-shrink-0">
+        <label className="text-ink-400 text-xs mb-1 block"  >مفتاح Gemini API <span className='text-gold-400'> (اختياري)</span>
+</label>
+        <div className="flex gap-2 items-center">
+          <input
+            type="password"
+            className="input-arabic text-xs font-mono flex-1"
+            placeholder="اتركها فارغة لاستخدام المفتاح الافتراضي"
+            value={gemini_api_key}
+            onChange={e => setGeminiApiKey(e.target.value)}
+          />
+          <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" 
+             className="text-gold-400 hover:text-gold-300 text-xs whitespace-nowrap flex-shrink-0">
+            احصل على مفتاح
+          </a>
+        </div>
       </div>
 
       {/* Suggestions */}

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import { Sparkles, BookOpen, Search, MessageCircle, Home, Menu, X } from 'lucide-react'
+import { Sparkles, BookOpen, Search, MessageCircle, Home, Menu, X, ShieldCheck } from 'lucide-react'
 import clsx from 'clsx'
 
 
@@ -9,8 +9,8 @@ const NAV = [
   { to: '/library',  label: 'مكتبة الشعر',    icon: BookOpen },
   { to: '/search',   label: 'بحث',            icon: Search },
   { to: '/chat',     label: 'حوار الشاعر',    icon: MessageCircle },
-    { to: '/generate', label: 'أنشئ قصيدة',     icon: Sparkles },
-
+  { to: '/generate', label: 'أنشئ قصيدة',     icon: Sparkles },
+  { to: '/check',    label: 'تحقق من قصيدتك', icon: ShieldCheck },
 ]
 
 export default function Layout({ children }: { children: React.ReactNode }) {

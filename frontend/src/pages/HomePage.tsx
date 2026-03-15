@@ -95,7 +95,7 @@ export default function HomePage() {
             style={{ animationDelay: "0.2s", animationFillMode: "both" }}
           >
             منصة لتوليد الشعر العربي الملتزم بالأوزان والقوافي، واستكشاف كنوز
-            التراث الشعري العربي عبر العصور
+              التراث الشعري العربي عبر العصور 
           </p>
 
           {/* ── Rotating verse showcase ────────────────────────────────────────── */}
@@ -200,7 +200,7 @@ export default function HomePage() {
             },
             {
               icon: Sparkles,
-              title: "توليد القصائد (قيد الأنشاء ماتزال)",
+              title: "توليد القصائد (قيد الأنشاء التحسين)",
               desc: "أنشئ قصائد ملتزمة بالأوزان مع التحقق الآلي والتصحيح التلقائي",
               to: "/generate",
               cta: "ابدأ الإنشاء",

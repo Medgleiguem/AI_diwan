@@ -9,11 +9,11 @@ python-dotenv==1.0.1
 
 # ── Arabic Prosody Tools ─────────────────────────────────────────────────
 # Diacritizer (adds vowels/tashkeel to Arabic text)
-mishkal>=0.9.0
+mishkal==0.4.1
 
 # Meter validation — choose ONE:
-qawafi>=0.3.0              # ✅ Recommended: Most complete (all 16 meters + zihafat)
-# pyarud>=0.2.0            # Alternative: Simpler, requires Python 3.12+
+# qawafi>=0.3.0            # ✅ Recommended: Install git+https://github.com/ARBML/qawafi.git in Dockerfile
+pyarud>=0.2.0              # Simpler, pip-installable
 
 # ── LLM Providers (choose which ones you use) ────────────────────────────
 google-generativeai>=0.3.0  # For Gemini
